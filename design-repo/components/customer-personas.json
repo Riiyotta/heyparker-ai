@@ -1,0 +1,12 @@
+{
+  "id": "customer-personas",
+  "name": "Customer personas",
+  "occurrences": 9,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

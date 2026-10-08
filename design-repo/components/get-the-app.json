@@ -1,0 +1,12 @@
+{
+  "id": "get-the-app",
+  "name": "Get the app",
+  "occurrences": 10,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

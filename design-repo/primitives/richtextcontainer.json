@@ -1,0 +1,10 @@
+{
+  "id": "richtextcontainer",
+  "purpose": "Observed element type (RichTextContainer).",
+  "observedCount": 264,
+  "tokens": null,
+  "evidence": {
+    "level": "measured",
+    "source": "element census over all crawled pages"
+  }
+}

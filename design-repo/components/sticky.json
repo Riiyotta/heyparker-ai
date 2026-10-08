@@ -1,0 +1,15 @@
+{
+  "id": "sticky",
+  "name": "Sticky",
+  "occurrences": 4,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

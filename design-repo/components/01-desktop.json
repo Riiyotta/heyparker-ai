@@ -1,0 +1,13 @@
+{
+  "id": "01-desktop",
+  "name": "01 - Desktop",
+  "occurrences": 1,
+  "composedOf": [
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

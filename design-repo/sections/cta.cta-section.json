@@ -1,0 +1,104 @@
+{
+  "id": "cta.cta-section",
+  "category": "CTA",
+  "label": "CTA Section",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "CTA Section",
+      "nameSource": "data-attr",
+      "tag": "div",
+      "classes": [
+        "framer-nell5m"
+      ],
+      "anchor": "id=\"cta\""
+    },
+    "semantic": {
+      "id": "cta.cta-section",
+      "category": "CTA",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "purpose": "Converts: prompts a single clear next action. Headline \"Ready to make\".",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:2308-2426"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "subheading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 2
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 4,
+        "maxWords": 9
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 8,
+        "assetRoles": [
+          "illustration"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 990,
+      "columns": 1
+    },
+    "tablet": {
+      "heightPx": 819,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 928,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": [
+    "illustration"
+  ]
+}

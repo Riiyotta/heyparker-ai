@@ -1,0 +1,15 @@
+{
+  "$description": "Component tokens for image: the most common measured style (24 instances). Values in {braces} reference semantic/foundation tokens.",
+  "component": "image",
+  "tokens": {
+    "radius": {
+      "$value": "0px"
+    },
+    "objectFit": {
+      "$value": "scale-down"
+    }
+  },
+  "unresolvedLiterals": [
+    "radius"
+  ]
+}

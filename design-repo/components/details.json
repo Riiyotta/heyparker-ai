@@ -1,0 +1,12 @@
+{
+  "id": "details",
+  "name": "Details",
+  "occurrences": 28,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

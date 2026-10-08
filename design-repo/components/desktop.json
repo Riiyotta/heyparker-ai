@@ -1,0 +1,12 @@
+{
+  "id": "desktop",
+  "name": "Desktop",
+  "occurrences": 9,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

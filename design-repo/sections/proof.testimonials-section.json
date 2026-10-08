@@ -1,0 +1,105 @@
+{
+  "id": "proof.testimonials-section",
+  "category": "PROOF",
+  "label": "Testimonials Section",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "Testimonials Section",
+      "nameSource": "data-attr",
+      "tag": "div",
+      "classes": [
+        "framer-109p47v"
+      ],
+      "anchor": "id=\"testimonial\""
+    },
+    "semantic": {
+      "id": "proof.testimonials-section",
+      "category": "PROOF",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "purpose": "Builds trust with customers, quotes or logos. Headline \"Don't take our\".",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:1541-2307"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "subheading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 30,
+        "maxWords": 30
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 3,
+        "assetRoles": [
+          "illustration"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1296,
+      "columns": 15
+    },
+    "tablet": {
+      "heightPx": 1086,
+      "columns": 15,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 1178,
+      "columns": 15,
+      "hiddenShare": 0
+    },
+    "changes": [],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": [
+    "illustration"
+  ],
+  "contentPolicy": "Measured copy quotes real customers and companies. Generated pages must write new, clearly fictional quotes and names, and use placeholders for customer logos and avatars."
+}

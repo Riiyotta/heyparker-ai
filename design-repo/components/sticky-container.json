@@ -1,0 +1,14 @@
+{
+  "id": "sticky-container",
+  "name": "Sticky Container",
+  "occurrences": 1,
+  "composedOf": [
+    "heading",
+    "paragraph",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

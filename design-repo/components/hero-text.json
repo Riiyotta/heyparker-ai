@@ -1,0 +1,10 @@
+{
+  "id": "hero-text",
+  "name": "Hero Text",
+  "occurrences": 1,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

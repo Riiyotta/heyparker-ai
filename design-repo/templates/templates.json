@@ -1,0 +1,107 @@
+{
+  "version": "0.1.0",
+  "templates": [
+    {
+      "id": "template.home",
+      "name": "Home",
+      "routeCount": 1,
+      "chrome": "partial",
+      "routes": [
+        "/"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.hero-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "explainer.how-it-works-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "explainer.notification-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.maze-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.ribbon",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "commerce.pricing-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "proof.testimonials-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.cta-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "cta.cta-button",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.framer-ktez73-container",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    },
+    {
+      "id": "template.support",
+      "name": "Support pages",
+      "routeCount": 3,
+      "chrome": "partial",
+      "routes": [
+        "/support/terms-of-service",
+        "/support/privacy-policy",
+        "/support/data-deletion-request"
+      ],
+      "nodes": [
+        {
+          "section": "shell.navbar",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "hero.container",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "support.framer-ktez73-container",
+          "required": true,
+          "repeatable": false
+        }
+      ],
+      "evidence": {
+        "level": "measured",
+        "note": "every route of this template was visited and had an identical section sequence"
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "version": "clone-v2",
+  "base": "https://heyparker.ai/",
+  "pages": [
+    "https://heyparker.ai/",
+    "https://heyparker.ai/support/terms-of-service",
+    "https://heyparker.ai/support/privacy-policy",
+    "https://heyparker.ai/support/data-deletion-request"
+  ],
+  "resources": 1186
+}

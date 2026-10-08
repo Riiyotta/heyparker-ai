@@ -1,0 +1,13 @@
+{
+  "id": "links-wrapper",
+  "name": "links wrapper",
+  "occurrences": 4,
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/support/terms-of-service"
+  }
+}

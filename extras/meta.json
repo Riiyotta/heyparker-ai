@@ -1,0 +1,15 @@
+{
+  "name": "Parker",
+  "slug": "heyparker-ai",
+  "source": "https://heyparker.ai/",
+  "scrapedAt": "2026-10-07T19:26:48Z",
+  "builder": {
+    "name": "website-builder",
+    "commit": "2c6194d-dirty"
+  },
+  "routes": 4,
+  "unmodelledRoutes": [],
+  "framework": "React+Framer+Lenis",
+  "screenshots": 4,
+  "video": "preview.webm"
+}

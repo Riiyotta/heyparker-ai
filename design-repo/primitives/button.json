@@ -1,0 +1,10 @@
+{
+  "id": "button",
+  "purpose": "Clickable action control.",
+  "observedCount": 4,
+  "tokens": "tokens/20-component/button.json",
+  "evidence": {
+    "level": "measured",
+    "source": "element census over all crawled pages"
+  }
+}

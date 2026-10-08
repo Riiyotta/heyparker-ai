@@ -1,0 +1,10 @@
+{
+  "id": "svg",
+  "purpose": "Inline vector graphic (icons, illustrations).",
+  "observedCount": 32,
+  "tokens": null,
+  "evidence": {
+    "level": "measured",
+    "source": "element census over all crawled pages"
+  }
+}

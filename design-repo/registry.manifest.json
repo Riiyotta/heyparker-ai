@@ -1,0 +1,58 @@
+{
+  "repositoryId": "heyparker-ai-design-repo",
+  "site": "heyparker-ai",
+  "status": "design-review-pending",
+  "productionApproved": false,
+  "repositoryVersion": "0.1.0",
+  "pageSpecVersion": "0.1.0",
+  "allowlistVersion": "1",
+  "versionFieldNote": "allowlistVersion is machine-checked (verify_all.py fails if it differs from tokens/llm/component-allowlist.json). repositoryVersion and pageSpecVersion are documentation-only markers; pageSpecVersion is additionally pinned as a const in the schema.",
+  "defaultTheme": "dark",
+  "schemaValidatedThemes": [
+    "dark"
+  ],
+  "theme": {
+    "id": "dark",
+    "file": "tokens/themes/dark.json"
+  },
+  "sourceProject": {
+    "provenance": "extraction/measured-values.json#sourceProject (the only file that names the source site)",
+    "framework": "React+Framer+Lenis",
+    "scrapedAt": "2026-10-07T19:26:48Z"
+  },
+  "generatedBy": "website-builder (heuristic extraction; see README)",
+  "counts": {
+    "sections": 12,
+    "templates": 2,
+    "routes": 4,
+    "primitives": 11,
+    "components": 97,
+    "assets": 1151,
+    "tokens": {
+      "foundation": 110,
+      "semantic": 20,
+      "component": 23,
+      "layout": 14
+    },
+    "themes": 1,
+    "rules": 7
+  },
+  "entryPoints": {
+    "tokenCatalog": "tokens/llm/token-catalog.json",
+    "tokenPolicy": "tokens/llm/token-policy.json",
+    "componentAllowlist": "tokens/llm/component-allowlist.json",
+    "compatibilityGraph": "compatibility/graph.json",
+    "assetContract": "assets/asset-roles.json",
+    "motionContract": "motion/motion-contract.json",
+    "templates": "templates/templates.json",
+    "pagespecSchema": "schema/pagespec.schema.json",
+    "examplePageSpec": "schema/example.pagespec.json",
+    "examplePageSpecs": "schema/examples",
+    "semanticValidate": "schema/semantic_validate.py",
+    "adversarialSuite": "schema/tests/adversarial_test.py",
+    "admission": "extraction/verify_all.py",
+    "driftProof": "extraction/prove_drift.py",
+    "measuredValues": "extraction/measured-values.json",
+    "defaultTheme": "tokens/themes/dark.json"
+  }
+}

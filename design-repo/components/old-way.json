@@ -1,0 +1,14 @@
+{
+  "id": "old-way",
+  "name": "Old way",
+  "occurrences": 1,
+  "composedOf": [
+    "image",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

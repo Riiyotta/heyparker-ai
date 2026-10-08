@@ -1,0 +1,20 @@
+{
+  "version": "0.1.0",
+  "rawValuesAllowed": false,
+  "rawValueRestrictions": {
+    "color": "forbidden",
+    "typography": "forbidden",
+    "radius": "forbidden",
+    "elevation": "forbidden",
+    "motion": "forbidden",
+    "component": "forbidden",
+    "layout": "forbidden"
+  },
+  "overrides": {
+    "perInstance": "none",
+    "note": "PageSpec has no per-instance style or token-override field; styling is owned entirely by section and component contracts. Nothing to validate or mutate at the PageSpec layer; drift is tested at the catalog/policy layer instead."
+  },
+  "enforcement": {
+    "catalogPolicyParity": "machine-checked by extraction/verify_all.py"
+  }
+}

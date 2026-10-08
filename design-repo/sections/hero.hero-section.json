@@ -1,0 +1,112 @@
+{
+  "id": "hero.hero-section",
+  "category": "HERO",
+  "label": "Hero Section",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "Hero Section",
+      "nameSource": "data-attr",
+      "tag": "div",
+      "classes": [
+        "framer-znqbzn"
+      ],
+      "anchor": "id=\"hero\""
+    },
+    "semantic": {
+      "id": "hero.hero-section",
+      "category": "HERO",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Headline \"The way you make ads is about to change forever_\". 3 items (\"Making ads is easy.\", \"Knowing what ads\", \"to make is hard.\").",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:554-738"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 10
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 5,
+        "maxWords": 8
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 3,
+        "titleMaxWords": 4,
+        "bodyMaxWords": 0
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 10,
+        "assetRoles": [
+          "hero-image",
+          "illustration"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-on-enter",
+      "css-animation",
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 4959,
+      "columns": 8
+    },
+    "tablet": {
+      "heightPx": 6127,
+      "columns": 8,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 4650,
+      "columns": 8,
+      "hiddenShare": 0
+    },
+    "changes": [],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": [
+    "hero-image",
+    "illustration"
+  ]
+}

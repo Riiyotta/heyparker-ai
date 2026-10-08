@@ -1,0 +1,85 @@
+{
+  "version": "0.1.0",
+  "derivedFrom": "templates/templates.json and sections/*.json constraints (recomputed by verify_all.py)",
+  "rules": [
+    {
+      "id": "ONE_HERO_PER_PAGE",
+      "severity": "error",
+      "kind": "maxCategoryPerPage",
+      "category": "HERO",
+      "max": 1,
+      "exceptions": [],
+      "description": "A page has at most one HERO section. Templates that genuinely carry more are named in `exceptions`."
+    },
+    {
+      "id": "SECTION_PER_PAGE_LIMITS",
+      "severity": "error",
+      "kind": "perPageLimits",
+      "limits": {
+        "shell.navbar": 1,
+        "hero.hero-section": 1,
+        "explainer.how-it-works-section": 1,
+        "explainer.notification-section": 1,
+        "content.maze-section": 1,
+        "content.ribbon": 1,
+        "commerce.pricing-section": 1,
+        "proof.testimonials-section": 1,
+        "cta.cta-section": 1,
+        "cta.cta-button": 1,
+        "support.framer-ktez73-container": 1,
+        "hero.container": 1
+      },
+      "description": "No section appears more often on one page than it does in any measured template."
+    },
+    {
+      "id": "SHELL_MUST_BE_FIRST",
+      "severity": "error",
+      "kind": "mustBeFirst",
+      "sections": [
+        "shell.navbar"
+      ],
+      "description": "Sections that opened every template they appear in must be the first node."
+    },
+    {
+      "id": "SHELL_MUST_BE_LAST",
+      "severity": "error",
+      "kind": "mustBeLast",
+      "sections": [],
+      "description": "Sections that closed every template they appear in must be the last node."
+    },
+    {
+      "id": "NO_CONSECUTIVE_SAME_SECTION",
+      "severity": "warn",
+      "kind": "noConsecutive",
+      "sections": [],
+      "description": "These sections were never observed back-to-back."
+    },
+    {
+      "id": "NO_ADJACENT_SAME_CATEGORY",
+      "severity": "warn",
+      "kind": "noAdjacentSameCategory",
+      "exceptions": [
+        [
+          "explainer.how-it-works-section",
+          "explainer.notification-section"
+        ],
+        [
+          "content.maze-section",
+          "content.ribbon"
+        ],
+        [
+          "cta.cta-section",
+          "cta.cta-button"
+        ]
+      ],
+      "description": "Two different sections of the same category should not sit next to each other unless that exact pair was observed (named exceptions)."
+    },
+    {
+      "id": "MOTION_BUDGET",
+      "severity": "warn",
+      "kind": "maxAnimatedSections",
+      "max": 7,
+      "description": "No page has more animated sections than the most animated measured page."
+    }
+  ]
+}

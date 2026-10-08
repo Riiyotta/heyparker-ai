@@ -1,0 +1,14 @@
+{
+  "id": "heading",
+  "name": "Heading",
+  "occurrences": 6,
+  "composedOf": [
+    "heading",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

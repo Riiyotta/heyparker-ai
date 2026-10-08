@@ -1,0 +1,13 @@
+{
+  "id": "scroll-text",
+  "name": "Scroll Text",
+  "occurrences": 1,
+  "composedOf": [
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

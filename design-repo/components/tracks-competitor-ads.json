@@ -1,0 +1,12 @@
+{
+  "id": "tracks-competitor-ads",
+  "name": "Tracks competitor ads",
+  "occurrences": 1,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

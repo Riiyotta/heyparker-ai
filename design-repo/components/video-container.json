@@ -1,0 +1,12 @@
+{
+  "id": "video-container",
+  "name": "Video Container",
+  "occurrences": 3,
+  "composedOf": [
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

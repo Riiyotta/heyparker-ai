@@ -1,0 +1,190 @@
+{
+  "$description": "Foundation typography tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "fontFamily.01": {
+      "$type": "fontFamily",
+      "$value": "Radio Canada",
+      "usage": 532
+    },
+    "fontFamily.02": {
+      "$type": "fontFamily",
+      "$value": "Source Serif Pro Regular",
+      "usage": 181
+    },
+    "fontFamily.03": {
+      "$type": "fontFamily",
+      "$value": "Fragment Mono",
+      "usage": 98
+    },
+    "fontFamily.04": {
+      "$type": "fontFamily",
+      "$value": "Inter",
+      "usage": 73
+    },
+    "fontFamily.05": {
+      "$type": "fontFamily",
+      "$value": "Inter Display",
+      "usage": 16
+    },
+    "fontSize.14": {
+      "$type": "dimension",
+      "$value": "14px",
+      "usage": 32
+    },
+    "fontSize.14_08": {
+      "$type": "dimension",
+      "$value": "14.08px",
+      "usage": 56
+    },
+    "fontSize.16": {
+      "$type": "dimension",
+      "$value": "16px",
+      "usage": 552
+    },
+    "fontSize.20": {
+      "$type": "dimension",
+      "$value": "20px",
+      "usage": 37
+    },
+    "fontSize.22": {
+      "$type": "dimension",
+      "$value": "22px",
+      "usage": 42
+    },
+    "fontSize.24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "usage": 88
+    },
+    "fontSize.32": {
+      "$type": "dimension",
+      "$value": "32px",
+      "usage": 46
+    },
+    "fontSize.40": {
+      "$type": "dimension",
+      "$value": "40px",
+      "usage": 30
+    },
+    "fontSize.48": {
+      "$type": "dimension",
+      "$value": "48px",
+      "usage": 7
+    },
+    "fontSize.51_2": {
+      "$type": "dimension",
+      "$value": "51.2px",
+      "usage": 2
+    },
+    "fontSize.64": {
+      "$type": "dimension",
+      "$value": "64px",
+      "usage": 8
+    },
+    "fontWeight.300": {
+      "$type": "fontWeight",
+      "$value": "300",
+      "usage": 48
+    },
+    "fontWeight.400": {
+      "$type": "fontWeight",
+      "$value": "400",
+      "usage": 505
+    },
+    "fontWeight.500": {
+      "$type": "fontWeight",
+      "$value": "500",
+      "usage": 111
+    },
+    "fontWeight.600": {
+      "$type": "fontWeight",
+      "$value": "600",
+      "usage": 33
+    },
+    "fontWeight.700": {
+      "$type": "fontWeight",
+      "$value": "700",
+      "usage": 203
+    },
+    "lineHeight.14": {
+      "$type": "dimension",
+      "$value": "14px",
+      "usage": 8
+    },
+    "lineHeight.16_8": {
+      "$type": "dimension",
+      "$value": "16.8px",
+      "usage": 24
+    },
+    "lineHeight.16_896": {
+      "$type": "dimension",
+      "$value": "16.896px",
+      "usage": 8
+    },
+    "lineHeight.19_2": {
+      "$type": "dimension",
+      "$value": "19.2px",
+      "usage": 22
+    },
+    "lineHeight.19_712": {
+      "$type": "dimension",
+      "$value": "19.712px",
+      "usage": 48
+    },
+    "lineHeight.20_8": {
+      "$type": "dimension",
+      "$value": "20.8px",
+      "usage": 474
+    },
+    "lineHeight.24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "usage": 65
+    },
+    "lineHeight.26": {
+      "$type": "dimension",
+      "$value": "26px",
+      "usage": 28
+    },
+    "lineHeight.26_4": {
+      "$type": "dimension",
+      "$value": "26.4px",
+      "usage": 2
+    },
+    "lineHeight.28_6": {
+      "$type": "dimension",
+      "$value": "28.6px",
+      "usage": 40
+    },
+    "lineHeight.31_2": {
+      "$type": "dimension",
+      "$value": "31.2px",
+      "usage": 88
+    },
+    "lineHeight.38_4": {
+      "$type": "dimension",
+      "$value": "38.4px",
+      "usage": 46
+    },
+    "lineHeight.48": {
+      "$type": "dimension",
+      "$value": "48px",
+      "usage": 30
+    },
+    "lineHeight.52_8": {
+      "$type": "dimension",
+      "$value": "52.8px",
+      "usage": 4
+    },
+    "lineHeight.55_2": {
+      "$type": "dimension",
+      "$value": "55.2px",
+      "usage": 3
+    },
+    "lineHeight.64": {
+      "$type": "dimension",
+      "$value": "64px",
+      "usage": 8
+    }
+  }
+}

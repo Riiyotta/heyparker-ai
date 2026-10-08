@@ -1,0 +1,85 @@
+{
+  "id": "content.ribbon",
+  "category": "CONTENT",
+  "label": "Ribbon",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "Ribbon",
+      "nameSource": "data-attr",
+      "tag": "div",
+      "classes": [
+        "framer-v2ymw8"
+      ],
+      "anchor": "framer-v2ymw8"
+    },
+    "semantic": {
+      "id": "content.ribbon",
+      "category": "CONTENT",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "purpose": "Carries the substantive content of the page. 4 items (\"Built by people who actually make ads\", \"Built by people who actually make ads\", \"Built by people who actually make ads\", …).",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:1148-1199"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 4,
+        "titleMaxWords": 7,
+        "bodyMaxWords": 0
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 80,
+      "columns": 8
+    },
+    "tablet": {
+      "heightPx": 80,
+      "columns": 8,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 80,
+      "columns": 8,
+      "hiddenShare": 0
+    },
+    "changes": [],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": []
+}

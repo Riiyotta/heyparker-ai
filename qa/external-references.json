@@ -1,0 +1,84 @@
+{
+  "count": 13,
+  "policy": "Kept in the src/ snapshots as evidence of the live page. Generated pages cannot carry them: the PageSpec schema only allows relative paths or #anchors, and composed examples rewrite them to #.",
+  "references": [
+    {
+      "route": "/",
+      "url": "https://calendly.com/d/ctkv-wjv-6xh/parker-ai-intro",
+      "host": "calendly.com",
+      "text": "(icon link)"
+    },
+    {
+      "route": "/",
+      "url": "https://www.linkedin.com/company/parker-ai",
+      "host": "linkedin.com",
+      "text": "Linkedin"
+    },
+    {
+      "route": "/",
+      "url": "https://x.com/heyparkerdotai",
+      "host": "x.com",
+      "text": "X (Twitter)"
+    },
+    {
+      "route": "/",
+      "url": "https://ashpdeep.com/",
+      "host": "ashpdeep.com",
+      "text": "Site by Ashwin"
+    },
+    {
+      "route": "/support/terms-of-service",
+      "url": "https://www.linkedin.com/company/parker-ai",
+      "host": "linkedin.com",
+      "text": "Linkedin"
+    },
+    {
+      "route": "/support/terms-of-service",
+      "url": "https://x.com/heyparkerdotai",
+      "host": "x.com",
+      "text": "X (Twitter)"
+    },
+    {
+      "route": "/support/terms-of-service",
+      "url": "https://ashpdeep.com/",
+      "host": "ashpdeep.com",
+      "text": "Site by Ashwin"
+    },
+    {
+      "route": "/support/privacy-policy",
+      "url": "https://www.linkedin.com/company/parker-ai",
+      "host": "linkedin.com",
+      "text": "Linkedin"
+    },
+    {
+      "route": "/support/privacy-policy",
+      "url": "https://x.com/heyparkerdotai",
+      "host": "x.com",
+      "text": "X (Twitter)"
+    },
+    {
+      "route": "/support/privacy-policy",
+      "url": "https://ashpdeep.com/",
+      "host": "ashpdeep.com",
+      "text": "Site by Ashwin"
+    },
+    {
+      "route": "/support/data-deletion-request",
+      "url": "https://www.linkedin.com/company/parker-ai",
+      "host": "linkedin.com",
+      "text": "Linkedin"
+    },
+    {
+      "route": "/support/data-deletion-request",
+      "url": "https://x.com/heyparkerdotai",
+      "host": "x.com",
+      "text": "X (Twitter)"
+    },
+    {
+      "route": "/support/data-deletion-request",
+      "url": "https://ashpdeep.com/",
+      "host": "ashpdeep.com",
+      "text": "Site by Ashwin"
+    }
+  ]
+}

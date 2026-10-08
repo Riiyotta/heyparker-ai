@@ -1,0 +1,10 @@
+{
+  "id": "image",
+  "purpose": "Raster or vector picture.",
+  "observedCount": 54,
+  "tokens": "tokens/20-component/image.json",
+  "evidence": {
+    "level": "measured",
+    "source": "element census over all crawled pages"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "$description": "Semantic elevation roles. Each role points at a foundation token; `basis` states the measurement that chose it. Role NAMES are a heuristic vocabulary, the values are measured.",
+  "inferred": true,
+  "tokens": {
+    "elevation.default": {
+      "$type": "elevation",
+      "$value": "{elevation.01}",
+      "basis": "most-used box-shadow (41 uses)"
+    }
+  }
+}

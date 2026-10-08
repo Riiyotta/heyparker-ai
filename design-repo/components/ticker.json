@@ -1,0 +1,13 @@
+{
+  "id": "ticker",
+  "name": "Ticker",
+  "occurrences": 3,
+  "composedOf": [
+    "image",
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

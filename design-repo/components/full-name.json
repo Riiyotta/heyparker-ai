@@ -1,0 +1,12 @@
+{
+  "id": "full-name",
+  "name": "Full Name",
+  "occurrences": 28,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

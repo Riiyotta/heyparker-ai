@@ -1,0 +1,12 @@
+{
+  "id": "nav-link",
+  "name": "nav link",
+  "occurrences": 16,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

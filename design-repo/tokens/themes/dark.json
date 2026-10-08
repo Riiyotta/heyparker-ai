@@ -1,0 +1,48 @@
+{
+  "id": "dark",
+  "mode": "dark",
+  "measured": true,
+  "$description": "The theme as served (page canvas rgb(0, 0, 0), luminance 0.00 → dark). Every semantic token resolves to a real foundation value.",
+  "resolves": {
+    "surface.default": "rgb(255,255,255)",
+    "surface.alt": "rgb(0,0,0)",
+    "surface.inverse": "rgb(0,0,0)",
+    "surface.accent": "rgb(252,245,226)",
+    "text.primary": "rgb(0,0,0)",
+    "text.secondary": "rgb(51,51,51)",
+    "text.inverse": "rgb(255,255,255)",
+    "text.accent": "rgb(0,0,238)",
+    "border.default": "rgb(118,118,118)",
+    "accent.primary": "rgb(0,0,238)",
+    "typography.display": {
+      "fontFamily": "Source Serif Pro Regular",
+      "fontSize": "48px",
+      "fontWeight": "400",
+      "lineHeight": "55.2px"
+    },
+    "typography.heading": {
+      "fontFamily": "Source Serif Pro Regular",
+      "fontSize": "40px",
+      "fontWeight": "400",
+      "lineHeight": "48px"
+    },
+    "typography.body": {
+      "fontFamily": "Radio Canada",
+      "fontSize": "16px",
+      "fontWeight": "400",
+      "lineHeight": "20.8px"
+    },
+    "typography.label": {
+      "fontFamily": "Radio Canada",
+      "fontSize": "14.08px",
+      "fontWeight": "300",
+      "lineHeight": "19.712px"
+    },
+    "radius.control": "8px",
+    "radius.surface": "6px",
+    "radius.pill": "999px",
+    "elevation.default": "rgb(0, 0, 0) 4px 4px 0px 0px",
+    "motion.duration.default": "0.2s",
+    "motion.easing.default": "ease-out"
+  }
+}

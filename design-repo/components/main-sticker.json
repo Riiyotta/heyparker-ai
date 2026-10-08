@@ -1,0 +1,10 @@
+{
+  "id": "main-sticker",
+  "name": "Main Sticker",
+  "occurrences": 1,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": null
+  }
+}

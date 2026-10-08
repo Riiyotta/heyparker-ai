@@ -1,0 +1,16 @@
+{
+  "$description": "Semantic motion roles. Each role points at a foundation token; `basis` states the measurement that chose it. Role NAMES are a heuristic vocabulary, the values are measured.",
+  "inferred": true,
+  "tokens": {
+    "motion.duration.default": {
+      "$type": "motion",
+      "$value": "{duration.200ms}",
+      "basis": "most-used duration (10 uses)"
+    },
+    "motion.easing.default": {
+      "$type": "motion",
+      "$value": "{easing.01}",
+      "basis": "most-used easing (6 uses)"
+    }
+  }
+}

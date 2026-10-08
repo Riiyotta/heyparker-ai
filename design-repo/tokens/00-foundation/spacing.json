@@ -1,0 +1,125 @@
+{
+  "$description": "Foundation spacing tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "space.1": {
+      "$type": "dimension",
+      "$value": "1px",
+      "usage": 88
+    },
+    "space.1_6": {
+      "$type": "dimension",
+      "$value": "1.6px",
+      "usage": 202
+    },
+    "space.2": {
+      "$type": "dimension",
+      "$value": "2px",
+      "usage": 88
+    },
+    "space.3_2": {
+      "$type": "dimension",
+      "$value": "3.2px",
+      "usage": 202
+    },
+    "space.4": {
+      "$type": "dimension",
+      "$value": "4px",
+      "usage": 6
+    },
+    "space.6": {
+      "$type": "dimension",
+      "$value": "6px",
+      "usage": 72
+    },
+    "space.8": {
+      "$type": "dimension",
+      "$value": "8px",
+      "usage": 52
+    },
+    "space.10": {
+      "$type": "dimension",
+      "$value": "10px",
+      "usage": 466
+    },
+    "space.12": {
+      "$type": "dimension",
+      "$value": "12px",
+      "usage": 8
+    },
+    "space.15": {
+      "$type": "dimension",
+      "$value": "15px",
+      "usage": 6
+    },
+    "space.16": {
+      "$type": "dimension",
+      "$value": "16px",
+      "usage": 28
+    },
+    "space.19_2": {
+      "$type": "dimension",
+      "$value": "19.2px",
+      "usage": 176
+    },
+    "space.20": {
+      "$type": "dimension",
+      "$value": "20px",
+      "usage": 225
+    },
+    "space.24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "usage": 8
+    },
+    "space.29": {
+      "$type": "dimension",
+      "$value": "29px",
+      "usage": 4
+    },
+    "space.40": {
+      "$type": "dimension",
+      "$value": "40px",
+      "usage": 305
+    },
+    "space.60": {
+      "$type": "dimension",
+      "$value": "60px",
+      "usage": 6
+    },
+    "space.80": {
+      "$type": "dimension",
+      "$value": "80px",
+      "usage": 57
+    },
+    "space.120": {
+      "$type": "dimension",
+      "$value": "120px",
+      "usage": 26
+    },
+    "space.135": {
+      "$type": "dimension",
+      "$value": "135px",
+      "usage": 1
+    },
+    "space.140": {
+      "$type": "dimension",
+      "$value": "140px",
+      "usage": 6
+    },
+    "space.160": {
+      "$type": "dimension",
+      "$value": "160px",
+      "usage": 16
+    },
+    "space.200": {
+      "$type": "dimension",
+      "$value": "200px",
+      "usage": 65
+    },
+    "space.280": {
+      "$type": "dimension",
+      "$value": "280px",
+      "usage": 4
+    }
+  }
+}

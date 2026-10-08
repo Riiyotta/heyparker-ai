@@ -1,0 +1,10 @@
+{
+  "id": "input",
+  "purpose": "Single-line form field.",
+  "observedCount": 48,
+  "tokens": "tokens/20-component/input.json",
+  "evidence": {
+    "level": "measured",
+    "source": "element census over all crawled pages"
+  }
+}

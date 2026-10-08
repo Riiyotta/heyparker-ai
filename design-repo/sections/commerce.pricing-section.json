@@ -1,0 +1,108 @@
+{
+  "id": "commerce.pricing-section",
+  "category": "COMMERCE",
+  "label": "Pricing Section",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "Pricing Section",
+      "nameSource": "data-attr",
+      "tag": "div",
+      "classes": [
+        "framer-erf7kx"
+      ],
+      "anchor": "id=\"pricing\""
+    },
+    "semantic": {
+      "id": "commerce.pricing-section",
+      "category": "COMMERCE",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "purpose": "Presents pricing and plans so the visitor can choose. Headline \"Plans built for\". 3 items (\"Starter\", \"Growth\", \"Scale\"). Actions: \"Get Starter Get Starter\", \"Get Growth Get Growth\", \"Get Scale Get Scale\".",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:1200-1540"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "subheading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 15,
+        "maxWords": 15
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 4,
+        "maxWords": 8
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 3,
+        "titleMaxWords": 1,
+        "bodyMaxWords": 1
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 1976,
+      "columns": 1
+    },
+    "tablet": {
+      "heightPx": 2228,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 2342,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": []
+}

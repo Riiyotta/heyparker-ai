@@ -1,0 +1,13 @@
+{
+  "id": "ribbon",
+  "name": "Ribbon",
+  "occurrences": 1,
+  "composedOf": [
+    "heading",
+    "list"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

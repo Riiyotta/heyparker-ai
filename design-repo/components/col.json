@@ -1,0 +1,16 @@
+{
+  "id": "col",
+  "name": "col",
+  "occurrences": 12,
+  "composedOf": [
+    "button",
+    "form",
+    "heading",
+    "input",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/support/terms-of-service"
+  }
+}

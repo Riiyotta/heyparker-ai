@@ -1,0 +1,10 @@
+{
+  "id": "symbol",
+  "name": "Symbol",
+  "occurrences": 4,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

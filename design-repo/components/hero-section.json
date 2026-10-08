@@ -1,0 +1,16 @@
+{
+  "id": "hero-section",
+  "name": "Hero Section",
+  "occurrences": 1,
+  "composedOf": [
+    "heading",
+    "image",
+    "list",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

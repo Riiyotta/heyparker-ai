@@ -1,0 +1,10 @@
+{
+  "id": "toggle",
+  "name": "Toggle",
+  "occurrences": 1,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

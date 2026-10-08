@@ -1,0 +1,17 @@
+{
+  "name": "heyparker-ai",
+  "version": "0.1.0",
+  "private": true,
+  "kind": "mirror-only",
+  "description": "Mirror-only package: an offline copy of the site plus its IA and design repo. There is no clone source code; public/ is already the built site.",
+  "scripts": {
+    "dev": "python3 _serve.py",
+    "build": "node -e \"console.log('mirror-only package: nothing to build, public/ is already the built site')\"",
+    "serve": "python3 _serve.py",
+    "ia:validate": "node validate.mjs",
+    "ia:build": "node build.mjs",
+    "verify": "python3 design-repo/extraction/verify_all.py",
+    "ir:validate": "python3 ir/validate_ir.py",
+    "drift": "python3 design-repo/extraction/prove_drift.py"
+  }
+}

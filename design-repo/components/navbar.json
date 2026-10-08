@@ -1,0 +1,14 @@
+{
+  "id": "navbar",
+  "name": "Navbar",
+  "occurrences": 4,
+  "composedOf": [
+    "image",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

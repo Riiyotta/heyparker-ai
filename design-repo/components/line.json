@@ -1,0 +1,12 @@
+{
+  "id": "line",
+  "name": "Line",
+  "occurrences": 12,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

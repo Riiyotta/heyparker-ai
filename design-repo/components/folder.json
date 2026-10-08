@@ -1,0 +1,13 @@
+{
+  "id": "folder",
+  "name": "Folder",
+  "occurrences": 3,
+  "composedOf": [
+    "paragraph",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

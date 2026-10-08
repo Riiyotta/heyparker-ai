@@ -1,0 +1,14 @@
+{
+  "id": "pricing-card",
+  "name": "Pricing Card",
+  "occurrences": 4,
+  "composedOf": [
+    "heading",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

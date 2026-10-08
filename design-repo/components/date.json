@@ -1,0 +1,12 @@
+{
+  "id": "date",
+  "name": "Date",
+  "occurrences": 6,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/support/terms-of-service"
+  }
+}

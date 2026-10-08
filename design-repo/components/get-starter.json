@@ -1,0 +1,12 @@
+{
+  "id": "get-starter",
+  "name": "Get Starter",
+  "occurrences": 8,
+  "composedOf": [
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

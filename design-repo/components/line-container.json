@@ -1,0 +1,12 @@
+{
+  "id": "line-container",
+  "name": "Line Container",
+  "occurrences": 1,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

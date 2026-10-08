@@ -1,0 +1,51 @@
+{
+  "version": "0.1.0",
+  "patterns": {
+    "none": {
+      "description": "No animation.",
+      "observedSections": 0
+    },
+    "css-transition": {
+      "description": "A CSS transition on hover/focus/state change.",
+      "observedSections": 8
+    },
+    "css-animation": {
+      "description": "A CSS @keyframes animation.",
+      "observedSections": 4
+    },
+    "appear-on-enter": {
+      "description": "Element appears (fade/slide) when it enters the viewport.",
+      "observedSections": 5
+    },
+    "scroll-linked": {
+      "description": "Sticky or scroll-pinned behaviour tied to scroll position.",
+      "observedSections": 5
+    },
+    "canvas-animation": {
+      "description": "A <canvas>-rendered animation (Rive, Lottie or WebGL).",
+      "observedSections": 0
+    }
+  },
+  "reducedMotionFallbacks": [
+    "disable-animation",
+    "instant-state"
+  ],
+  "closedFields": [
+    "pattern",
+    "reducedMotionFallback"
+  ],
+  "budget": {
+    "maxAnimatedSectionsPerPage": 7,
+    "basis": "most animated measured page"
+  },
+  "reducedMotionEvidence": {
+    "stylesheetsWithRule": 0,
+    "stylesheetsTotal": 1,
+    "scriptBranches": 9,
+    "note": "Read from the mirrored stylesheets' @media (prefers-reduced-motion: reduce) rules. Each section's motion.reducedMotionEvidence says whether its fallback is measured, site-wide, or the contract default."
+  },
+  "tokens": {
+    "durations": "tokens/00-foundation/motion.json",
+    "semantic": "tokens/10-semantic/motion.json"
+  }
+}

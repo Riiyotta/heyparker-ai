@@ -1,0 +1,14 @@
+{
+  "id": "how-it-works-section",
+  "name": "How it Works Section",
+  "occurrences": 1,
+  "composedOf": [
+    "heading",
+    "paragraph",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

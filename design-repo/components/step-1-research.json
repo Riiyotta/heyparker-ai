@@ -1,0 +1,12 @@
+{
+  "id": "step-1-research",
+  "name": "Step 1 - Research",
+  "occurrences": 3,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

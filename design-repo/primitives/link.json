@@ -1,0 +1,10 @@
+{
+  "id": "link",
+  "purpose": "Navigation anchor.",
+  "observedCount": 102,
+  "tokens": "tokens/20-component/link.json",
+  "evidence": {
+    "level": "measured",
+    "source": "element census over all crawled pages"
+  }
+}

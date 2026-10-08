@@ -1,0 +1,14 @@
+{
+  "id": "step-3",
+  "name": "Step - 3",
+  "occurrences": 1,
+  "composedOf": [
+    "heading",
+    "paragraph",
+    "video"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

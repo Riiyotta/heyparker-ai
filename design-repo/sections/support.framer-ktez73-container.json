@@ -1,0 +1,112 @@
+{
+  "id": "support.framer-ktez73-container",
+  "category": "SUPPORT",
+  "label": "framer-ktez73-container",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "framer-ktez73-container",
+      "nameSource": "class",
+      "tag": "div",
+      "classes": [
+        "framer-ktez73-container"
+      ],
+      "anchor": "framer-ktez73-container"
+    },
+    "semantic": {
+      "id": "support.framer-ktez73-container",
+      "category": "SUPPORT",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "purpose": "Answers questions or collects a message. Headline \"Join our newsletter.\". Actions: \"Subscribe Subscribe\".",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "class",
+  "evidence": {
+    "level": "measured",
+    "instances": 4,
+    "routes": 4,
+    "measuredFrom": [
+      "src/index.html:2459-2717",
+      "src/support/data-deletion-request/index.html:649-899",
+      "src/support/privacy-policy/index.html:1326-1576",
+      "src/support/terms-of-service/index.html:935-1185"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 16,
+        "maxWords": 6
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 2
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 6,
+        "assetRoles": [
+          "illustration"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 810,
+      "columns": 6
+    },
+    "tablet": {
+      "heightPx": 1001,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 819,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "6 columns collapse to a single column at tablet",
+      "6 columns collapse to a single column"
+    ],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": [
+    "illustration"
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "id": "site-by-ashwin",
+  "name": "Site by Ashwin",
+  "occurrences": 4,
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/support/terms-of-service"
+  }
+}

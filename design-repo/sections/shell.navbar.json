@@ -1,0 +1,99 @@
+{
+  "id": "shell.navbar",
+  "category": "SHELL",
+  "label": "Navbar",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "Navbar",
+      "nameSource": "data-attr",
+      "tag": "div",
+      "classes": [
+        "framer-1bkz34a-container"
+      ],
+      "anchor": "framer-1bkz34a-container"
+    },
+    "semantic": {
+      "id": "shell.navbar",
+      "category": "SHELL",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "purpose": "Site header: brand mark and primary navigation or call to action, carried across pages. Actions: \"Hire Parker Today Hire Parker \".",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 4,
+    "routes": 4,
+    "measuredFrom": [
+      "src/index.html:444-553",
+      "src/support/data-deletion-request/index.html:444-533",
+      "src/support/privacy-policy/index.html:444-533",
+      "src/support/terms-of-service/index.html:444-533"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 6,
+        "maxWords": 3
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 6
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "logo"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeFirst": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "appear-on-enter",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 86,
+      "columns": 4
+    },
+    "mobile": {
+      "heightPx": null,
+      "columns": null,
+      "hiddenShare": 0
+    },
+    "changes": [],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": [
+    "logo"
+  ]
+}

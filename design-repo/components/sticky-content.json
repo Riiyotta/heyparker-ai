@@ -1,0 +1,14 @@
+{
+  "id": "sticky-content",
+  "name": "Sticky Content",
+  "occurrences": 1,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

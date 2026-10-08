@@ -1,0 +1,15 @@
+{
+  "$description": "Foundation icon-size tokens: the values observed on the site, ordered by usage. Not referenced directly by generators; semantic tokens reference these.",
+  "tokens": {
+    "iconSize.24": {
+      "$type": "dimension",
+      "$value": "24px",
+      "usage": 11
+    },
+    "iconSize.40": {
+      "$type": "dimension",
+      "$value": "40px",
+      "usage": 2
+    }
+  }
+}

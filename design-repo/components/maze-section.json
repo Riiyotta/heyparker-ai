@@ -1,0 +1,15 @@
+{
+  "id": "maze-section",
+  "name": "Maze Section",
+  "occurrences": 1,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

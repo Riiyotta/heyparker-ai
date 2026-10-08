@@ -1,0 +1,58 @@
+{
+  "kind": "mirror-only",
+  "note": "No clone exists, so there is no clone-vs-original diff. Each route below is the captured original itself (public/ + src/ snapshot); offlineRender is filled in by check.mjs.",
+  "comparison": "not-applicable",
+  "routes": [
+    {
+      "route": "/",
+      "template": "template.home",
+      "snapshot": "src/index.html",
+      "offlineRender": {
+        "ok": false,
+        "textChars": 6913,
+        "missing": 0,
+        "consoleErrors": 1,
+        "checkedAt": "2026-10-07T19:27:03.489Z"
+      }
+    },
+    {
+      "route": "/support/terms-of-service",
+      "template": "template.support",
+      "snapshot": "src/support/terms-of-service/index.html",
+      "offlineRender": {
+        "ok": false,
+        "textChars": 29578,
+        "missing": 0,
+        "consoleErrors": 1,
+        "checkedAt": "2026-10-07T19:27:04.250Z"
+      }
+    },
+    {
+      "route": "/support/privacy-policy",
+      "template": "template.support",
+      "snapshot": "src/support/privacy-policy/index.html",
+      "offlineRender": {
+        "ok": false,
+        "textChars": 36330,
+        "missing": 0,
+        "consoleErrors": 1,
+        "checkedAt": "2026-10-07T19:27:05.042Z"
+      }
+    },
+    {
+      "route": "/support/data-deletion-request",
+      "template": "template.support",
+      "snapshot": "src/support/data-deletion-request/index.html",
+      "offlineRender": {
+        "ok": false,
+        "textChars": 2495,
+        "missing": 0,
+        "consoleErrors": 1,
+        "checkedAt": "2026-10-07T19:27:05.910Z"
+      }
+    }
+  ],
+  "blockedOutboundHosts": [
+    "app.heyparker.ai"
+  ]
+}

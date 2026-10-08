@@ -1,0 +1,15 @@
+{
+  "id": "pricing-section",
+  "name": "Pricing Section",
+  "occurrences": 1,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

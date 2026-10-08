@@ -1,0 +1,13 @@
+{
+  "id": "notification-section",
+  "name": "Notification Section",
+  "occurrences": 1,
+  "composedOf": [
+    "heading",
+    "image"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

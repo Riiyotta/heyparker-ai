@@ -1,0 +1,10 @@
+{
+  "id": "form",
+  "purpose": "Form container.",
+  "observedCount": 4,
+  "tokens": null,
+  "evidence": {
+    "level": "measured",
+    "source": "element census over all crawled pages"
+  }
+}

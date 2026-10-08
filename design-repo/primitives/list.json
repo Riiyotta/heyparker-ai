@@ -1,0 +1,10 @@
+{
+  "id": "list",
+  "purpose": "Ordered or unordered list.",
+  "observedCount": 52,
+  "tokens": null,
+  "evidence": {
+    "level": "measured",
+    "source": "element census over all crawled pages"
+  }
+}

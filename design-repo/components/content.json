@@ -1,0 +1,15 @@
+{
+  "id": "content",
+  "name": "Content",
+  "occurrences": 9,
+  "composedOf": [
+    "heading",
+    "image",
+    "list",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

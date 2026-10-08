@@ -1,0 +1,109 @@
+{
+  "id": "content.maze-section",
+  "category": "CONTENT",
+  "label": "Maze Section",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "Maze Section",
+      "nameSource": "data-attr",
+      "tag": "div",
+      "classes": [
+        "framer-895wcm"
+      ],
+      "anchor": "id=\"maze\""
+    },
+    "semantic": {
+      "id": "content.maze-section",
+      "category": "CONTENT",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "purpose": "Carries the substantive content of the page. Headline \"Creative s_\".",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "src/index.html:919-1147"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 2
+      },
+      "subheading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 2
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 12,
+        "maxWords": 7
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 4,
+        "assetRoles": [
+          "content-image",
+          "illustration"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-animation",
+      "css-transition",
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 7200,
+      "columns": 1
+    },
+    "tablet": {
+      "heightPx": 8896,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 6752,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": [
+    "content-image",
+    "illustration"
+  ]
+}

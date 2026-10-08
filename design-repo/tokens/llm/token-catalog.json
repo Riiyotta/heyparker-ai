@@ -1,0 +1,77 @@
+{
+  "version": "0.1.0",
+  "note": "The curated, referenceable view: semantic, component and layout tokens only. Foundation tokens are deliberately not exposed.",
+  "categories": {
+    "color": [
+      "surface.default",
+      "surface.alt",
+      "surface.inverse",
+      "surface.accent",
+      "text.primary",
+      "text.secondary",
+      "text.inverse",
+      "text.accent",
+      "border.default",
+      "accent.primary"
+    ],
+    "typography": [
+      "typography.display",
+      "typography.heading",
+      "typography.body",
+      "typography.label"
+    ],
+    "radius": [
+      "radius.control",
+      "radius.surface",
+      "radius.pill"
+    ],
+    "elevation": [
+      "elevation.default"
+    ],
+    "motion": [
+      "motion.duration.default",
+      "motion.easing.default"
+    ],
+    "component": [
+      "button.background",
+      "button.color",
+      "button.radius",
+      "button.paddingY",
+      "button.paddingX",
+      "button.fontSize",
+      "button.fontWeight",
+      "button.borderWidth",
+      "link.color",
+      "link.textDecoration",
+      "link.fontWeight",
+      "input.background",
+      "input.color",
+      "input.radius",
+      "input.borderColor",
+      "input.paddingY",
+      "input.paddingX",
+      "input.fontSize",
+      "image.radius",
+      "image.objectFit",
+      "nav.background",
+      "nav.color",
+      "nav.paddingY"
+    ],
+    "layout": [
+      "layout.contentWidth",
+      "layout.gutter",
+      "layout.sectionPaddingTop",
+      "layout.sectionPaddingBottom",
+      "layout.gridGap",
+      "layout.gridGap.commerce",
+      "layout.gridGap.content",
+      "layout.sectionPaddingTop.cta",
+      "layout.gridGap.cta",
+      "layout.gridGap.explainer",
+      "layout.gridGap.hero",
+      "layout.sectionPaddingBottom.proof",
+      "layout.gridGap.proof",
+      "layout.gridGap.support"
+    ]
+  }
+}

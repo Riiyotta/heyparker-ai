@@ -1,0 +1,100 @@
+{
+  "id": "hero.container",
+  "category": "HERO",
+  "label": "Container",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "Container",
+      "nameSource": "data-attr",
+      "tag": "div",
+      "classes": [
+        "framer-m4q3ur"
+      ],
+      "anchor": "framer-m4q3ur"
+    },
+    "semantic": {
+      "id": "hero.container",
+      "category": "HERO",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "purpose": "Opens the page: states the offer in an h1 and gives the first call to action. Headline \"Data Deletion Request\". 24 items (\"1. Introduction\", \"2. Information We Collect\", \"2.1 Account Information\", …).",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 3,
+    "routes": 3,
+    "measuredFrom": [
+      "src/support/data-deletion-request/index.html:534-648",
+      "src/support/privacy-policy/index.html:534-1325",
+      "src/support/terms-of-service/index.html:534-934"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 30,
+        "maxWords": 74
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 24,
+        "titleMaxWords": 6,
+        "bodyMaxWords": 0
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 14298,
+      "columns": 1
+    },
+    "tablet": {
+      "heightPx": 14090,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 19956,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "grows taller on mobile (content stacks)"
+    ],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": []
+}

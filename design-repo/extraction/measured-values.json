@@ -1,0 +1,588 @@
+{
+  "version": "0.1.0",
+  "sourceProject": {
+    "url": "https://heyparker.ai/",
+    "framework": "React+Framer+Lenis",
+    "scrapedAt": "2026-10-07T19:26:48Z",
+    "snapshotFolder": "src/"
+  },
+  "note": "Citation ledger. `lines` are line ranges in the rendered-HTML snapshots under ../src/; verify_all.py resolves them and degrades to a warning when src/ is absent.",
+  "viewport": {
+    "desktop": "1440x900",
+    "mobile": "390x844"
+  },
+  "histograms": {
+    "colors": [
+      [
+        "rgba(0,0,0,0)",
+        2360
+      ],
+      [
+        "rgb(0,0,0)",
+        2266
+      ],
+      [
+        "rgb(255,255,255)",
+        252
+      ],
+      [
+        "rgb(0,0,238)",
+        137
+      ],
+      [
+        "rgb(51,51,51)",
+        104
+      ],
+      [
+        "rgba(0,0,0,0.1)",
+        101
+      ],
+      [
+        "rgb(118,118,118)",
+        44
+      ],
+      [
+        "rgb(252,245,226)",
+        15
+      ],
+      [
+        "rgb(127,120,197)",
+        13
+      ],
+      [
+        "rgb(25,77,21)",
+        8
+      ],
+      [
+        "rgba(255,255,255,0.5)",
+        8
+      ],
+      [
+        "rgb(244,38,21)",
+        6
+      ],
+      [
+        "rgb(254,247,247)",
+        6
+      ],
+      [
+        "rgba(0,0,0,0.7)",
+        6
+      ],
+      [
+        "rgb(238,191,18)",
+        3
+      ],
+      [
+        "rgb(100,95,150)",
+        2
+      ],
+      [
+        "rgba(255,255,255,0)",
+        2
+      ],
+      [
+        "rgb(10,48,7)",
+        1
+      ],
+      [
+        "rgb(114,209,132)",
+        1
+      ],
+      [
+        "rgb(248,233,190)",
+        1
+      ],
+      [
+        "rgb(255,180,175)",
+        1
+      ],
+      [
+        "rgb(95,87,183)",
+        1
+      ]
+    ],
+    "radii": [
+      [
+        "6px",
+        101
+      ],
+      [
+        "8px",
+        67
+      ],
+      [
+        "128px",
+        8
+      ],
+      [
+        "16px",
+        5
+      ],
+      [
+        "4px",
+        3
+      ],
+      [
+        "120px",
+        2
+      ],
+      [
+        "999px",
+        2
+      ],
+      [
+        "1249px",
+        1
+      ],
+      [
+        "1561px",
+        1
+      ]
+    ],
+    "spacing": [
+      [
+        "10px",
+        466
+      ],
+      [
+        "40px",
+        305
+      ],
+      [
+        "20px",
+        225
+      ],
+      [
+        "1.6px",
+        202
+      ],
+      [
+        "3.2px",
+        202
+      ],
+      [
+        "19.2px",
+        176
+      ],
+      [
+        "1px",
+        88
+      ],
+      [
+        "2px",
+        88
+      ],
+      [
+        "6px",
+        72
+      ],
+      [
+        "200px",
+        65
+      ],
+      [
+        "80px",
+        57
+      ],
+      [
+        "8px",
+        52
+      ],
+      [
+        "16px",
+        28
+      ],
+      [
+        "120px",
+        26
+      ],
+      [
+        "160px",
+        16
+      ],
+      [
+        "12px",
+        8
+      ],
+      [
+        "24px",
+        8
+      ],
+      [
+        "140px",
+        6
+      ],
+      [
+        "15px",
+        6
+      ],
+      [
+        "4px",
+        6
+      ],
+      [
+        "60px",
+        6
+      ],
+      [
+        "280px",
+        4
+      ],
+      [
+        "29px",
+        4
+      ],
+      [
+        "135px",
+        1
+      ],
+      [
+        "2.2px",
+        1
+      ],
+      [
+        "320px",
+        1
+      ],
+      [
+        "72px",
+        1
+      ]
+    ],
+    "breakpoints": [
+      [
+        "810px",
+        30
+      ],
+      [
+        "1199px",
+        22
+      ],
+      [
+        "1200px",
+        22
+      ],
+      [
+        "1919px",
+        22
+      ],
+      [
+        "809px",
+        22
+      ],
+      [
+        "1199.98px",
+        8
+      ],
+      [
+        "809.98px",
+        8
+      ],
+      [
+        "1920px",
+        4
+      ],
+      [
+        "1921px",
+        4
+      ]
+    ],
+    "durations": [
+      [
+        "0.2s",
+        10
+      ],
+      [
+        "1s",
+        8
+      ],
+      [
+        "0.3s",
+        1
+      ],
+      [
+        "0.4s",
+        1
+      ]
+    ],
+    "easings": [
+      [
+        "ease-out",
+        6
+      ],
+      [
+        "linear",
+        5
+      ],
+      [
+        "cubic-bezier(0.16, 1, 0.3, 1)",
+        4
+      ],
+      [
+        "steps(1)",
+        4
+      ],
+      [
+        "ease-in-out",
+        1
+      ]
+    ],
+    "cssVariables": {
+      "--token-5cde9905-9718-44a1-970b-28b65f3c6f1a": "#000",
+      "--token-f85f7507-5b44-4632-a5fc-cd0e091f118e": "#7f78c5",
+      "--token-0b110dec-859e-4818-afe7-cc4c22f3f012": "#eebf12",
+      "--token-b5de6c18-90e5-4291-9354-3199b151b7d9": "#194d15",
+      "--token-f49a5d65-8ffd-4086-9afe-e8d638df885b": "#72d184",
+      "--token-84570d2d-9979-401f-94be-4c66e9997719": "#fcf5e2",
+      "--token-b3783859-9217-4d5a-9b48-49014ccc8a40": "#fff",
+      "--token-97f68b6f-f30c-4d0b-879e-e350623fb042": "#f42615",
+      "--token-0ff1a316-036b-42cc-93fe-04a07d3618ea": "#1e1e1e",
+      "--token-88b568e1-e6f8-4980-bc8c-36e51a98442d": "#fff",
+      "--token-818a283b-450e-452c-a8af-6b81d42f4181": "#323232",
+      "--framer-will-change-override": "transform",
+      "--framer-will-change-filter-override": "filter",
+      "--overflow-clip-fallback": "hidden",
+      "--one-if-corner-shape-supported": "1",
+      "--framer-aspect-ratio-supported": "auto"
+    }
+  },
+  "routes": [
+    {
+      "route": "/",
+      "title": "Parker",
+      "h1": "The way you make ads is about to change forever_",
+      "template": "template.home",
+      "file": "src/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar",
+          "tag": "div",
+          "anchor": "framer-1bkz34a-container",
+          "lines": [
+            444,
+            553
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.hero-section",
+          "tag": "div",
+          "anchor": "id=\"hero\"",
+          "lines": [
+            554,
+            738
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "explainer.how-it-works-section",
+          "tag": "div",
+          "anchor": "id=\"how-it-works\"",
+          "lines": [
+            739,
+            885
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "explainer.notification-section",
+          "tag": "div",
+          "anchor": "id=\"notification-section\"",
+          "lines": [
+            886,
+            918
+          ]
+        },
+        {
+          "idx": 4,
+          "id": "content.maze-section",
+          "tag": "div",
+          "anchor": "id=\"maze\"",
+          "lines": [
+            919,
+            1147
+          ]
+        },
+        {
+          "idx": 5,
+          "id": "content.ribbon",
+          "tag": "div",
+          "anchor": "framer-v2ymw8",
+          "lines": [
+            1148,
+            1199
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "commerce.pricing-section",
+          "tag": "div",
+          "anchor": "id=\"pricing\"",
+          "lines": [
+            1200,
+            1540
+          ]
+        },
+        {
+          "idx": 7,
+          "id": "proof.testimonials-section",
+          "tag": "div",
+          "anchor": "id=\"testimonial\"",
+          "lines": [
+            1541,
+            2307
+          ]
+        },
+        {
+          "idx": 8,
+          "id": "cta.cta-section",
+          "tag": "div",
+          "anchor": "id=\"cta\"",
+          "lines": [
+            2308,
+            2426
+          ]
+        },
+        {
+          "idx": 9,
+          "id": "cta.cta-button",
+          "tag": "div",
+          "anchor": "framer-1t824r9",
+          "lines": [
+            2427,
+            2458
+          ]
+        },
+        {
+          "idx": 10,
+          "id": "support.framer-ktez73-container",
+          "tag": "div",
+          "anchor": "framer-ktez73-container",
+          "lines": [
+            2459,
+            2717
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/support/terms-of-service",
+      "title": "Terms of Service - Parker",
+      "h1": "Terms of Service",
+      "template": "template.support",
+      "file": "src/support/terms-of-service/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar",
+          "tag": "div",
+          "anchor": "framer-1bkz34a-container",
+          "lines": [
+            444,
+            533
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.container",
+          "tag": "div",
+          "anchor": "framer-m4q3ur",
+          "lines": [
+            534,
+            934
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.framer-ktez73-container",
+          "tag": "div",
+          "anchor": "framer-ktez73-container",
+          "lines": [
+            935,
+            1185
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/support/privacy-policy",
+      "title": "Privacy Policy - Parker",
+      "h1": "Privacy Policy",
+      "template": "template.support",
+      "file": "src/support/privacy-policy/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar",
+          "tag": "div",
+          "anchor": "framer-1bkz34a-container",
+          "lines": [
+            444,
+            533
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.container",
+          "tag": "div",
+          "anchor": "framer-m4q3ur",
+          "lines": [
+            534,
+            1325
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.framer-ktez73-container",
+          "tag": "div",
+          "anchor": "framer-ktez73-container",
+          "lines": [
+            1326,
+            1576
+          ]
+        }
+      ]
+    },
+    {
+      "route": "/support/data-deletion-request",
+      "title": "Data Deletion Request - Parker",
+      "h1": "Data Deletion Request",
+      "template": "template.support",
+      "file": "src/support/data-deletion-request/index.html",
+      "sections": [
+        {
+          "idx": 0,
+          "id": "shell.navbar",
+          "tag": "div",
+          "anchor": "framer-1bkz34a-container",
+          "lines": [
+            444,
+            533
+          ]
+        },
+        {
+          "idx": 1,
+          "id": "hero.container",
+          "tag": "div",
+          "anchor": "framer-m4q3ur",
+          "lines": [
+            534,
+            648
+          ]
+        },
+        {
+          "idx": 2,
+          "id": "support.framer-ktez73-container",
+          "tag": "div",
+          "anchor": "framer-ktez73-container",
+          "lines": [
+            649,
+            899
+          ]
+        }
+      ]
+    }
+  ]
+}

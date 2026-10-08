@@ -1,0 +1,10 @@
+{
+  "id": "large",
+  "name": "Large",
+  "occurrences": 2,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": null
+  }
+}

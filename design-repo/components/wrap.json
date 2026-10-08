@@ -1,0 +1,14 @@
+{
+  "id": "wrap",
+  "name": "Wrap",
+  "occurrences": 33,
+  "composedOf": [
+    "heading",
+    "paragraph",
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

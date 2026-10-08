@@ -1,0 +1,14 @@
+{
+  "id": "book-call",
+  "name": "Book call",
+  "occurrences": 1,
+  "composedOf": [
+    "heading",
+    "link",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

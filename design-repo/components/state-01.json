@@ -1,0 +1,12 @@
+{
+  "id": "state-01",
+  "name": "State 01",
+  "occurrences": 1,
+  "composedOf": [
+    "heading"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

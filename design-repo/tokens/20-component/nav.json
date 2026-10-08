@@ -1,0 +1,18 @@
+{
+  "$description": "Component tokens for nav: the most common measured style (4 instances). Values in {braces} reference semantic/foundation tokens.",
+  "component": "nav",
+  "tokens": {
+    "background": {
+      "$value": "transparent"
+    },
+    "color": {
+      "$value": "{text.primary}"
+    },
+    "paddingY": {
+      "$value": "0px"
+    }
+  },
+  "unresolvedLiterals": [
+    "paddingY"
+  ]
+}

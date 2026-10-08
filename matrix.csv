@@ -1,0 +1,14 @@
+section,category,templates,routes,Home,Support pages
+shell.navbar,SHELL,2,4,x,x
+support.framer-ktez73-container,SUPPORT,2,4,x,x
+hero.container,HERO,1,3,,x
+commerce.pricing-section,COMMERCE,1,1,x,
+content.maze-section,CONTENT,1,1,x,
+content.ribbon,CONTENT,1,1,x,
+cta.cta-button,CTA,1,1,x,
+cta.cta-section,CTA,1,1,x,
+explainer.how-it-works-section,EXPLAINER,1,1,x,
+explainer.notification-section,EXPLAINER,1,1,x,
+hero.hero-section,HERO,1,1,x,
+proof.testimonials-section,PROOF,1,1,x,
+ROUTE COUNT,,,4,1,3

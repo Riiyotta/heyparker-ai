@@ -1,0 +1,10 @@
+{
+  "id": "inner",
+  "name": "Inner",
+  "occurrences": 1,
+  "composedOf": [],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": null
+  }
+}

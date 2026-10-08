@@ -1,0 +1,440 @@
+{
+  "pageSpecVersion": "0.1.0",
+  "template": "template.home",
+  "route": "/",
+  "nodes": [
+    {
+      "type": "shell.navbar",
+      "content": {
+        "body": [
+          "How it works",
+          "Why Parker",
+          "Pricing",
+          "Testimonials",
+          "Hire Parker Today",
+          "Hire Parker Today"
+        ],
+        "ctas": [
+          {
+            "label": "Hire Parker Today Hire Parker Today",
+            "href": "#"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "logo"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "appear-on-enter",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "hero.hero-section",
+      "content": {
+        "heading": "The way you make ads is about to change forever_",
+        "body": [
+          "Scroll down",
+          "Good ideas don't appear out of thin air.",
+          "They come from",
+          "That's called creative strategy.",
+          "And it takes forever."
+        ],
+        "items": [
+          {
+            "title": "Making ads is easy."
+          },
+          {
+            "title": "Knowing what ads"
+          },
+          {
+            "title": "to make is hard."
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "hero-image",
+            "alt": "Sequence"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "hero-image",
+            "alt": "Sequence"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "explainer.how-it-works-section",
+      "content": {
+        "heading": "Parker tel_",
+        "items": [
+          {
+            "title": "Step 1 - Research",
+            "body": "First, Parker does the research."
+          },
+          {
+            "title": "Step 2 - Chat",
+            "body": "Ask questions."
+          },
+          {
+            "title": "Step 3 - Grow",
+            "body": "Get winning creative to grow your business."
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "video"
+          },
+          {
+            "assetRole": "video"
+          },
+          {
+            "assetRole": "video"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "explainer.notification-section",
+      "content": {
+        "heading": "Parker works in the background and comes to you with ideas_",
+        "images": [
+          {
+            "assetRole": "content-image",
+            "alt": "Sequence"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.maze-section",
+      "content": {
+        "heading": "Creative s_",
+        "subheading": "What makes",
+        "body": [
+          "The old way",
+          "The new way",
+          "First, Parker learns everything about your brand.",
+          "New product releases",
+          "Competitive landscape",
+          "Customer personas",
+          "Products & USPs",
+          "Brand voice",
+          "Marketing calendar",
+          "Compliance & legal",
+          "Finding headlines",
+          "Founder story"
+        ],
+        "images": [
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Sequence"
+          },
+          {
+            "assetRole": "content-image"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.ribbon",
+      "content": {
+        "items": [
+          {
+            "title": "Built by people who actually make ads"
+          },
+          {
+            "title": "Built by people who actually make ads"
+          },
+          {
+            "title": "Built by people who actually make ads"
+          },
+          {
+            "title": "Built by people who actually make ads"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "commerce.pricing-section",
+      "content": {
+        "heading": "Plans built for",
+        "subheading": "brands and agencies.",
+        "body": [
+          "Every plan includes the full Parker experience. Pick the tier that matches your ad spend.",
+          "Unlimited usage",
+          "Unlimited team members",
+          "Full Meta ad account analysis",
+          "Upload and chat with all your reviews and ad comments",
+          "Track any ad account (competitors, inspo brands, etc.)",
+          "Surface TikTok trends in your niche",
+          "Creative research on autopilot",
+          "Brand profile + personas built for you",
+          "Performance dashboard + custom reports",
+          "Idea bank to save your best concepts",
+          "Dedicated Slack channel",
+          "Let's talk through pricing that fits your needs.",
+          "Book a Discovery Call",
+          "Book a Discovery Call"
+        ],
+        "ctas": [
+          {
+            "label": "Get Starter Get Starter",
+            "href": "#"
+          },
+          {
+            "label": "Get Growth Get Growth",
+            "href": "#"
+          },
+          {
+            "label": "Get Scale Get Scale",
+            "href": "#"
+          },
+          {
+            "label": "Book a Discovery Call Book a Discovery Call",
+            "href": "#"
+          }
+        ],
+        "items": [
+          {
+            "title": "Starter",
+            "body": "/month"
+          },
+          {
+            "title": "Growth",
+            "body": "/month"
+          },
+          {
+            "title": "Scale",
+            "body": "/month"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "scroll-linked",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "proof.testimonials-section",
+      "content": {
+        "heading": "Don't take our",
+        "subheading": "word for it.",
+        "body": [
+          "Placeholder customer quote.",
+          "Placeholder customer name.",
+          "Placeholder job title.",
+          "Placeholder company.",
+          "Placeholder customer quote.",
+          "Placeholder customer name.",
+          "Placeholder job title.",
+          "Placeholder company.",
+          "Placeholder customer quote.",
+          "Placeholder customer name.",
+          "Placeholder job title.",
+          "Placeholder company.",
+          "Placeholder customer quote.",
+          "Placeholder customer name.",
+          "Placeholder job title.",
+          "Placeholder company.",
+          "Placeholder customer quote.",
+          "Placeholder customer name.",
+          "Placeholder job title.",
+          "Placeholder company.",
+          "Placeholder customer quote.",
+          "Placeholder customer name.",
+          "Placeholder job title.",
+          "Placeholder company.",
+          "Placeholder customer quote.",
+          "Placeholder customer name.",
+          "Placeholder job title.",
+          "Placeholder company.",
+          "Placeholder customer quote.",
+          "Placeholder customer name."
+        ],
+        "images": [
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "cta.cta-section",
+      "content": {
+        "heading": "Ready to make",
+        "subheading": "better ads?",
+        "body": [
+          "Years of pattern recognition.",
+          "Thousands of ads analyzed.",
+          "Hundreds of context docs.",
+          "Intuition you can't teach. Now you have it too."
+        ],
+        "images": [
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "cta.cta-button",
+      "content": {
+        "body": [
+          "Hire Parker Today",
+          "Hire Parker Today"
+        ],
+        "ctas": [
+          {
+            "label": "Hire Parker Today Hire Parker Today",
+            "href": "#"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "support.framer-ktez73-container",
+      "content": {
+        "heading": "Join our newsletter.",
+        "body": [
+          "Subscribe",
+          "Subscribe",
+          "Home",
+          "How it works",
+          "Parker MCP",
+          "Why Parker",
+          "Pricing",
+          "Testimonials",
+          "Connect",
+          "Linkedin",
+          "X (Twitter)",
+          "© 2026 Parker, All rights reserved",
+          "Site by Ashwin",
+          "Terms of Service",
+          "Privacy Policy",
+          "Data Deletion Request"
+        ],
+        "ctas": [
+          {
+            "label": "Subscribe Subscribe"
+          }
+        ],
+        "images": [
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    }
+  ]
+}

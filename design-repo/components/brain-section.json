@@ -1,0 +1,14 @@
+{
+  "id": "brain-section",
+  "name": "Brain Section",
+  "occurrences": 1,
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}

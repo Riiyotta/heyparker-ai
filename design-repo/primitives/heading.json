@@ -1,0 +1,10 @@
+{
+  "id": "heading",
+  "purpose": "Section or page title.",
+  "observedCount": 171,
+  "tokens": null,
+  "evidence": {
+    "level": "measured",
+    "source": "element census over all crawled pages"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "divider",
+  "name": "divider",
+  "occurrences": 6,
+  "composedOf": [
+    "svg"
+  ],
+  "evidence": {
+    "level": "measured",
+    "sampleRoute": "/"
+  }
+}
