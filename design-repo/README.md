@@ -41,6 +41,10 @@ site's own mark only. Use explicit placeholders for the rest, and do not publish
 
 ## Admit this repo
 
+Requires Python 3 with **`jsonschema`** (`pip3 install jsonschema`). Both scripts validate
+against Draft-07 and exit `1` on `ModuleNotFoundError` without it — a missing dependency
+reads as a failing suite, not a skipped one.
+
 ```
 python3 extraction/verify_all.py      # files, entryPoints, counts, parity, citations, pinned policies, schema, adversarial suite
 python3 extraction/prove_drift.py     # proves each check fails on injected drift

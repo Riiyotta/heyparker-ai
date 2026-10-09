@@ -48,7 +48,7 @@ if (unused.length) console.log('        ' + unused.join(', ') + '  (fine if inte
 console.log('\nCATEGORY COVERAGE');
 const cats = new Set(Object.keys(ia.categories || {}));
 const badCat = Object.entries(ia.sections).filter(([, s]) => !cats.has(s.category));
-ok('sections with a valid category', badCat.length, 0);
+ok('sections with an unknown category', badCat.length, 0);
 if (badCat.length) console.log('        ' + badCat.map(([id]) => id).join(', '));
 
 console.log('\nCHROME PARTITION');
