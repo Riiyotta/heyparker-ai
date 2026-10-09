@@ -73,6 +73,25 @@ class H(http.server.SimpleHTTPRequestHandler):
             return os.path.join(ROOT, "index.html")
         return base
 
+    def send_head(self):
+        # Framer's CMS loader asks for byte slices of its .framercms files as ?range=a-b,c-d and checks the returned length.
+        # Serve a saved per-query variant when one exists (translate_path), otherwise cut the slices out of the full file.
+        parts = urlsplit(self.path)
+        m = re.fullmatch(r"range=((?:\d+-\d+,?)+)", unquote(parts.query))
+        if not m:
+            return super().send_head()
+        full = self.translate_path(parts.path)
+        if not os.path.isfile(full) or os.path.basename(full) != os.path.basename(parts.path):
+            return super().send_head()          # a saved variant (stem__hash8.ext) is already the exact response
+        data = open(full, "rb").read()
+        body = b"".join(data[int(a):int(b) + 1] for a, b in (r.split("-") for r in m.group(1).strip(",").split(",")))
+        self.send_response(200)
+        self.send_header("Content-Type", self.guess_type(full))
+        self.send_header("Content-Length", str(len(body)))
+        self.end_headers()
+        import io
+        return io.BytesIO(body)
+
     def guess_type(self, path):
         rel = os.path.relpath(str(path), ROOT).replace(os.sep, "/")
         if rel in TYPES:

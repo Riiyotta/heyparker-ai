@@ -19,7 +19,7 @@
       "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
     }
   },
-  "purpose": "undefined Headline \"Parker works in the background and comes to you with ideas_\".",
+  "purpose": "Explains how the product works in the background and surfaces ideas to the user. Headline \"Parker works in the background and comes to you with ideas_\".",
   "purposeIsInferred": true,
   "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
   "nameSource": "data-attr",

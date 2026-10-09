@@ -19,7 +19,7 @@
       "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
     }
   },
-  "purpose": "undefined Headline \"Parker tel_\". 3 items (\"Step 1 - Research\", \"Step 2 - Chat\", \"Step 3 - Grow\").",
+  "purpose": "Explains how the product works, step by step. Headline \"Parker tel_\". 3 items (\"Step 1 - Research\", \"Step 2 - Chat\", \"Step 3 - Grow\").",
   "purposeIsInferred": true,
   "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
   "nameSource": "data-attr",
