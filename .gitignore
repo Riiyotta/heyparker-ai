@@ -3,3 +3,6 @@ __pycache__/
 .DS_Store
 *.zip
 dist/
+
+# IR JSON-Schema files: kept local, not versioned.
+ir/*.schema.json
