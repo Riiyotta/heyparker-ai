@@ -4,5 +4,5 @@ __pycache__/
 *.zip
 dist/
 
-# IR JSON-Schema files: kept local, not versioned.
-ir/*.schema.json
+# Composition IR (document, schemas, validator): kept local, not versioned.
+ir/
