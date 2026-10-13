@@ -6,10 +6,10 @@ Offline mirror, information architecture and design repo for **Parker** (https:/
 
 This repo now contains a runnable React clone (`src/`, `npm install && npm run dev`) built from the original, plus the offline mirror (`mirror/`), IA and design-repo. **Not finished:**
 
-- **Parity is only partly measured.** The harness is in `qa/parity/` (`capture.mjs` + `compare.py`: live site vs clone at the same scroll offsets, desktop 1440 and mobile 390). Last scored: home desktop 0.94, home mobile 0.95. The three support routes, and home after the final motion changes, are not yet scored; `qa/parity/parity.json` is marked partial.
+- **Parity (measured, all routes, both viewports; gate 0.90):** home 0.93 desktop / 0.94 mobile; terms 0.96 / 1.00; privacy 0.96 / 1.00; data-deletion 0.96 / 0.97. Average 0.965, all routes above the gate, page heights identical on every route. Method and per-frame and per-section scores: `qa/parity/parity.json` (regenerate with `node qa/parity/capture.mjs && python3 qa/parity/compare.py`). **Known weak frames, all on home:** the final CTA scene (frame 26: desktop 0.53, mobile 0.31) and mobile frames 3, 4 and 9 (0.78–0.90).
 - **Interaction states** (hover, mobile menu) are not yet verified: `qa/parity/hover.mjs` exists but has not been run.
 - **`design-repo/` is not yet reconciled against the clone.** It was generated from the mirror before the clone was built; tokens and section dimensions have not been re-measured against the clone, and the IR is intentionally not regenerated until that is done.
-- Motion is replayed from measurements (`src/motion/`, `qa/motion/`), not by the original's JavaScript. Frames below the 0.90 gate remain in the final CTA section.
+- Motion is replayed from measurements (`src/motion/`, `qa/motion/`), not by the original's JavaScript. The final CTA scene is the main remaining visual gap.
 
 ## What is generated vs hand-edited
 
