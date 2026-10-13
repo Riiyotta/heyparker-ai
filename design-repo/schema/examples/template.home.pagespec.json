@@ -36,7 +36,24 @@
       "content": {
         "heading": "The way you make ads is about to change forever_",
         "body": [
-          "Scroll down",
+          "Scroll down"
+        ],
+        "images": [
+          {
+            "assetRole": "hero-image",
+            "alt": "Sequence"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.problem-section",
+      "content": {
+        "body": [
           "Good ideas don't appear out of thin air.",
           "They come from",
           "That's called creative strategy.",
@@ -55,10 +72,6 @@
         ],
         "images": [
           {
-            "assetRole": "hero-image",
-            "alt": "Sequence"
-          },
-          {
             "assetRole": "illustration"
           },
           {
@@ -83,20 +96,20 @@
             "assetRole": "illustration"
           },
           {
-            "assetRole": "hero-image",
+            "assetRole": "content-image",
             "alt": "Sequence"
           }
         ]
       },
       "motion": {
-        "pattern": "css-transition",
+        "pattern": "scroll-linked",
         "reducedMotionFallback": "disable-animation"
       }
     },
     {
       "type": "explainer.how-it-works-section",
       "content": {
-        "heading": "Parker tel_",
+        "heading": "Parker tell_",
         "items": [
           {
             "title": "Step 1 - Research",
@@ -147,11 +160,35 @@
     {
       "type": "content.maze-section",
       "content": {
-        "heading": "Creative s_",
-        "subheading": "What makes",
+        "heading": "Creative st_",
         "body": [
           "The old way",
-          "The new way",
+          "The new way"
+        ],
+        "images": [
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "illustration"
+          },
+          {
+            "assetRole": "content-image",
+            "alt": "Sequence"
+          }
+        ]
+      },
+      "motion": {
+        "pattern": "css-transition",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "content.brain-section",
+      "content": {
+        "heading": "What makes",
+        "subheading": "Parker different?",
+        "body": [
           "First, Parker learns everything about your brand.",
           "New product releases",
           "Competitive landscape",
@@ -165,22 +202,12 @@
         ],
         "images": [
           {
-            "assetRole": "illustration"
-          },
-          {
-            "assetRole": "illustration"
-          },
-          {
-            "assetRole": "content-image",
-            "alt": "Sequence"
-          },
-          {
             "assetRole": "content-image"
           }
         ]
       },
       "motion": {
-        "pattern": "css-transition",
+        "pattern": "scroll-linked",
         "reducedMotionFallback": "disable-animation"
       }
     },
@@ -384,7 +411,7 @@
       }
     },
     {
-      "type": "support.framer-ktez73-container",
+      "type": "shell.footer",
       "content": {
         "heading": "Join our newsletter.",
         "body": [

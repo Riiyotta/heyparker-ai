@@ -157,7 +157,7 @@
         "items"
       ]
     },
-    "content.content.maze-section": {
+    "content.content.brain-section": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
@@ -173,7 +173,7 @@
         },
         "body": {
           "type": "array",
-          "maxItems": 12,
+          "maxItems": 10,
           "items": {
             "type": "string",
             "minLength": 1,
@@ -182,7 +182,7 @@
         },
         "images": {
           "type": "array",
-          "maxItems": 4,
+          "maxItems": 1,
           "items": {
             "type": "object",
             "required": [
@@ -205,6 +205,107 @@
         "heading",
         "subheading",
         "body"
+      ]
+    },
+    "content.content.maze-section": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "heading": {
+          "type": "string",
+          "minLength": 1,
+          "maxWords": 2
+        },
+        "body": {
+          "type": "array",
+          "maxItems": 2,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 3
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
+    "content.content.problem-section": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "array",
+          "maxItems": 4,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 8
+          }
+        },
+        "items": {
+          "type": "array",
+          "maxItems": 3,
+          "items": {
+            "type": "object",
+            "required": [
+              "title"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 4
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 9,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "body",
+        "items"
       ]
     },
     "content.content.ribbon": {
@@ -417,15 +518,54 @@
         "heading"
       ]
     },
-    "content.hero.container": {
+    "content.hero.hero-section": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "heading": {
           "type": "string",
           "minLength": 1,
-          "maxWords": 3
+          "maxWords": 10
         },
+        "body": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 2
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "heading",
+        "body"
+      ]
+    },
+    "content.legal.body": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
         "body": {
           "type": "array",
           "maxItems": 30,
@@ -455,72 +595,32 @@
         }
       },
       "required": [
-        "heading",
         "body",
         "items"
       ]
     },
-    "content.hero.hero-section": {
+    "content.legal.header": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
         "heading": {
           "type": "string",
           "minLength": 1,
-          "maxWords": 10
+          "maxWords": 3
         },
         "body": {
           "type": "array",
-          "maxItems": 5,
+          "maxItems": 2,
           "items": {
             "type": "string",
             "minLength": 1,
-            "maxWords": 8
-          }
-        },
-        "items": {
-          "type": "array",
-          "maxItems": 3,
-          "items": {
-            "type": "object",
-            "required": [
-              "title"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "title": {
-                "type": "string",
-                "minLength": 1,
-                "maxWords": 4
-              }
-            }
-          }
-        },
-        "images": {
-          "type": "array",
-          "maxItems": 10,
-          "items": {
-            "type": "object",
-            "required": [
-              "assetRole"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "assetRole": {
-                "$ref": "#/definitions/assetRole"
-              },
-              "alt": {
-                "type": "string",
-                "maxWords": 16
-              }
-            }
+            "maxWords": 3
           }
         }
       },
       "required": [
         "heading",
-        "body",
-        "items"
+        "body"
       ]
     },
     "content.proof.testimonials-section": {
@@ -573,69 +673,7 @@
         "body"
       ]
     },
-    "content.shell.navbar": {
-      "type": "object",
-      "additionalProperties": false,
-      "properties": {
-        "body": {
-          "type": "array",
-          "maxItems": 6,
-          "items": {
-            "type": "string",
-            "minLength": 1,
-            "maxWords": 3
-          }
-        },
-        "ctas": {
-          "type": "array",
-          "maxItems": 1,
-          "items": {
-            "type": "object",
-            "required": [
-              "label"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "label": {
-                "type": "string",
-                "minLength": 1,
-                "maxWords": 6
-              },
-              "href": {
-                "type": "string",
-                "pattern": "^(/|#)",
-                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
-              }
-            }
-          }
-        },
-        "images": {
-          "type": "array",
-          "maxItems": 1,
-          "items": {
-            "type": "object",
-            "required": [
-              "assetRole"
-            ],
-            "additionalProperties": false,
-            "properties": {
-              "assetRole": {
-                "$ref": "#/definitions/assetRole"
-              },
-              "alt": {
-                "type": "string",
-                "maxWords": 16
-              }
-            }
-          }
-        }
-      },
-      "required": [
-        "body",
-        "ctas"
-      ]
-    },
-    "content.support.framer-ktez73-container": {
+    "content.shell.footer": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
@@ -703,6 +741,68 @@
         "ctas"
       ]
     },
+    "content.shell.navbar": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "body": {
+          "type": "array",
+          "maxItems": 6,
+          "items": {
+            "type": "string",
+            "minLength": 1,
+            "maxWords": 3
+          }
+        },
+        "ctas": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "label"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "label": {
+                "type": "string",
+                "minLength": 1,
+                "maxWords": 6
+              },
+              "href": {
+                "type": "string",
+                "pattern": "^(/|#)",
+                "description": "Relative path or #anchor only: generated pages must not link to the original site's live URLs."
+              }
+            }
+          }
+        },
+        "images": {
+          "type": "array",
+          "maxItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "assetRole"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "assetRole": {
+                "$ref": "#/definitions/assetRole"
+              },
+              "alt": {
+                "type": "string",
+                "maxWords": 16
+              }
+            }
+          }
+        }
+      },
+      "required": [
+        "body",
+        "ctas"
+      ]
+    },
     "node": {
       "type": "object",
       "required": [
@@ -716,17 +816,20 @@
           "type": "string",
           "enum": [
             "commerce.pricing-section",
+            "content.brain-section",
             "content.maze-section",
+            "content.problem-section",
             "content.ribbon",
             "cta.cta-button",
             "cta.cta-section",
             "explainer.how-it-works-section",
             "explainer.notification-section",
-            "hero.container",
             "hero.hero-section",
+            "legal.body",
+            "legal.header",
             "proof.testimonials-section",
-            "shell.navbar",
-            "support.framer-ktez73-container"
+            "shell.footer",
+            "shell.navbar"
           ]
         },
         "content": {
@@ -760,6 +863,25 @@
           "if": {
             "properties": {
               "type": {
+                "const": "content.brain-section"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.brain-section"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
                 "const": "content.maze-section"
               }
             },
@@ -771,6 +893,25 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.content.maze-section"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "content.problem-section"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.content.problem-section"
               }
             }
           }
@@ -874,25 +1015,6 @@
           "if": {
             "properties": {
               "type": {
-                "const": "hero.container"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "content": {
-                "$ref": "#/definitions/content.hero.container"
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
                 "const": "hero.hero-section"
               }
             },
@@ -904,6 +1026,44 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.hero.hero-section"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "legal.body"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.legal.body"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "legal.header"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.legal.header"
               }
             }
           }
@@ -931,6 +1091,25 @@
           "if": {
             "properties": {
               "type": {
+                "const": "shell.footer"
+              }
+            },
+            "required": [
+              "type"
+            ]
+          },
+          "then": {
+            "properties": {
+              "content": {
+                "$ref": "#/definitions/content.shell.footer"
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
                 "const": "shell.navbar"
               }
             },
@@ -942,25 +1121,6 @@
             "properties": {
               "content": {
                 "$ref": "#/definitions/content.shell.navbar"
-              }
-            }
-          }
-        },
-        {
-          "if": {
-            "properties": {
-              "type": {
-                "const": "support.framer-ktez73-container"
-              }
-            },
-            "required": [
-              "type"
-            ]
-          },
-          "then": {
-            "properties": {
-              "content": {
-                "$ref": "#/definitions/content.support.framer-ktez73-container"
               }
             }
           }

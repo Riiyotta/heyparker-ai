@@ -2,17 +2,20 @@
   "version": "1",
   "sections": [
     "commerce.pricing-section",
+    "content.brain-section",
     "content.maze-section",
+    "content.problem-section",
     "content.ribbon",
     "cta.cta-button",
     "cta.cta-section",
     "explainer.how-it-works-section",
     "explainer.notification-section",
-    "hero.container",
     "hero.hero-section",
+    "legal.body",
+    "legal.header",
     "proof.testimonials-section",
-    "shell.navbar",
-    "support.framer-ktez73-container"
+    "shell.footer",
+    "shell.navbar"
   ],
   "components": [
     "01",
@@ -139,10 +142,20 @@
       "ctas",
       "items"
     ],
-    "content.maze-section": [
+    "content.brain-section": [
       "heading",
       "subheading",
       "body",
+      "images"
+    ],
+    "content.maze-section": [
+      "heading",
+      "body",
+      "images"
+    ],
+    "content.problem-section": [
+      "body",
+      "items",
       "images"
     ],
     "content.ribbon": [
@@ -167,16 +180,18 @@
       "heading",
       "images"
     ],
-    "hero.container": [
-      "heading",
-      "body",
-      "items"
-    ],
     "hero.hero-section": [
       "heading",
       "body",
-      "items",
       "images"
+    ],
+    "legal.body": [
+      "body",
+      "items"
+    ],
+    "legal.header": [
+      "heading",
+      "body"
     ],
     "proof.testimonials-section": [
       "heading",
@@ -184,13 +199,13 @@
       "body",
       "images"
     ],
-    "shell.navbar": [
+    "shell.footer": [
+      "heading",
       "body",
       "ctas",
       "images"
     ],
-    "support.framer-ktez73-container": [
-      "heading",
+    "shell.navbar": [
       "body",
       "ctas",
       "images"

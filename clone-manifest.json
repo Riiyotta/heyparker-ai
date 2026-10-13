@@ -1,0 +1,120 @@
+{
+  "kind": "react-clone",
+  "generatedBy": "website-builder lib/clone.mjs",
+  "method": "rendered DOM converted to JSX (not hand-written); site CSS self-hosted; site JavaScript not carried over",
+  "routes": [
+    {
+      "route": "/",
+      "page": "src/pages/Home.jsx",
+      "template": "template.home"
+    },
+    {
+      "route": "/support/terms-of-service",
+      "page": "src/pages/SupportTermsOfService.jsx",
+      "template": "template.support"
+    },
+    {
+      "route": "/support/privacy-policy",
+      "page": "src/pages/SupportPrivacyPolicy.jsx",
+      "template": "template.support"
+    },
+    {
+      "route": "/support/data-deletion-request",
+      "page": "src/pages/SupportDataDeletionRequest.jsx",
+      "template": "template.support"
+    }
+  ],
+  "components": [
+    {
+      "section": "shell.navbar",
+      "file": "src/sections/ShellNavbar.jsx",
+      "variants": 2
+    },
+    {
+      "section": "hero.hero-section",
+      "file": "src/sections/HeroHeroSection.jsx",
+      "variants": 1
+    },
+    {
+      "section": "content.problem-section",
+      "file": "src/sections/ContentProblemSection.jsx",
+      "variants": 1
+    },
+    {
+      "section": "explainer.how-it-works-section",
+      "file": "src/sections/ExplainerHowItWorksSection.jsx",
+      "variants": 1
+    },
+    {
+      "section": "explainer.notification-section",
+      "file": "src/sections/ExplainerNotificationSection.jsx",
+      "variants": 1
+    },
+    {
+      "section": "content.maze-section",
+      "file": "src/sections/ContentMazeSection.jsx",
+      "variants": 1
+    },
+    {
+      "section": "content.brain-section",
+      "file": "src/sections/ContentBrainSection.jsx",
+      "variants": 1
+    },
+    {
+      "section": "content.ribbon",
+      "file": "src/sections/ContentRibbon.jsx",
+      "variants": 1
+    },
+    {
+      "section": "commerce.pricing-section",
+      "file": "src/sections/CommercePricingSection.jsx",
+      "variants": 1
+    },
+    {
+      "section": "proof.testimonials-section",
+      "file": "src/sections/ProofTestimonialsSection.jsx",
+      "variants": 1
+    },
+    {
+      "section": "cta.cta-section",
+      "file": "src/sections/CtaCtaSection.jsx",
+      "variants": 1
+    },
+    {
+      "section": "cta.cta-button",
+      "file": "src/sections/CtaCtaButton.jsx",
+      "variants": 1
+    },
+    {
+      "section": "shell.footer",
+      "file": "src/sections/ShellFooter.jsx",
+      "variants": 4
+    },
+    {
+      "section": "legal.header",
+      "file": "src/sections/LegalHeader.jsx",
+      "variants": 3
+    },
+    {
+      "section": "legal.body",
+      "file": "src/sections/LegalBody.jsx",
+      "variants": 3
+    }
+  ],
+  "stylesheets": [
+    "/styles/inline-1a3a7576.css",
+    "/styles/inline-1afdd911.css",
+    "/styles/inline-56b18883.css",
+    "/styles/inline-c699c884.css",
+    "/styles/inline-876c6484.css",
+    "/_ext/unpkg.com/lenis%401.3.17-framer/dist/lenis.css",
+    "/styles/inline-e36de3b2.css"
+  ],
+  "assetsCopied": 120,
+  "stills": 0,
+  "removed": {
+    "externalLinks": 25,
+    "externalMedia": 0,
+    "notInMirror": []
+  }
+}

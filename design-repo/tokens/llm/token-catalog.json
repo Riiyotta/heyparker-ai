@@ -63,15 +63,19 @@
       "layout.sectionPaddingTop",
       "layout.sectionPaddingBottom",
       "layout.gridGap",
+      "layout.sectionPaddingTop.commerce",
+      "layout.sectionPaddingBottom.commerce",
       "layout.gridGap.commerce",
       "layout.gridGap.content",
       "layout.sectionPaddingTop.cta",
+      "layout.sectionPaddingBottom.cta",
       "layout.gridGap.cta",
       "layout.gridGap.explainer",
       "layout.gridGap.hero",
+      "layout.gridGap.legal",
+      "layout.sectionPaddingTop.proof",
       "layout.sectionPaddingBottom.proof",
-      "layout.gridGap.proof",
-      "layout.gridGap.support"
+      "layout.gridGap.proof"
     ]
   }
 }

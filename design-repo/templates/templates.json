@@ -5,7 +5,7 @@
       "id": "template.home",
       "name": "Home",
       "routeCount": 1,
-      "chrome": "partial",
+      "chrome": "full",
       "routes": [
         "/"
       ],
@@ -21,6 +21,11 @@
           "repeatable": false
         },
         {
+          "section": "content.problem-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
           "section": "explainer.how-it-works-section",
           "required": true,
           "repeatable": false
@@ -32,6 +37,11 @@
         },
         {
           "section": "content.maze-section",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "content.brain-section",
           "required": true,
           "repeatable": false
         },
@@ -61,7 +71,7 @@
           "repeatable": false
         },
         {
-          "section": "support.framer-ktez73-container",
+          "section": "shell.footer",
           "required": true,
           "repeatable": false
         }
@@ -75,7 +85,7 @@
       "id": "template.support",
       "name": "Support pages",
       "routeCount": 3,
-      "chrome": "partial",
+      "chrome": "full",
       "routes": [
         "/support/terms-of-service",
         "/support/privacy-policy",
@@ -88,12 +98,17 @@
           "repeatable": false
         },
         {
-          "section": "hero.container",
+          "section": "legal.header",
           "required": true,
           "repeatable": false
         },
         {
-          "section": "support.framer-ktez73-container",
+          "section": "legal.body",
+          "required": true,
+          "repeatable": false
+        },
+        {
+          "section": "shell.footer",
           "required": true,
           "repeatable": false
         }

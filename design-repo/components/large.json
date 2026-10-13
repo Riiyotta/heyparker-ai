@@ -2,9 +2,12 @@
   "id": "large",
   "name": "Large",
   "occurrences": 2,
-  "composedOf": [],
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
   "evidence": {
     "level": "measured",
-    "sampleRoute": null
+    "sampleRoute": "/"
   }
 }

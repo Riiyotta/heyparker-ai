@@ -9,9 +9,9 @@
       "nameSource": "data-attr",
       "tag": "div",
       "classes": [
-        "framer-895wcm"
+        "framer-pokk01"
       ],
-      "anchor": "id=\"maze\""
+      "anchor": "framer-pokk01"
     },
     "semantic": {
       "id": "content.maze-section",
@@ -19,7 +19,18 @@
       "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
     }
   },
-  "purpose": "Carries the substantive content of the page. Headline \"Creative s_\".",
+  "source": {
+    "id": "Maze Section",
+    "tag": "div",
+    "lines": "snapshots/index.html:920-1010",
+    "anchor": "framer-pokk01",
+    "nameSource": "data-attr"
+  },
+  "semantic": {
+    "id": "content.maze-section",
+    "category": "CONTENT"
+  },
+  "purpose": "Carries the substantive content of the page. Headline \"Creative st_\".",
   "purposeIsInferred": true,
   "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
   "nameSource": "data-attr",
@@ -28,7 +39,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/index.html:919-1147"
+      "snapshots/index.html:920-1010"
     ]
   },
   "content": {
@@ -39,21 +50,16 @@
         "required": true,
         "maxWords": 2
       },
-      "subheading": {
-        "type": "string",
-        "required": true,
-        "maxWords": 2
-      },
       "body": {
         "type": "string[]",
         "required": true,
-        "maxItems": 12,
-        "maxWords": 7
+        "maxItems": 2,
+        "maxWords": 3
       },
       "images": {
         "type": "image[]",
         "required": false,
-        "maxItems": 4,
+        "maxItems": 3,
         "assetRoles": [
           "content-image",
           "illustration"
@@ -74,7 +80,7 @@
     "reducedMotionFallback": "disable-animation",
     "reducedMotionEvidence": {
       "basis": "measured-script",
-      "script": "public/index.html",
+      "script": "mirror/public/index.html",
       "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
     }
   },
@@ -86,17 +92,17 @@
     },
     "breakpoints": "tokens/00-foundation/breakpoint.json",
     "desktop": {
-      "heightPx": 7200,
-      "columns": 1
+      "heightPx": 900,
+      "columns": 2
     },
     "tablet": {
-      "heightPx": 8896,
-      "columns": 1,
+      "heightPx": 1112,
+      "columns": 2,
       "hiddenShare": 0
     },
     "mobile": {
-      "heightPx": 6752,
-      "columns": 1,
+      "heightPx": 844,
+      "columns": 2,
       "hiddenShare": 0
     },
     "changes": [],

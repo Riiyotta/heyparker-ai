@@ -5,6 +5,6 @@
   "composedOf": [],
   "evidence": {
     "level": "measured",
-    "sampleRoute": null
+    "sampleRoute": "/"
   }
 }

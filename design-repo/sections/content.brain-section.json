@@ -1,0 +1,116 @@
+{
+  "id": "content.brain-section",
+  "category": "CONTENT",
+  "label": "Brain Section",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "Brain Section",
+      "nameSource": "data-attr",
+      "tag": "div",
+      "classes": [
+        "framer-t73i6w"
+      ],
+      "anchor": "id=\"why-parker\""
+    },
+    "semantic": {
+      "id": "content.brain-section",
+      "category": "CONTENT",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "source": {
+    "id": "Brain Section",
+    "tag": "div",
+    "lines": "snapshots/index.html:1011-1147",
+    "anchor": "id=\"why-parker\"",
+    "nameSource": "data-attr"
+  },
+  "semantic": {
+    "id": "content.brain-section",
+    "category": "CONTENT"
+  },
+  "purpose": "Carries the substantive content of the page. Headline \"What makes\".",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "snapshots/index.html:1011-1147"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 2
+      },
+      "subheading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 2
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 10,
+        "maxWords": 7
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 1,
+        "assetRoles": [
+          "content-image"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "mirror/public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 4500,
+      "columns": 1
+    },
+    "tablet": {
+      "heightPx": 5560,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 4220,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": [
+    "content-image"
+  ]
+}

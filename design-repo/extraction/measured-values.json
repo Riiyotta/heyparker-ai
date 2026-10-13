@@ -1,10 +1,11 @@
 {
   "version": "0.1.0",
   "sourceProject": {
-    "url": "https://heyparker.ai/",
+    "url": "https://heyparker.ai",
     "framework": "React+Framer+Lenis",
-    "scrapedAt": "2026-10-07T19:26:48Z",
-    "snapshotFolder": "src/"
+    "scrapedAt": "2026-10-13T05:39:24Z",
+    "snapshotFolder": "snapshots/",
+    "mirrorFolder": "mirror/public/"
   },
   "note": "Citation ledger. `lines` are line ranges in the rendered-HTML snapshots under ../src/; verify_all.py resolves them and degrades to a warning when src/ is absent.",
   "viewport": {
@@ -121,7 +122,7 @@
       ],
       [
         "4px",
-        3
+        4
       ],
       [
         "120px",
@@ -353,7 +354,7 @@
       "title": "Parker",
       "h1": "The way you make ads is about to change forever_",
       "template": "template.home",
-      "file": "src/index.html",
+      "file": "snapshots/index.html",
       "sections": [
         {
           "idx": 0,
@@ -362,21 +363,31 @@
           "anchor": "framer-1bkz34a-container",
           "lines": [
             444,
-            553
+            554
           ]
         },
         {
           "idx": 1,
           "id": "hero.hero-section",
           "tag": "div",
-          "anchor": "id=\"hero\"",
+          "anchor": "framer-80ra3e",
           "lines": [
-            554,
-            738
+            555,
+            590
           ]
         },
         {
           "idx": 2,
+          "id": "content.problem-section",
+          "tag": "div",
+          "anchor": "id=\"problem\"",
+          "lines": [
+            591,
+            738
+          ]
+        },
+        {
+          "idx": 3,
           "id": "explainer.how-it-works-section",
           "tag": "div",
           "anchor": "id=\"how-it-works\"",
@@ -386,27 +397,37 @@
           ]
         },
         {
-          "idx": 3,
+          "idx": 4,
           "id": "explainer.notification-section",
           "tag": "div",
           "anchor": "id=\"notification-section\"",
           "lines": [
             886,
-            918
-          ]
-        },
-        {
-          "idx": 4,
-          "id": "content.maze-section",
-          "tag": "div",
-          "anchor": "id=\"maze\"",
-          "lines": [
-            919,
-            1147
+            919
           ]
         },
         {
           "idx": 5,
+          "id": "content.maze-section",
+          "tag": "div",
+          "anchor": "framer-pokk01",
+          "lines": [
+            920,
+            1010
+          ]
+        },
+        {
+          "idx": 6,
+          "id": "content.brain-section",
+          "tag": "div",
+          "anchor": "id=\"why-parker\"",
+          "lines": [
+            1011,
+            1147
+          ]
+        },
+        {
+          "idx": 7,
           "id": "content.ribbon",
           "tag": "div",
           "anchor": "framer-v2ymw8",
@@ -416,7 +437,7 @@
           ]
         },
         {
-          "idx": 6,
+          "idx": 8,
           "id": "commerce.pricing-section",
           "tag": "div",
           "anchor": "id=\"pricing\"",
@@ -426,7 +447,7 @@
           ]
         },
         {
-          "idx": 7,
+          "idx": 9,
           "id": "proof.testimonials-section",
           "tag": "div",
           "anchor": "id=\"testimonial\"",
@@ -436,7 +457,7 @@
           ]
         },
         {
-          "idx": 8,
+          "idx": 10,
           "id": "cta.cta-section",
           "tag": "div",
           "anchor": "id=\"cta\"",
@@ -446,22 +467,22 @@
           ]
         },
         {
-          "idx": 9,
+          "idx": 11,
           "id": "cta.cta-button",
           "tag": "div",
           "anchor": "framer-1t824r9",
           "lines": [
             2427,
-            2458
+            2460
           ]
         },
         {
-          "idx": 10,
-          "id": "support.framer-ktez73-container",
-          "tag": "div",
-          "anchor": "framer-ktez73-container",
+          "idx": 12,
+          "id": "shell.footer",
+          "tag": "footer",
+          "anchor": "framer-e2Sry",
           "lines": [
-            2459,
+            2461,
             2717
           ]
         }
@@ -472,7 +493,7 @@
       "title": "Terms of Service - Parker",
       "h1": "Terms of Service",
       "template": "template.support",
-      "file": "src/support/terms-of-service/index.html",
+      "file": "snapshots/support/terms-of-service/index.html",
       "sections": [
         {
           "idx": 0,
@@ -481,26 +502,36 @@
           "anchor": "framer-1bkz34a-container",
           "lines": [
             444,
-            533
+            534
           ]
         },
         {
           "idx": 1,
-          "id": "hero.container",
+          "id": "legal.header",
           "tag": "div",
-          "anchor": "framer-m4q3ur",
+          "anchor": "framer-nclyt9",
           "lines": [
-            534,
-            934
+            535,
+            550
           ]
         },
         {
           "idx": 2,
-          "id": "support.framer-ktez73-container",
+          "id": "legal.body",
           "tag": "div",
-          "anchor": "framer-ktez73-container",
+          "anchor": "framer-px4aua",
           "lines": [
-            935,
+            551,
+            936
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.footer",
+          "tag": "footer",
+          "anchor": "framer-e2Sry",
+          "lines": [
+            937,
             1185
           ]
         }
@@ -511,7 +542,7 @@
       "title": "Privacy Policy - Parker",
       "h1": "Privacy Policy",
       "template": "template.support",
-      "file": "src/support/privacy-policy/index.html",
+      "file": "snapshots/support/privacy-policy/index.html",
       "sections": [
         {
           "idx": 0,
@@ -520,26 +551,36 @@
           "anchor": "framer-1bkz34a-container",
           "lines": [
             444,
-            533
+            534
           ]
         },
         {
           "idx": 1,
-          "id": "hero.container",
+          "id": "legal.header",
           "tag": "div",
-          "anchor": "framer-m4q3ur",
+          "anchor": "framer-nclyt9",
           "lines": [
-            534,
-            1325
+            535,
+            550
           ]
         },
         {
           "idx": 2,
-          "id": "support.framer-ktez73-container",
+          "id": "legal.body",
           "tag": "div",
-          "anchor": "framer-ktez73-container",
+          "anchor": "framer-px4aua",
           "lines": [
-            1326,
+            551,
+            1327
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.footer",
+          "tag": "footer",
+          "anchor": "framer-e2Sry",
+          "lines": [
+            1328,
             1576
           ]
         }
@@ -550,7 +591,7 @@
       "title": "Data Deletion Request - Parker",
       "h1": "Data Deletion Request",
       "template": "template.support",
-      "file": "src/support/data-deletion-request/index.html",
+      "file": "snapshots/support/data-deletion-request/index.html",
       "sections": [
         {
           "idx": 0,
@@ -559,26 +600,36 @@
           "anchor": "framer-1bkz34a-container",
           "lines": [
             444,
-            533
+            534
           ]
         },
         {
           "idx": 1,
-          "id": "hero.container",
+          "id": "legal.header",
           "tag": "div",
-          "anchor": "framer-m4q3ur",
+          "anchor": "framer-nclyt9",
           "lines": [
-            534,
-            648
+            535,
+            550
           ]
         },
         {
           "idx": 2,
-          "id": "support.framer-ktez73-container",
+          "id": "legal.body",
           "tag": "div",
-          "anchor": "framer-ktez73-container",
+          "anchor": "framer-px4aua",
           "lines": [
-            649,
+            551,
+            650
+          ]
+        },
+        {
+          "idx": 3,
+          "id": "shell.footer",
+          "tag": "footer",
+          "anchor": "framer-e2Sry",
+          "lines": [
+            651,
             899
           ]
         }

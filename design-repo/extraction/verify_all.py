@@ -209,7 +209,9 @@ def main():
         errs.append(f"graph ONE_HERO_PER_PAGE exceptions {rules.get('ONE_HERO_PER_PAGE', {}).get('exceptions')} but templates give {hero_ex}")
 
     # 9
-    src = os.path.join(PKG, "src")
+    # the snapshot / mirror folders are recorded in the ledger (src/ + public/ for a mirror-only package; snapshots/ +
+    # mirror/public/ when the package root is a React clone); older ledgers have no field and use the defaults
+    src = os.path.join(PKG, (ledger.get("sourceProject", {}).get("snapshotFolder") or "src/").rstrip("/"))
     ledger_at = {}  # "file:start-end" -> ledger entry (the ONE element that range belongs to)
     for r in ledger["routes"]:
         for s_ in r["sections"]:
@@ -281,7 +283,7 @@ def main():
     for r, want in PINNED.items():
         if r not in roles: errs.append(f"pinned asset role '{r}' is missing from the registry")
         elif roles[r]["generationPolicy"] != want or not roles[r].get("pinned"): errs.append(f"pinned asset role '{r}' must be '{want}' (pinned), found '{roles[r]['generationPolicy']}'")
-    pub = os.path.join(PKG, "public")
+    pub = os.path.join(PKG, (ledger.get("sourceProject", {}).get("mirrorFolder") or "public/").rstrip("/"))
     # Some asset entries are not a file under public/ at all (e.g. a mailto: contact address) — real
     # evidence worth a pinned contract, but nothing to resolve on disk.
     is_virtual = lambda a: ":" in a["path"].split("/")[0] and not re.match(r"^[A-Za-z]:\\", a["path"])
@@ -309,6 +311,10 @@ def main():
         sec = secs.get(a.get("evidence", {}).get("section"), {})
         if sec.get("category") == "PROOF" or THIRD.search(a["path"]):
             errs.append(f"asset {a['path']}: role 'logo' (own brand mark) on a third-party mark; use 'customer-logo'")
+        # the site's own mark lives in its chrome, its hero or a CTA band; a mark anywhere else (an app tile in a feature
+        # grid, an integration strip) is someone else's
+        elif sec and sec.get("category") not in ("SHELL", "HERO", "CTA"):
+            errs.append(f"asset {a['path']}: role 'logo' (own brand mark) in a {sec.get('category')} section; a mark there is a third-party mark, use 'customer-logo'")
 
     # 12
     mot = schema["definitions"]["motion"]; mc_ = J("motion/motion-contract.json")

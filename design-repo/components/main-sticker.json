@@ -2,9 +2,11 @@
   "id": "main-sticker",
   "name": "Main Sticker",
   "occurrences": 1,
-  "composedOf": [],
+  "composedOf": [
+    "image"
+  ],
   "evidence": {
     "level": "measured",
-    "sampleRoute": null
+    "sampleRoute": "/"
   }
 }

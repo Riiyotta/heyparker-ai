@@ -1,58 +1,816 @@
 {
-  "kind": "mirror-only",
-  "note": "No clone exists, so there is no clone-vs-original diff. Each route below is the captured original itself (public/ + src/ snapshot); offlineRender is filled in by check.mjs.",
-  "comparison": "not-applicable",
-  "routes": [
-    {
-      "route": "/",
-      "template": "template.home",
-      "snapshot": "src/index.html",
-      "offlineRender": {
-        "ok": false,
-        "textChars": 6913,
-        "missing": 0,
-        "consoleErrors": 1,
-        "checkedAt": "2026-10-07T19:27:03.489Z"
-      }
-    },
-    {
-      "route": "/support/terms-of-service",
-      "template": "template.support",
-      "snapshot": "src/support/terms-of-service/index.html",
-      "offlineRender": {
-        "ok": false,
-        "textChars": 29578,
-        "missing": 0,
-        "consoleErrors": 1,
-        "checkedAt": "2026-10-07T19:27:04.250Z"
-      }
-    },
-    {
-      "route": "/support/privacy-policy",
-      "template": "template.support",
-      "snapshot": "src/support/privacy-policy/index.html",
-      "offlineRender": {
-        "ok": false,
-        "textChars": 36330,
-        "missing": 0,
-        "consoleErrors": 1,
-        "checkedAt": "2026-10-07T19:27:05.042Z"
-      }
-    },
-    {
-      "route": "/support/data-deletion-request",
-      "template": "template.support",
-      "snapshot": "src/support/data-deletion-request/index.html",
-      "offlineRender": {
-        "ok": false,
-        "textChars": 2495,
-        "missing": 0,
-        "consoleErrors": 1,
-        "checkedAt": "2026-10-07T19:27:05.910Z"
-      }
-    }
+  "kind": "react-clone",
+  "comparison": "live-original-vs-clone",
+  "live": "https://heyparker.ai",
+  "capturedAt": "2026-10-13T05:56:54.721Z",
+  "settleMs": 1400,
+  "method": "Both sites loaded at the same viewport and scrolled to the same offsets (one frame per viewport height, original's page height). Frames compared at 360px wide; a pixel matches when every channel is within 24/255. Route score = mean frame score x min/max page height. Section score = mean of the frames whose viewport centre falls inside the original section.",
+  "gate": 0.9,
+  "average": 0.4503,
+  "routesBelowGate": [
+    "mobile /"
   ],
-  "blockedOutboundHosts": [
-    "app.heyparker.ai"
+  "rows": [
+    {
+      "viewport": "mobile",
+      "route": "/",
+      "liveHeight": 24767,
+      "cloneHeight": 24981,
+      "heightRatio": 0.9914,
+      "frames": 30,
+      "meanFrameScore": 0.4542,
+      "score": 0.4503,
+      "belowGateSections": [
+        "Navbar @0",
+        "Tablet/ Mobile @0",
+        "Nav Wrapper @16",
+        "Logo Wrapper @26",
+        "Hero Text @0",
+        "Main @0",
+        "Hero Section @0",
+        "Sticky @0",
+        "Dummy @852",
+        "Problem Section @2118",
+        "Content @2118",
+        "Container @2198",
+        "Text @2198",
+        "Title @2198",
+        "Line @2189",
+        "Line @2256",
+        "Line @2312",
+        "Body @2414",
+        "Line @2444",
+        "Bounding box @2475",
+        "Bounding Box @2762",
+        "Ticker @2762",
+        "Sticky @2118",
+        "Dummy @2962",
+        "How it Works Section @4650",
+        "Base @4650",
+        "Text @5012",
+        "State 01 - Mobile @5012",
+        "Container @5012",
+        "Dummy @5494",
+        "How it works - Steps @6971",
+        "Sticky Container @7091",
+        "Step - 1 @7091",
+        "Title @7091",
+        "Folder @7168",
+        "Container @7208",
+        "TikTok. Reddit. Competitors. Reviews. Your ad performance. All watched. All organized. All in one place. @7445",
+        "Video Container @7208",
+        "Step - 2 @7935",
+        "Title @7935",
+        "Folder @8012",
+        "Container @8052",
+        "TikTok. Reddit. Competitors. Reviews. Your ad performance. All watched. All organized. All in one place. @8289",
+        "Video Container @8052",
+        "Step - 3 @8779",
+        "Title @8779",
+        "Folder @8856",
+        "Container @8896",
+        "TikTok. Reddit. Competitors. Reviews. Your ad performance. All watched. All organized. All in one place. @9133",
+        "Video Container @8896",
+        "Notification Section @9623",
+        "Sticky @9623",
+        "Content @9623",
+        "Container @9703",
+        "Dummy @10467",
+        "Dummy @11480",
+        "Maze Section @12493",
+        "Content @12493",
+        "Container @12681",
+        "State 01 - Mobile @12681",
+        "Container @12681",
+        "Old way - Mobile @12801",
+        "On @12811",
+        "Image Wrapper @12935",
+        "Dummy @13337",
+        "Dummy @13548",
+        "Dummy @13970",
+        "Brain Section @15025",
+        "Sticky Content @15025",
+        "Container @15145",
+        "Red @15545",
+        "Line @15203",
+        "01 @15302",
+        "Bounding Box @15302",
+        "Content @15335"
+      ],
+      "sections": [
+        {
+          "name": "Navbar",
+          "top": 0,
+          "height": 90,
+          "frames": 1,
+          "score": 0.0424
+        },
+        {
+          "name": "Tablet/ Mobile",
+          "top": 0,
+          "height": 90,
+          "frames": 1,
+          "score": 0.0424
+        },
+        {
+          "name": "Nav Wrapper",
+          "top": 16,
+          "height": 74,
+          "frames": 1,
+          "score": 0.0424
+        },
+        {
+          "name": "Logo Wrapper",
+          "top": 26,
+          "height": 54,
+          "frames": 1,
+          "score": 0.0424
+        },
+        {
+          "name": "Hero Text",
+          "top": 0,
+          "height": 844,
+          "frames": 1,
+          "score": 0.0424
+        },
+        {
+          "name": "Main",
+          "top": 0,
+          "height": 23948,
+          "frames": 28,
+          "score": 0.4406
+        },
+        {
+          "name": "Hero Section",
+          "top": 0,
+          "height": 4650,
+          "frames": 6,
+          "score": 0.2147
+        },
+        {
+          "name": "Sticky",
+          "top": 0,
+          "height": 844,
+          "frames": 1,
+          "score": 0.0424
+        },
+        {
+          "name": "Dummy",
+          "top": 852,
+          "height": 1266,
+          "frames": 2,
+          "score": 0.2359
+        },
+        {
+          "name": "Problem Section",
+          "top": 2118,
+          "height": 2532,
+          "frames": 3,
+          "score": 0.2579
+        },
+        {
+          "name": "Content",
+          "top": 2118,
+          "height": 844,
+          "frames": 1,
+          "score": 0.1046
+        },
+        {
+          "name": "Container",
+          "top": 2198,
+          "height": 644,
+          "frames": 1,
+          "score": 0.4311
+        },
+        {
+          "name": "Text",
+          "top": 2198,
+          "height": 372,
+          "frames": 1,
+          "score": 0.4311
+        },
+        {
+          "name": "Title",
+          "top": 2198,
+          "height": 175,
+          "frames": 1,
+          "score": 0.4311
+        },
+        {
+          "name": "Line",
+          "top": 2189,
+          "height": 78,
+          "frames": 1,
+          "score": 0.4311
+        },
+        {
+          "name": "Line",
+          "top": 2256,
+          "height": 59,
+          "frames": 1,
+          "score": 0.4311
+        },
+        {
+          "name": "Line",
+          "top": 2312,
+          "height": 65,
+          "frames": 1,
+          "score": 0.4311
+        },
+        {
+          "name": "Body",
+          "top": 2414,
+          "height": 157,
+          "frames": 1,
+          "score": 0.4311
+        },
+        {
+          "name": "Line",
+          "top": 2444,
+          "height": 74,
+          "frames": 1,
+          "score": 0.4311
+        },
+        {
+          "name": "Bounding box",
+          "top": 2475,
+          "height": 43,
+          "frames": 1,
+          "score": 0.4311
+        },
+        {
+          "name": "Bounding Box",
+          "top": 2762,
+          "height": 80,
+          "frames": 1,
+          "score": 0.1046
+        },
+        {
+          "name": "Ticker",
+          "top": 2762,
+          "height": 80,
+          "frames": 1,
+          "score": 0.1046
+        },
+        {
+          "name": "Sticky",
+          "top": 2118,
+          "height": 844,
+          "frames": 1,
+          "score": 0.1046
+        },
+        {
+          "name": "Dummy",
+          "top": 2962,
+          "height": 1688,
+          "frames": 2,
+          "score": 0.3346
+        },
+        {
+          "name": "How it Works Section",
+          "top": 4650,
+          "height": 4973,
+          "frames": 5,
+          "score": 0.5885
+        },
+        {
+          "name": "Base",
+          "top": 4650,
+          "height": 4973,
+          "frames": 5,
+          "score": 0.5885
+        },
+        {
+          "name": "Container",
+          "top": 4650,
+          "height": 844,
+          "frames": 1,
+          "score": 0.9264
+        },
+        {
+          "name": "Text",
+          "top": 5012,
+          "height": 120,
+          "frames": 1,
+          "score": 0.5646
+        },
+        {
+          "name": "State 01 - Mobile",
+          "top": 5012,
+          "height": 120,
+          "frames": 1,
+          "score": 0.5646
+        },
+        {
+          "name": "Container",
+          "top": 5012,
+          "height": 120,
+          "frames": 1,
+          "score": 0.5646
+        },
+        {
+          "name": "Dummy",
+          "top": 5494,
+          "height": 1477,
+          "frames": 1,
+          "score": 0.0422
+        },
+        {
+          "name": "How it works - Steps",
+          "top": 6971,
+          "height": 2652,
+          "frames": 3,
+          "score": 0.6579
+        },
+        {
+          "name": "Sticky Container",
+          "top": 7091,
+          "height": 2532,
+          "frames": 3,
+          "score": 0.6579
+        },
+        {
+          "name": "Step - 1",
+          "top": 7091,
+          "height": 844,
+          "frames": 1,
+          "score": 0.4769
+        },
+        {
+          "name": "Title",
+          "top": 7091,
+          "height": 77,
+          "frames": 1,
+          "score": 0.4769
+        },
+        {
+          "name": "Folder",
+          "top": 7168,
+          "height": 767,
+          "frames": 1,
+          "score": 0.4769
+        },
+        {
+          "name": "Container",
+          "top": 7208,
+          "height": 687,
+          "frames": 1,
+          "score": 0.4769
+        },
+        {
+          "name": "TikTok. Reddit. Competitors. Reviews. Your ad performance. All watched. All organized. All in one place.",
+          "top": 7445,
+          "height": 238,
+          "frames": 1,
+          "score": 0.4769
+        },
+        {
+          "name": "Video Container",
+          "top": 7208,
+          "height": 197,
+          "frames": 1,
+          "score": 0.4769
+        },
+        {
+          "name": "Step - 2",
+          "top": 7935,
+          "height": 844,
+          "frames": 1,
+          "score": 0.7547
+        },
+        {
+          "name": "Title",
+          "top": 7935,
+          "height": 77,
+          "frames": 1,
+          "score": 0.7547
+        },
+        {
+          "name": "Folder",
+          "top": 8012,
+          "height": 767,
+          "frames": 1,
+          "score": 0.7547
+        },
+        {
+          "name": "Container",
+          "top": 8052,
+          "height": 687,
+          "frames": 1,
+          "score": 0.7547
+        },
+        {
+          "name": "TikTok. Reddit. Competitors. Reviews. Your ad performance. All watched. All organized. All in one place.",
+          "top": 8289,
+          "height": 202,
+          "frames": 1,
+          "score": 0.7547
+        },
+        {
+          "name": "Video Container",
+          "top": 8052,
+          "height": 197,
+          "frames": 1,
+          "score": 0.7547
+        },
+        {
+          "name": "Step - 3",
+          "top": 8779,
+          "height": 844,
+          "frames": 1,
+          "score": 0.7422
+        },
+        {
+          "name": "Title",
+          "top": 8779,
+          "height": 77,
+          "frames": 1,
+          "score": 0.7422
+        },
+        {
+          "name": "Folder",
+          "top": 8856,
+          "height": 767,
+          "frames": 1,
+          "score": 0.7422
+        },
+        {
+          "name": "Container",
+          "top": 8896,
+          "height": 687,
+          "frames": 1,
+          "score": 0.7422
+        },
+        {
+          "name": "TikTok. Reddit. Competitors. Reviews. Your ad performance. All watched. All organized. All in one place.",
+          "top": 9133,
+          "height": 211,
+          "frames": 1,
+          "score": 0.7422
+        },
+        {
+          "name": "Video Container",
+          "top": 8896,
+          "height": 197,
+          "frames": 1,
+          "score": 0.7422
+        },
+        {
+          "name": "Notification Section",
+          "top": 9623,
+          "height": 2870,
+          "frames": 4,
+          "score": 0.294
+        },
+        {
+          "name": "Sticky",
+          "top": 9623,
+          "height": 844,
+          "frames": 1,
+          "score": 0.351
+        },
+        {
+          "name": "Content",
+          "top": 9623,
+          "height": 844,
+          "frames": 1,
+          "score": 0.351
+        },
+        {
+          "name": "Container",
+          "top": 9703,
+          "height": 223,
+          "frames": 1,
+          "score": 0.351
+        },
+        {
+          "name": "Dummy",
+          "top": 10467,
+          "height": 1013,
+          "frames": 2,
+          "score": 0.0423
+        },
+        {
+          "name": "Dummy",
+          "top": 11480,
+          "height": 1013,
+          "frames": 1,
+          "score": 0.7402
+        },
+        {
+          "name": "Maze Section",
+          "top": 12493,
+          "height": 6752,
+          "frames": 8,
+          "score": 0.4272
+        },
+        {
+          "name": "Content",
+          "top": 12493,
+          "height": 844,
+          "frames": 1,
+          "score": 0.0473
+        },
+        {
+          "name": "Container",
+          "top": 12681,
+          "height": 627,
+          "frames": 1,
+          "score": 0.0473
+        },
+        {
+          "name": "State 01 - Mobile",
+          "top": 12681,
+          "height": 100,
+          "frames": 1,
+          "score": 0.0473
+        },
+        {
+          "name": "Container",
+          "top": 12681,
+          "height": 100,
+          "frames": 1,
+          "score": 0.0473
+        },
+        {
+          "name": "Old way - Mobile",
+          "top": 12801,
+          "height": 507,
+          "frames": 1,
+          "score": 0.0473
+        },
+        {
+          "name": "On",
+          "top": 12811,
+          "height": 59,
+          "frames": 1,
+          "score": 0.0473
+        },
+        {
+          "name": "Image Wrapper",
+          "top": 12935,
+          "height": 364,
+          "frames": 1,
+          "score": 0.0473
+        },
+        {
+          "name": "Dummy",
+          "top": 13337,
+          "height": 211,
+          "frames": 1,
+          "score": 0.0473
+        },
+        {
+          "name": "Dummy",
+          "top": 13548,
+          "height": 422,
+          "frames": 1,
+          "score": 0.048
+        },
+        {
+          "name": "Dummy",
+          "top": 13970,
+          "height": 211,
+          "frames": 1,
+          "score": 0.048
+        },
+        {
+          "name": "Dummy",
+          "top": 14181,
+          "height": 844,
+          "frames": 1,
+          "score": 0.9394
+        },
+        {
+          "name": "Brain Section",
+          "top": 15025,
+          "height": 4220,
+          "frames": 5,
+          "score": 0.4765
+        },
+        {
+          "name": "Sticky Content",
+          "top": 15025,
+          "height": 844,
+          "frames": 1,
+          "score": 0.691
+        },
+        {
+          "name": "Container",
+          "top": 15145,
+          "height": 724,
+          "frames": 1,
+          "score": 0.691
+        },
+        {
+          "name": "Red",
+          "top": 15545,
+          "height": 1440,
+          "frames": 2,
+          "score": 0.5895
+        },
+        {
+          "name": "Text",
+          "top": 15145,
+          "height": 238,
+          "frames": 1,
+          "score": 0.9394
+        },
+        {
+          "name": "Title",
+          "top": 15145,
+          "height": 117,
+          "frames": 1,
+          "score": 0.9394
+        },
+        {
+          "name": "Line",
+          "top": 15138,
+          "height": 72,
+          "frames": 1,
+          "score": 0.9394
+        },
+        {
+          "name": "Line",
+          "top": 15203,
+          "height": 59,
+          "frames": 1,
+          "score": 0.691
+        },
+        {
+          "name": "01",
+          "top": 15302,
+          "height": 82,
+          "frames": 1,
+          "score": 0.691
+        },
+        {
+          "name": "Bounding Box",
+          "top": 15302,
+          "height": 82,
+          "frames": 1,
+          "score": 0.691
+        },
+        {
+          "name": "Content",
+          "top": 15335,
+          "height": 534,
+          "frames": 1,
+          "score": 0.691
+        }
+      ],
+      "frameScores": [
+        {
+          "i": 0,
+          "y": 0,
+          "score": 0.0424
+        },
+        {
+          "i": 1,
+          "y": 844,
+          "score": 0.0408
+        },
+        {
+          "i": 2,
+          "y": 1688,
+          "score": 0.4311
+        },
+        {
+          "i": 3,
+          "y": 2532,
+          "score": 0.1046
+        },
+        {
+          "i": 4,
+          "y": 3376,
+          "score": 0.1046
+        },
+        {
+          "i": 5,
+          "y": 4220,
+          "score": 0.5646
+        },
+        {
+          "i": 6,
+          "y": 5064,
+          "score": 0.9264
+        },
+        {
+          "i": 7,
+          "y": 5908,
+          "score": 0.0422
+        },
+        {
+          "i": 8,
+          "y": 6752,
+          "score": 0.4769
+        },
+        {
+          "i": 9,
+          "y": 7596,
+          "score": 0.7547
+        },
+        {
+          "i": 10,
+          "y": 8440,
+          "score": 0.7422
+        },
+        {
+          "i": 11,
+          "y": 9284,
+          "score": 0.351
+        },
+        {
+          "i": 12,
+          "y": 10128,
+          "score": 0.045
+        },
+        {
+          "i": 13,
+          "y": 10972,
+          "score": 0.0397
+        },
+        {
+          "i": 14,
+          "y": 11816,
+          "score": 0.7402
+        },
+        {
+          "i": 15,
+          "y": 12660,
+          "score": 0.0473
+        },
+        {
+          "i": 16,
+          "y": 13504,
+          "score": 0.048
+        },
+        {
+          "i": 17,
+          "y": 14348,
+          "score": 0.9394
+        },
+        {
+          "i": 18,
+          "y": 15192,
+          "score": 0.691
+        },
+        {
+          "i": 19,
+          "y": 16036,
+          "score": 0.488
+        },
+        {
+          "i": 20,
+          "y": 16880,
+          "score": 0.4505
+        },
+        {
+          "i": 21,
+          "y": 17724,
+          "score": 0.3631
+        },
+        {
+          "i": 22,
+          "y": 18568,
+          "score": 0.3901
+        },
+        {
+          "i": 23,
+          "y": 19412,
+          "score": 0.8938
+        },
+        {
+          "i": 24,
+          "y": 20256,
+          "score": 0.8169
+        },
+        {
+          "i": 25,
+          "y": 21100,
+          "score": 0.8313
+        },
+        {
+          "i": 26,
+          "y": 21944,
+          "score": 0.41
+        },
+        {
+          "i": 27,
+          "y": 22788,
+          "score": 0.5604
+        },
+        {
+          "i": 28,
+          "y": 23632,
+          "score": 0.5888
+        },
+        {
+          "i": 29,
+          "y": 24476,
+          "score": 0.7022
+        }
+      ]
+    }
   ]
 }

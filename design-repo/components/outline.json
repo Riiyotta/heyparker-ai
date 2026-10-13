@@ -2,9 +2,12 @@
   "id": "outline",
   "name": "Outline",
   "occurrences": 1,
-  "composedOf": [],
+  "composedOf": [
+    "link",
+    "paragraph"
+  ],
   "evidence": {
     "level": "measured",
-    "sampleRoute": null
+    "sampleRoute": "/"
   }
 }

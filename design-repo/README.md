@@ -6,7 +6,7 @@ for what a generator may and may not reproduce.
 
 ## Counts
 
-- Sections: 12
+- Sections: 15
 - Templates: 2
 - Routes: 4
 - Primitives: 11
@@ -40,10 +40,6 @@ site's own mark only. Use explicit placeholders for the rest, and do not publish
 `schema/example.pagespec.json` plus one real-copy PageSpec per template in `schema/examples/` (all validated by `verify_all.py`).
 
 ## Admit this repo
-
-Requires Python 3 with **`jsonschema`** (`pip3 install jsonschema`). Both scripts validate
-against Draft-07 and exit `1` on `ModuleNotFoundError` without it — a missing dependency
-reads as a failing suite, not a skipped one.
 
 ```
 python3 extraction/verify_all.py      # files, entryPoints, counts, parity, citations, pinned policies, schema, adversarial suite

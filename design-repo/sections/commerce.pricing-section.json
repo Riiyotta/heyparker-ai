@@ -19,6 +19,17 @@
       "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
     }
   },
+  "source": {
+    "id": "Pricing Section",
+    "tag": "div",
+    "lines": "snapshots/index.html:1200-1540",
+    "anchor": "id=\"pricing\"",
+    "nameSource": "data-attr"
+  },
+  "semantic": {
+    "id": "commerce.pricing-section",
+    "category": "COMMERCE"
+  },
   "purpose": "Presents pricing and plans so the visitor can choose. Headline \"Plans built for\". 3 items (\"Starter\", \"Growth\", \"Scale\"). Actions: \"Get Starter Get Starter\", \"Get Growth Get Growth\", \"Get Scale Get Scale\".",
   "purposeIsInferred": true,
   "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
@@ -28,7 +39,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/index.html:1200-1540"
+      "snapshots/index.html:1200-1540"
     ]
   },
   "content": {
@@ -76,7 +87,7 @@
     "reducedMotionFallback": "disable-animation",
     "reducedMotionEvidence": {
       "basis": "measured-script",
-      "script": "public/index.html",
+      "script": "mirror/public/index.html",
       "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
     }
   },

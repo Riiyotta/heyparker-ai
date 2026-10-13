@@ -1,7 +1,7 @@
 {
   "kind": "mirror-only",
   "note": "Every asset captured from the live site, with its role and whether a generator may reuse it. Files are under public/. Source of truth: design-repo/assets/asset-roles.json.",
-  "source": "https://heyparker.ai/",
+  "source": "https://heyparker.ai",
   "assets": [
     {
       "path": "_ext/framerusercontent.com/assets/E6CavJPW2nfqknaXryIRmVrBf0.mp4",
@@ -991,8 +991,35 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/Qp5qGjEaKVzkJayGggWlfgppcP4__cf803f67.png",
+      "bytes": 267970,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/v8Du2YPZU6OQzHqudpuDpyoefg__7a9ac7fa.png",
       "bytes": 267643,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/GO7CZmmQrXA6x0k7YEXjRk7E8__cf803f67.png",
+      "bytes": 262607,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/rQsi0kadjppaY0bTApVSJo0Jxs__cf803f67.png",
+      "bytes": 261863,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -1009,8 +1036,26 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/mIGRV6Lo6YAuE5JKmnQ2slwiHE__cf803f67.png",
+      "bytes": 261612,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/19CTzCEIF9C7JTkVOPqwaImuG70__7334ff74.png",
       "bytes": 260286,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/qDCn3eyyGgR2GSPDAsjbFUReeI__cf803f67.png",
+      "bytes": 259572,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -1036,8 +1081,35 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/r2ENU0qRBktEWNhCtzqlesA704__cf803f67.png",
+      "bytes": 258367,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/mZ3sBqK43RRriODqWtNxIx8eDco__cf803f67.png",
       "bytes": 257249,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/6VOPTYAJqv5d6f1kLZA417V2MQ__cf803f67.png",
+      "bytes": 256658,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/rJMY3g9Or4YLCYjljpbokLZWP0__cf803f67.png",
+      "bytes": 255009,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -1092,6 +1164,24 @@
     {
       "path": "_ext/framerusercontent.com/images/caL3oZCXlTkdk9sf3Rgj0QXcC9M__7a9ac7fa.png",
       "bytes": 233726,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/N765RBOnzOCKxtxxvP13xiA__cf803f67.png",
+      "bytes": 232742,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/JTjSmpn8bgEOck2zgwb94nlzEhE__cf803f67.png",
+      "bytes": 231981,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -1207,6 +1297,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/MO1ZpwodIJpkxvBBYA5Cxy7Br0__cf803f67.png",
+      "bytes": 186705,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/u9wooXsoNfBBAtuSA8g4lSYTGjc__7334ff74.png",
       "bytes": 186177,
       "role": "content-image",
@@ -1245,6 +1344,15 @@
     {
       "path": "_ext/framerusercontent.com/images/ueN2ICVeZGjqDCZ0BAA6Dz4RdlU__7a9ac7fa.png",
       "bytes": 172117,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/19CTzCEIF9C7JTkVOPqwaImuG70__cf803f67.png",
+      "bytes": 171917,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -1362,6 +1470,15 @@
     {
       "path": "_ext/framerusercontent.com/images/WYa2TV937NUkT2cHqMOYdaZYQ__2f24c934.png",
       "bytes": 155086,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/43NZgpwaJcNekq9Ak9PhyNZyT3Q__cf803f67.png",
+      "bytes": 152820,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -1558,6 +1675,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/u9wooXsoNfBBAtuSA8g4lSYTGjc__cf803f67.png",
+      "bytes": 131675,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/zqV3nqNlt5f6Ds8vMTpbA7H4mU__2f24c934.png",
       "bytes": 129312,
       "role": "content-image",
@@ -1684,6 +1810,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/4DHH5hIgOHi7F9cnBDYgWo26yiY__cf803f67.png",
+      "bytes": 117048,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/OGT4Sfh4W1pwlp1IhfeVc8EqI__7a9ac7fa.png",
       "bytes": 115119,
       "role": "content-image",
@@ -1794,6 +1929,15 @@
     {
       "path": "_ext/framerusercontent.com/images/uqCbHB1FsUQCfd6lEP32QxDAVk__2f24c934.png",
       "bytes": 102937,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/gFZduDIEoXftlox2nb8IkwbpNjU__cf803f67.png",
+      "bytes": 102590,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -1936,6 +2080,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/x2nYELlzNRWlOnxy7vRqqz7vBGo__cf803f67.png",
+      "bytes": 86824,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/KLXfK1L3iQDl6kkOq72kBWI1o__7334ff74.png",
       "bytes": 86475,
       "role": "content-image",
@@ -1965,6 +2118,15 @@
     {
       "path": "_ext/framerusercontent.com/images/CKi9kQyA13WvHnvGXmcZkIr1hU__66e47bf6.png",
       "bytes": 84940,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/RYlsMy08Hqi2682Rjy7e6knRS1g__cf803f67.png",
+      "bytes": 83913,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -2005,7 +2167,7 @@
       "generationPolicy": "may-generate-new",
       "evidence": {
         "route": "/",
-        "section": "content.maze-section",
+        "section": "content.brain-section",
         "rendered": "1280x564"
       }
     },
@@ -2021,6 +2183,15 @@
     {
       "path": "_ext/framerusercontent.com/images/sxaImyxYDxV8AzN1C9YEBI8Kw__66e47bf6.png",
       "bytes": 76203,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/jg3jctyw5nJJUgqvHeXOItUi0__cf803f67.png",
+      "bytes": 76197,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -2100,8 +2271,26 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/ANkoZZ2vlac8M3DNVqzV7OiLYSI__cf803f67.png",
+      "bytes": 69569,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/OoGTGVJpzgn9K85mrO4IU5aojY__2f24c934.png",
       "bytes": 69452,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/YDWtXpn5tyFgubnvlU5rl7JX0__cf803f67.png",
+      "bytes": 69112,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -2127,8 +2316,26 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/IJ167CJLvYELLuQVE7aVClSwiHc__cf803f67.png",
+      "bytes": 66130,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/x0eI1X5YCito0LciRllqlN8osI__7334ff74.png",
       "bytes": 65103,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/KLXfK1L3iQDl6kkOq72kBWI1o__cf803f67.png",
+      "bytes": 64745,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -2280,6 +2487,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/x0eI1X5YCito0LciRllqlN8osI__cf803f67.png",
+      "bytes": 59900,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/ylfHOeVaeOBMVdLjOZG3b5FQ8Bg__7a9ac7fa.png",
       "bytes": 59881,
       "role": "content-image",
@@ -2370,15 +2586,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/rJMY3g9Or4YLCYjljpbokLZWP0__cf803f67.png",
-      "bytes": 58487,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/c7VabAFH4XunCWjMzZv5dhbOtw__7a9ac7fa.png",
       "bytes": 58149,
       "role": "content-image",
@@ -2415,15 +2622,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/rQsi0kadjppaY0bTApVSJo0Jxs__cf803f67.png",
-      "bytes": 57051,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/8qz4zp2QEQIeY8qkOA9dQ6cb0U__7334ff74.png",
       "bytes": 56979,
       "role": "content-image",
@@ -2444,15 +2642,6 @@
     {
       "path": "_ext/framerusercontent.com/images/7gmD44GCPA9Gau6NcrvhThJHo__cf803f67.png",
       "bytes": 56799,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/qDCn3eyyGgR2GSPDAsjbFUReeI__cf803f67.png",
-      "bytes": 56797,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -2496,15 +2685,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/JTjSmpn8bgEOck2zgwb94nlzEhE__cf803f67.png",
-      "bytes": 55174,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/QIWYUOkpSSlaHSCbys0xv8iWkPw__cf803f67.png",
       "bytes": 55133,
       "role": "content-image",
@@ -2541,8 +2721,8 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/mIGRV6Lo6YAuE5JKmnQ2slwiHE__cf803f67.png",
-      "bytes": 53989,
+      "path": "_ext/framerusercontent.com/images/G8ggYoNITkyYyYwArrSiyPLxhs4__cf803f67.png",
+      "bytes": 54655,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -2552,15 +2732,6 @@
     {
       "path": "_ext/framerusercontent.com/images/3u71Dt8ntS8MEJuaJKwMQcfpdI__7a9ac7fa.png",
       "bytes": 53855,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/r2ENU0qRBktEWNhCtzqlesA704__cf803f67.png",
-      "bytes": 53804,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -2586,26 +2757,8 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/GO7CZmmQrXA6x0k7YEXjRk7E8__cf803f67.png",
-      "bytes": 53700,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/fP7ZUJGJR1mE8emE58YU5xERnNk__7a9ac7fa.png",
       "bytes": 53687,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/Qp5qGjEaKVzkJayGggWlfgppcP4__cf803f67.png",
-      "bytes": 53673,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -2685,26 +2838,8 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/6VOPTYAJqv5d6f1kLZA417V2MQ__cf803f67.png",
-      "bytes": 52356,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/W0xQLOLFMn5X1XbOYZydxZ5c__7a9ac7fa.png",
       "bytes": 52288,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/x2nYELlzNRWlOnxy7vRqqz7vBGo__cf803f67.png",
-      "bytes": 52279,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -2804,15 +2939,6 @@
     {
       "path": "_ext/framerusercontent.com/images/cNISPc5WDtEDfeyT44SnbYAOAR4__2f24c934.png",
       "bytes": 51101,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/N765RBOnzOCKxtxxvP13xiA__cf803f67.png",
-      "bytes": 51064,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -2991,15 +3117,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/IJ167CJLvYELLuQVE7aVClSwiHc__cf803f67.png",
-      "bytes": 49283,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/dPAUO9erl2yFlMWkZQcyxlRI__7334ff74.png",
       "bytes": 49141,
       "role": "content-image",
@@ -3011,15 +3128,6 @@
     {
       "path": "_ext/framerusercontent.com/images/n7txQwzGGe29fJgGD6tYUAZAA__cf803f67.png",
       "bytes": 49128,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/gFZduDIEoXftlox2nb8IkwbpNjU__cf803f67.png",
-      "bytes": 48888,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3074,15 +3182,6 @@
     {
       "path": "_ext/framerusercontent.com/images/G8ggYoNITkyYyYwArrSiyPLxhs4__7334ff74.png",
       "bytes": 48181,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/dPAUO9erl2yFlMWkZQcyxlRI__cf803f67.png",
-      "bytes": 48051,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3180,8 +3279,35 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/KPaSMY8s8PamOO68V6agSYLPd0c__cf803f67.png",
+      "bytes": 46845,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/dPAUO9erl2yFlMWkZQcyxlRI__cf803f67.png",
+      "bytes": 46548,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/dbYHyfanqpTfxZzCV1FEvLFyBMM__7a9ac7fa.png",
       "bytes": 46061,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/zXcvcKSRjgDyl2jFCpiXgA4eqDg__cf803f67.png",
+      "bytes": 46055,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3261,8 +3387,8 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/G8ggYoNITkyYyYwArrSiyPLxhs4__cf803f67.png",
-      "bytes": 45410,
+      "path": "_ext/framerusercontent.com/images/wvTcOi9qpJd3lvBnelzJfF8gSM4__cf803f67.png",
+      "bytes": 45340,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3297,15 +3423,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/x0eI1X5YCito0LciRllqlN8osI__cf803f67.png",
-      "bytes": 44886,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/hsm2ip6jq8fg2whTpEdCoIgO8YM__66e47bf6.png",
       "bytes": 44846,
       "role": "content-image",
@@ -3326,15 +3443,6 @@
     {
       "path": "_ext/framerusercontent.com/images/hqGINXUwlTNLxWkZJsMxvb8iA0__7334ff74.png",
       "bytes": 44615,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/MO1ZpwodIJpkxvBBYA5Cxy7Br0__cf803f67.png",
-      "bytes": 44518,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3378,8 +3486,8 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/eEJ1eMZqON7FqezFBtgPnLN1ZU__7a9ac7fa.png",
-      "bytes": 43483,
+      "path": "_ext/framerusercontent.com/images/Fpot5PXDbGrZNZTNOSDCryMKWE__cf803f67.png",
+      "bytes": 43560,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3387,8 +3495,17 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/ANkoZZ2vlac8M3DNVqzV7OiLYSI__cf803f67.png",
-      "bytes": 43356,
+      "path": "_ext/framerusercontent.com/images/hqGINXUwlTNLxWkZJsMxvb8iA0__cf803f67.png",
+      "bytes": 43521,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/eEJ1eMZqON7FqezFBtgPnLN1ZU__7a9ac7fa.png",
+      "bytes": 43483,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3441,15 +3558,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/wvTcOi9qpJd3lvBnelzJfF8gSM4__cf803f67.png",
-      "bytes": 42729,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/fonts.gstatic.com/s/radiocanada/v26/XRXT3ISXn0dBMcibU6jlAqrddhoC.woff2",
       "bytes": 42616,
       "role": "font",
@@ -3468,17 +3576,8 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/KPaSMY8s8PamOO68V6agSYLPd0c__cf803f67.png",
-      "bytes": 42544,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/zXcvcKSRjgDyl2jFCpiXgA4eqDg__cf803f67.png",
-      "bytes": 42331,
+      "path": "_ext/framerusercontent.com/images/NhIJ2Z8HjDFVC4w0ue6thoIeso__cf803f67.png",
+      "bytes": 42482,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3497,6 +3596,15 @@
     {
       "path": "_ext/framerusercontent.com/images/nl6nbOQfOtuZhTGKAZgyBUMtn8o__7a9ac7fa.png",
       "bytes": 42145,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/8qz4zp2QEQIeY8qkOA9dQ6cb0U__cf803f67.png",
+      "bytes": 42100,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3531,6 +3639,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/w24HsYaX6oxb03kmpkZhwpAWMo__cf803f67.png",
+      "bytes": 41560,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/zMckSiEZaM8ZV77eowrBMzvw__7a9ac7fa.png",
       "bytes": 41441,
       "role": "content-image",
@@ -3551,15 +3668,6 @@
     {
       "path": "_ext/framerusercontent.com/images/JzWUv38szLh6ypGYsSfA9NRrA__66e47bf6.png",
       "bytes": 41430,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/hqGINXUwlTNLxWkZJsMxvb8iA0__cf803f67.png",
-      "bytes": 41231,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3657,15 +3765,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/19CTzCEIF9C7JTkVOPqwaImuG70__cf803f67.png",
-      "bytes": 40138,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/hlNdcFf3CAI4jzgHy6ur11GsfjQ__7a9ac7fa.png",
       "bytes": 40109,
       "role": "content-image",
@@ -3684,8 +3783,8 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/YDWtXpn5tyFgubnvlU5rl7JX0__cf803f67.png",
-      "bytes": 40027,
+      "path": "_ext/framerusercontent.com/images/zTX15aQ8Pktdv73Jni1QyQVF3r4__cf803f67.png",
+      "bytes": 39782,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3792,24 +3891,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/KLXfK1L3iQDl6kkOq72kBWI1o__cf803f67.png",
-      "bytes": 37993,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/RYlsMy08Hqi2682Rjy7e6knRS1g__cf803f67.png",
-      "bytes": 37832,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/QyLjIKdzEhWq94YVPFUtO6cQso__7a9ac7fa.png",
       "bytes": 37736,
       "role": "content-image",
@@ -3846,35 +3927,8 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/43NZgpwaJcNekq9Ak9PhyNZyT3Q__cf803f67.png",
-      "bytes": 37477,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/I9jW7MmSUIzGdSYJkfVL8654EuQ__7a9ac7fa.png",
       "bytes": 37156,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/w24HsYaX6oxb03kmpkZhwpAWMo__cf803f67.png",
-      "bytes": 37048,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/NhIJ2Z8HjDFVC4w0ue6thoIeso__cf803f67.png",
-      "bytes": 37015,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3918,17 +3972,8 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/zTX15aQ8Pktdv73Jni1QyQVF3r4__cf803f67.png",
-      "bytes": 36411,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/eXPEAIHCjBhf0bNAee9IpsqtbFI__cf803f67.png",
-      "bytes": 36402,
+      "bytes": 36477,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3945,8 +3990,8 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/ZsGfbge7bvf4lpymAqPekEPGlKo__cf803f67.png",
-      "bytes": 36279,
+      "path": "_ext/framerusercontent.com/images/i5dPRQGsn8DgMRYcytQtARk8dEY__7a9ac7fa.png",
+      "bytes": 36192,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3954,8 +3999,8 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/i5dPRQGsn8DgMRYcytQtARk8dEY__7a9ac7fa.png",
-      "bytes": 36192,
+      "path": "_ext/framerusercontent.com/images/LSVZpwDSB6F0gqAoDkzQBpvgoV4__cf803f67.png",
+      "bytes": 35916,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -3999,6 +4044,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/ZsGfbge7bvf4lpymAqPekEPGlKo__cf803f67.png",
+      "bytes": 35381,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/VvpgSfv2gO0dVsiC74sa3QSTeM__66e47bf6.png",
       "bytes": 35047,
       "role": "content-image",
@@ -4019,15 +4073,6 @@
     {
       "path": "_ext/framerusercontent.com/images/76htoPfRMjfGUxXAEdCYttVavw__7a9ac7fa.png",
       "bytes": 34659,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/u9wooXsoNfBBAtuSA8g4lSYTGjc__cf803f67.png",
-      "bytes": 34419,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -4082,15 +4127,6 @@
     {
       "path": "_ext/framerusercontent.com/images/HAyVwBrATrW5SiTimqngwwa70GU__66e47bf6.png",
       "bytes": 33786,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/Fpot5PXDbGrZNZTNOSDCryMKWE__cf803f67.png",
-      "bytes": 33638,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -4181,6 +4217,15 @@
     {
       "path": "_ext/framerusercontent.com/images/ptq2HP5xCKt9GwRIfsvEtCSxjE__7a9ac7fa.png",
       "bytes": 32797,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/3QXyhg5qyx3XBWO90e2aMCW5ATQ__cf803f67.png",
+      "bytes": 32713,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -4343,15 +4388,6 @@
     {
       "path": "_ext/framerusercontent.com/images/5FGK50zin8KYye8Xh3hYVpWIk__66e47bf6.png",
       "bytes": 31192,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/4DHH5hIgOHi7F9cnBDYgWo26yiY__cf803f67.png",
-      "bytes": 31141,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -4530,15 +4566,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/jg3jctyw5nJJUgqvHeXOItUi0__cf803f67.png",
-      "bytes": 29858,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/7HT76s7qGNxBARbkK5SJkJVB8__2f24c934.png",
       "bytes": 29843,
       "role": "content-image",
@@ -4584,24 +4611,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/Gn3xDHGzRs7PbgdmJmK69NgmdU__cf803f67.png",
-      "bytes": 29597,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/gOG8OHv9KCbs6FDOInIGPIynQOA__cf803f67.png",
-      "bytes": 29575,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/Gn3xDHGzRs7PbgdmJmK69NgmdU__7334ff74.png",
       "bytes": 29536,
       "role": "content-image",
@@ -4622,15 +4631,6 @@
     {
       "path": "_ext/framerusercontent.com/images/JAnfSJI2ACvlgo9k0BZMc5SCw__7334ff74.png",
       "bytes": 29430,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/3QXyhg5qyx3XBWO90e2aMCW5ATQ__cf803f67.png",
-      "bytes": 29424,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -4856,6 +4856,15 @@
     {
       "path": "_ext/framerusercontent.com/images/HGzsHez9BnnGRELRJHhjKB97hFM__2f24c934.png",
       "bytes": 27810,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/gOG8OHv9KCbs6FDOInIGPIynQOA__cf803f67.png",
+      "bytes": 27775,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -5106,15 +5115,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/8qz4zp2QEQIeY8qkOA9dQ6cb0U__cf803f67.png",
-      "bytes": 25993,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/assets/r0mv3NegmA0akcQsNFotG32Las.woff2",
       "bytes": 25972,
       "role": "font",
@@ -5162,6 +5162,15 @@
     {
       "path": "_ext/framerusercontent.com/images/hgBISEzdVsxAvSXxIS8RR4Qh5c__2f24c934.png",
       "bytes": 25588,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/Gn3xDHGzRs7PbgdmJmK69NgmdU__cf803f67.png",
+      "bytes": 25586,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -5556,6 +5565,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/RjeMAoZVBR95rNSUkiGJvkclM__cf803f67.png",
+      "bytes": 23342,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/L6e0M4nI1z7bT48M42Z1viwTe0Q__2f24c934.png",
       "bytes": 22656,
       "role": "content-image",
@@ -5576,15 +5594,6 @@
     {
       "path": "_ext/framerusercontent.com/images/30JZJfIQ9Y7EC4va1fEiOrK9Uog__2f24c934.png",
       "bytes": 22451,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/LSVZpwDSB6F0gqAoDkzQBpvgoV4__cf803f67.png",
-      "bytes": 22437,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -5648,6 +5657,15 @@
     {
       "path": "_ext/framerusercontent.com/images/QRJDFlw4w0th5EzOobmeOF6IEU__2f24c934.png",
       "bytes": 22067,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/CYjf7x79c15dEcJr32W3pzERiQ__cf803f67.png",
+      "bytes": 22064,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -6843,6 +6861,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/Yk6AKIUz2jjXgeA26uqu2FVYcp8__cf803f67.png",
+      "bytes": 15420,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/644Kmh2EdRTgJzlOpL0noxaoZ1Y__2f24c934.png",
       "bytes": 15387,
       "role": "content-image",
@@ -7014,15 +7041,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/RjeMAoZVBR95rNSUkiGJvkclM__cf803f67.png",
-      "bytes": 14978,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/iQVtKmb0fy6inq4ZLzGx2dPF1s__7a9ac7fa.png",
       "bytes": 14963,
       "role": "content-image",
@@ -7088,6 +7106,15 @@
     {
       "path": "_ext/framerusercontent.com/images/Rmh1p9FfoR4TlUTCSsCsxR0Lqr0__66e47bf6.png",
       "bytes": 14792,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/QMCbNnPEG4fS1tKYNAjbRTXE__cf803f67.png",
+      "bytes": 14776,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -7187,6 +7214,15 @@
     {
       "path": "_ext/framerusercontent.com/images/rANqUphQdMpKaHgL3w1jxMbvuLQ__cf803f67.png",
       "bytes": 14283,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/hJltvaT7uez7IfgCreMVle4TE__cf803f67.png",
+      "bytes": 14221,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -7311,6 +7347,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/3EfxkDVMpIewvwiaJXlRqrQ6GQ4__cf803f67.png",
+      "bytes": 14029,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/wMAuFhIJe430Nl1C5BZsfAqmIc__66e47bf6.png",
       "bytes": 13990,
       "role": "content-image",
@@ -7374,15 +7419,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/CYjf7x79c15dEcJr32W3pzERiQ__cf803f67.png",
-      "bytes": 13767,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/MNa6iIrHIZHPq1yex35KoEPdixw__66e47bf6.png",
       "bytes": 13743,
       "role": "content-image",
@@ -7430,6 +7466,15 @@
     {
       "path": "_ext/framerusercontent.com/images/LBPKV9bxDg36ySTdJdA9znFO13k__66e47bf6.png",
       "bytes": 13680,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/vW5qms2pKWEwLFCBz2uDqmeRWco__cf803f67.png",
+      "bytes": 13673,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -7725,7 +7770,7 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/OTMyb7XX568o8n4pJjhSLj8Ong__f8794d6c.svg",
+      "path": "_ext/framerusercontent.com/images/OTMyb7XX568o8n4pJjhSLj8Ong__acf42ea2.svg",
       "bytes": 12222,
       "role": "icon",
       "generationPolicy": "may-generate-new",
@@ -7734,7 +7779,7 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/OTMyb7XX568o8n4pJjhSLj8Ong__acf42ea2.svg",
+      "path": "_ext/framerusercontent.com/images/OTMyb7XX568o8n4pJjhSLj8Ong__f8794d6c.svg",
       "bytes": 12222,
       "role": "icon",
       "generationPolicy": "may-generate-new",
@@ -8292,6 +8337,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/yCfrYodXeM4Ex6ejKHglMBP89Y__cf803f67.png",
+      "bytes": 10259,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/pdJEF1aU9dm7JEgjvuoJveClHmw__2f24c934.png",
       "bytes": 10118,
       "role": "content-image",
@@ -8339,15 +8393,6 @@
     {
       "path": "_ext/framerusercontent.com/images/erhKFCIaWcaFHXSMbzBZH5G8Uc__7334ff74.png",
       "bytes": 9928,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/3EfxkDVMpIewvwiaJXlRqrQ6GQ4__cf803f67.png",
-      "bytes": 9830,
       "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
@@ -8454,15 +8499,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/vW5qms2pKWEwLFCBz2uDqmeRWco__cf803f67.png",
-      "bytes": 9466,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/assets/05KsVHGDmqXSBXM4yRZ65P8i0s.woff2",
       "bytes": 9444,
       "role": "font",
@@ -8555,15 +8591,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/Yk6AKIUz2jjXgeA26uqu2FVYcp8__cf803f67.png",
-      "bytes": 9058,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/c2VZHisNza7TwXempFRPAfVtZXk__66e47bf6.png",
       "bytes": 9001,
       "role": "content-image",
@@ -8604,15 +8631,6 @@
       "bytes": 8892,
       "role": "font",
       "generationPolicy": "must-reuse-exact",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/hJltvaT7uez7IfgCreMVle4TE__cf803f67.png",
-      "bytes": 8876,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
       "evidence": {
         "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
       }
@@ -8687,15 +8705,6 @@
       "bytes": 8716,
       "role": "font",
       "generationPolicy": "must-reuse-exact",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/QMCbNnPEG4fS1tKYNAjbRTXE__cf803f67.png",
-      "bytes": 8693,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
       "evidence": {
         "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
       }
@@ -9009,6 +9018,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/erhKFCIaWcaFHXSMbzBZH5G8Uc__cf803f67.png",
+      "bytes": 7290,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/assets/cdAe8hgZ1cMyLu9g005pAW3xMo.woff2",
       "bytes": 7228,
       "role": "font",
@@ -9213,15 +9231,6 @@
       "bytes": 6528,
       "role": "font",
       "generationPolicy": "must-reuse-exact",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/yCfrYodXeM4Ex6ejKHglMBP89Y__cf803f67.png",
-      "bytes": 6479,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
       "evidence": {
         "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
       }
@@ -9544,15 +9553,6 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/erhKFCIaWcaFHXSMbzBZH5G8Uc__cf803f67.png",
-      "bytes": 4170,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/assets/b6Y37FthZeALduNqHicBT6FutY.woff2",
       "bytes": 4168,
       "role": "font",
@@ -9685,7 +9685,7 @@
       "generationPolicy": "may-generate-new",
       "evidence": {
         "route": "/",
-        "section": "support.framer-ktez73-container",
+        "section": "shell.footer",
         "rendered": "240x380"
       }
     },
@@ -9845,6 +9845,15 @@
       }
     },
     {
+      "path": "_ext/framerusercontent.com/images/orBBHHkyWoKNQl0evBsTgJ8K8__cf803f67.png",
+      "bytes": 2417,
+      "role": "content-image",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
+      }
+    },
+    {
       "path": "_ext/framerusercontent.com/images/ONWWxFoijnt4GMx9hpG8DMMqyGI__2f24c934.png",
       "bytes": 2415,
       "role": "content-image",
@@ -9905,7 +9914,7 @@
       "generationPolicy": "may-generate-new",
       "evidence": {
         "route": "/",
-        "section": "hero.hero-section",
+        "section": "content.problem-section",
         "rendered": "160x160"
       }
     },
@@ -9916,7 +9925,7 @@
       "generationPolicy": "may-generate-new",
       "evidence": {
         "route": "/",
-        "section": "support.framer-ktez73-container",
+        "section": "shell.footer",
         "rendered": "240x247"
       }
     },
@@ -9954,7 +9963,7 @@
       "generationPolicy": "may-generate-new",
       "evidence": {
         "route": "/",
-        "section": "support.framer-ktez73-container",
+        "section": "shell.footer",
         "rendered": "240x247"
       }
     },
@@ -9983,7 +9992,7 @@
       "generationPolicy": "may-generate-new",
       "evidence": {
         "route": "/",
-        "section": "support.framer-ktez73-container",
+        "section": "shell.footer",
         "rendered": "240x380"
       }
     },
@@ -10032,7 +10041,7 @@
       "generationPolicy": "may-generate-new",
       "evidence": {
         "route": "/",
-        "section": "hero.hero-section",
+        "section": "content.problem-section",
         "rendered": "160x160"
       }
     },
@@ -10043,7 +10052,7 @@
       "generationPolicy": "may-generate-new",
       "evidence": {
         "route": "/",
-        "section": "support.framer-ktez73-container",
+        "section": "shell.footer",
         "rendered": "240x247"
       }
     },
@@ -10137,7 +10146,7 @@
       "generationPolicy": "may-generate-new",
       "evidence": {
         "route": "/",
-        "section": "hero.hero-section",
+        "section": "content.problem-section",
         "rendered": "160x160"
       }
     },
@@ -10207,22 +10216,13 @@
       }
     },
     {
-      "path": "_ext/framerusercontent.com/images/orBBHHkyWoKNQl0evBsTgJ8K8__cf803f67.png",
-      "bytes": 690,
-      "role": "content-image",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "note": "not referenced by the rendered DOM or by any mirrored stylesheet (lazy script reference)"
-      }
-    },
-    {
       "path": "_ext/framerusercontent.com/images/j07Vcm0oIxkLda4WxCbV8DHSU__2f29369b.svg",
       "bytes": 688,
       "role": "illustration",
       "generationPolicy": "may-generate-new",
       "evidence": {
         "route": "/",
-        "section": "hero.hero-section",
+        "section": "content.problem-section",
         "rendered": "160x160"
       }
     },
@@ -10289,12 +10289,23 @@
     {
       "path": "_ext/framerusercontent.com/images/nG5peb8G1OkGazbSdMGcnZjM22Q__66e47bf6.png",
       "bytes": 579,
-      "role": "hero-image",
+      "role": "content-image",
       "generationPolicy": "may-generate-new",
       "evidence": {
         "route": "/",
-        "section": "hero.hero-section",
+        "section": "content.problem-section",
         "rendered": "1440x900"
+      }
+    },
+    {
+      "path": "_ext/framerusercontent.com/images/OAZh4ZcG0wZfczB5AzbH0a4qk5w__1b73104f.svg",
+      "bytes": 574,
+      "role": "illustration",
+      "generationPolicy": "may-generate-new",
+      "evidence": {
+        "route": "/",
+        "section": "proof.testimonials-section",
+        "rendered": "1520x400"
       }
     },
     {
@@ -10310,17 +10321,6 @@
     },
     {
       "path": "_ext/framerusercontent.com/images/2LH3mOblaBHcr2FXBQM7mN0g19s__1b73104f.svg",
-      "bytes": 574,
-      "role": "illustration",
-      "generationPolicy": "may-generate-new",
-      "evidence": {
-        "route": "/",
-        "section": "proof.testimonials-section",
-        "rendered": "1520x400"
-      }
-    },
-    {
-      "path": "_ext/framerusercontent.com/images/OAZh4ZcG0wZfczB5AzbH0a4qk5w__1b73104f.svg",
       "bytes": 574,
       "role": "illustration",
       "generationPolicy": "may-generate-new",
@@ -10422,7 +10422,7 @@
       "generationPolicy": "must-not-reuse-live-endpoint",
       "evidence": {
         "route": "/support/terms-of-service",
-        "section": "hero.container",
+        "section": "legal.body",
         "note": "mailto: link found in page content; the real address is redacted (a live contact endpoint must never be reused)"
       }
     }

@@ -18,16 +18,19 @@
       "limits": {
         "shell.navbar": 1,
         "hero.hero-section": 1,
+        "content.problem-section": 1,
         "explainer.how-it-works-section": 1,
         "explainer.notification-section": 1,
         "content.maze-section": 1,
+        "content.brain-section": 1,
         "content.ribbon": 1,
         "commerce.pricing-section": 1,
         "proof.testimonials-section": 1,
         "cta.cta-section": 1,
         "cta.cta-button": 1,
-        "support.framer-ktez73-container": 1,
-        "hero.container": 1
+        "shell.footer": 1,
+        "legal.header": 1,
+        "legal.body": 1
       },
       "description": "No section appears more often on one page than it does in any measured template."
     },
@@ -44,7 +47,9 @@
       "id": "SHELL_MUST_BE_LAST",
       "severity": "error",
       "kind": "mustBeLast",
-      "sections": [],
+      "sections": [
+        "shell.footer"
+      ],
       "description": "Sections that closed every template they appear in must be the last node."
     },
     {
@@ -65,11 +70,19 @@
         ],
         [
           "content.maze-section",
+          "content.brain-section"
+        ],
+        [
+          "content.brain-section",
           "content.ribbon"
         ],
         [
           "cta.cta-section",
           "cta.cta-button"
+        ],
+        [
+          "legal.header",
+          "legal.body"
         ]
       ],
       "description": "Two different sections of the same category should not sit next to each other unless that exact pair was observed (named exceptions)."
@@ -78,7 +91,7 @@
       "id": "MOTION_BUDGET",
       "severity": "warn",
       "kind": "maxAnimatedSections",
-      "max": 7,
+      "max": 9,
       "description": "No page has more animated sections than the most animated measured page."
     }
   ]

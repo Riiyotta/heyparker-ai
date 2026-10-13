@@ -1,0 +1,102 @@
+{
+  "id": "legal.header",
+  "category": "LEGAL",
+  "label": "Header",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "Header",
+      "nameSource": "structure",
+      "tag": "div",
+      "classes": [
+        "framer-nclyt9"
+      ],
+      "anchor": "framer-nclyt9"
+    },
+    "semantic": {
+      "id": "legal.header",
+      "category": "LEGAL",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "source": {
+    "id": "Legal header",
+    "tag": "div",
+    "lines": "snapshots/support/data-deletion-request/index.html:535-550",
+    "anchor": "framer-nclyt9",
+    "nameSource": "structure"
+  },
+  "semantic": {
+    "id": "legal.header",
+    "category": "LEGAL"
+  },
+  "purpose": "Opens a legal or policy document: its title (h1) and effective date or version line. Headline \"Data Deletion Request\".",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "structure",
+  "evidence": {
+    "level": "measured",
+    "instances": 3,
+    "routes": 3,
+    "measuredFrom": [
+      "snapshots/support/data-deletion-request/index.html:535-550",
+      "snapshots/support/privacy-policy/index.html:535-550",
+      "snapshots/support/terms-of-service/index.html:535-550"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 2,
+        "maxWords": 3
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "mirror/public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 99,
+      "columns": 1
+    },
+    "tablet": {
+      "heightPx": 92,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 82,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": []
+}

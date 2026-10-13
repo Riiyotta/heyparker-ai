@@ -19,7 +19,18 @@
       "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
     }
   },
-  "purpose": "Explains how the product works in the background and surfaces ideas to the user. Headline \"Parker works in the background and comes to you with ideas_\".",
+  "source": {
+    "id": "Notification Section",
+    "tag": "div",
+    "lines": "snapshots/index.html:886-919",
+    "anchor": "id=\"notification-section\"",
+    "nameSource": "data-attr"
+  },
+  "semantic": {
+    "id": "explainer.notification-section",
+    "category": "EXPLAINER"
+  },
+  "purpose": "Explains how the product works, step by step or as the visitor scrolls. Headline \"Parker works in the background and comes to you with ideas_\".",
   "purposeIsInferred": true,
   "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
   "nameSource": "data-attr",
@@ -28,7 +39,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/index.html:886-918"
+      "snapshots/index.html:886-919"
     ]
   },
   "content": {
@@ -62,7 +73,7 @@
     "reducedMotionFallback": "disable-animation",
     "reducedMotionEvidence": {
       "basis": "measured-script",
-      "script": "public/index.html",
+      "script": "mirror/public/index.html",
       "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
     }
   },

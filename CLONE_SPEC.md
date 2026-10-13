@@ -1,4 +1,4 @@
-Source: https://heyparker.ai/
+Source: https://heyparker.ai
 
 # CLONE_SPEC — Parker
 
@@ -25,15 +25,17 @@ Sections, in order:
 
 1. `shell.navbar` — see `design-repo/sections/shell.navbar.json`
 2. `hero.hero-section` — see `design-repo/sections/hero.hero-section.json`
-3. `explainer.how-it-works-section` — see `design-repo/sections/explainer.how-it-works-section.json`
-4. `explainer.notification-section` — see `design-repo/sections/explainer.notification-section.json`
-5. `content.maze-section` — see `design-repo/sections/content.maze-section.json`
-6. `content.ribbon` — see `design-repo/sections/content.ribbon.json`
-7. `commerce.pricing-section` — see `design-repo/sections/commerce.pricing-section.json`
-8. `proof.testimonials-section` — see `design-repo/sections/proof.testimonials-section.json`
-9. `cta.cta-section` — see `design-repo/sections/cta.cta-section.json`
-10. `cta.cta-button` — see `design-repo/sections/cta.cta-button.json`
-11. `support.framer-ktez73-container` — see `design-repo/sections/support.framer-ktez73-container.json`
+3. `content.problem-section` — see `design-repo/sections/content.problem-section.json`
+4. `explainer.how-it-works-section` — see `design-repo/sections/explainer.how-it-works-section.json`
+5. `explainer.notification-section` — see `design-repo/sections/explainer.notification-section.json`
+6. `content.maze-section` — see `design-repo/sections/content.maze-section.json`
+7. `content.brain-section` — see `design-repo/sections/content.brain-section.json`
+8. `content.ribbon` — see `design-repo/sections/content.ribbon.json`
+9. `commerce.pricing-section` — see `design-repo/sections/commerce.pricing-section.json`
+10. `proof.testimonials-section` — see `design-repo/sections/proof.testimonials-section.json`
+11. `cta.cta-section` — see `design-repo/sections/cta.cta-section.json`
+12. `cta.cta-button` — see `design-repo/sections/cta.cta-button.json`
+13. `shell.footer` — see `design-repo/sections/shell.footer.json`
 
 ### Support pages — `template.support` (3 routes)
 
@@ -42,5 +44,6 @@ Routes: `/support/terms-of-service`, `/support/privacy-policy`, `/support/data-d
 Sections, in order:
 
 1. `shell.navbar` — see `design-repo/sections/shell.navbar.json`
-2. `hero.container` — see `design-repo/sections/hero.container.json`
-3. `support.framer-ktez73-container` — see `design-repo/sections/support.framer-ktez73-container.json`
+2. `legal.header` — see `design-repo/sections/legal.header.json`
+3. `legal.body` — see `design-repo/sections/legal.body.json`
+4. `shell.footer` — see `design-repo/sections/shell.footer.json`

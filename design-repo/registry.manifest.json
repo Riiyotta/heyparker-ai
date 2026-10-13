@@ -18,11 +18,11 @@
   "sourceProject": {
     "provenance": "extraction/measured-values.json#sourceProject (the only file that names the source site)",
     "framework": "React+Framer+Lenis",
-    "scrapedAt": "2026-10-07T19:26:48Z"
+    "scrapedAt": "2026-10-13T05:39:24Z"
   },
   "generatedBy": "website-builder (heuristic extraction; see README)",
   "counts": {
-    "sections": 12,
+    "sections": 15,
     "templates": 2,
     "routes": 4,
     "primitives": 11,
@@ -32,7 +32,7 @@
       "foundation": 110,
       "semantic": 20,
       "component": 23,
-      "layout": 14
+      "layout": 18
     },
     "themes": 1,
     "rules": 7

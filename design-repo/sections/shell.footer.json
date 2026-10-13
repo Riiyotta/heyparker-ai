@@ -1,0 +1,127 @@
+{
+  "id": "shell.footer",
+  "category": "SHELL",
+  "label": "Footer",
+  "tag": "footer",
+  "identity": {
+    "source": {
+      "name": "Footer",
+      "nameSource": "landmark",
+      "tag": "footer",
+      "classes": [
+        "framer-e2Sry",
+        "framer-Xq1w8",
+        "framer-1ty8aya",
+        "framer-v-1ty8aya"
+      ],
+      "anchor": "framer-e2Sry"
+    },
+    "semantic": {
+      "id": "shell.footer",
+      "category": "SHELL",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "source": {
+    "id": "Footer",
+    "tag": "footer",
+    "lines": "snapshots/index.html:2461-2717",
+    "anchor": "framer-e2Sry",
+    "nameSource": "landmark"
+  },
+  "semantic": {
+    "id": "shell.footer",
+    "category": "SHELL"
+  },
+  "purpose": "Site footer: closing links, legal and contact details, carried across pages. Headline \"Join our newsletter.\". Actions: \"Subscribe Subscribe\".",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "landmark",
+  "evidence": {
+    "level": "measured",
+    "instances": 4,
+    "routes": 4,
+    "measuredFrom": [
+      "snapshots/index.html:2461-2717",
+      "snapshots/support/data-deletion-request/index.html:651-899",
+      "snapshots/support/privacy-policy/index.html:1328-1576",
+      "snapshots/support/terms-of-service/index.html:937-1185"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "heading": {
+        "type": "string",
+        "required": true,
+        "maxWords": 3
+      },
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 16,
+        "maxWords": 6
+      },
+      "ctas": {
+        "type": "cta[]",
+        "required": true,
+        "maxItems": 1,
+        "maxWords": 2
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 6,
+        "assetRoles": [
+          "illustration"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true,
+    "mustBeLast": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "css-transition",
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "mirror/public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 810,
+      "columns": 6
+    },
+    "tablet": {
+      "heightPx": 1001,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 819,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "6 columns collapse to a single column at tablet",
+      "6 columns collapse to a single column"
+    ],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": [
+    "illustration"
+  ]
+}

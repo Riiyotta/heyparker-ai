@@ -19,7 +19,18 @@
       "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
     }
   },
-  "purpose": "Explains how the product works, step by step. Headline \"Parker tel_\". 3 items (\"Step 1 - Research\", \"Step 2 - Chat\", \"Step 3 - Grow\").",
+  "source": {
+    "id": "How it Works Section",
+    "tag": "div",
+    "lines": "snapshots/index.html:739-885",
+    "anchor": "id=\"how-it-works\"",
+    "nameSource": "data-attr"
+  },
+  "semantic": {
+    "id": "explainer.how-it-works-section",
+    "category": "EXPLAINER"
+  },
+  "purpose": "Explains how the product works, step by step or as the visitor scrolls. Headline \"Parker tell_\". 3 items (\"Step 1 - Research\", \"Step 2 - Chat\", \"Step 3 - Grow\").",
   "purposeIsInferred": true,
   "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
   "nameSource": "data-attr",
@@ -28,7 +39,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/index.html:739-885"
+      "snapshots/index.html:739-885"
     ]
   },
   "content": {
@@ -69,7 +80,7 @@
     "reducedMotionFallback": "disable-animation",
     "reducedMotionEvidence": {
       "basis": "measured-script",
-      "script": "public/index.html",
+      "script": "mirror/public/index.html",
       "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
     }
   },

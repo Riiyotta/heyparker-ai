@@ -1,0 +1,115 @@
+{
+  "id": "content.problem-section",
+  "category": "CONTENT",
+  "label": "Problem Section",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "Problem Section",
+      "nameSource": "data-attr",
+      "tag": "div",
+      "classes": [
+        "framer-1y9npqv"
+      ],
+      "anchor": "id=\"problem\""
+    },
+    "semantic": {
+      "id": "content.problem-section",
+      "category": "CONTENT",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "source": {
+    "id": "Problem Section",
+    "tag": "div",
+    "lines": "snapshots/index.html:591-738",
+    "anchor": "id=\"problem\"",
+    "nameSource": "data-attr"
+  },
+  "semantic": {
+    "id": "content.problem-section",
+    "category": "CONTENT"
+  },
+  "purpose": "Carries the substantive content of the page. 3 items (\"Making ads is easy.\", \"Knowing what ads\", \"to make is hard.\").",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "data-attr",
+  "evidence": {
+    "level": "measured",
+    "instances": 1,
+    "routes": 1,
+    "measuredFrom": [
+      "snapshots/index.html:591-738"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 4,
+        "maxWords": 8
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 3,
+        "titleMaxWords": 4,
+        "bodyMaxWords": 0
+      },
+      "images": {
+        "type": "image[]",
+        "required": false,
+        "maxItems": 9,
+        "assetRoles": [
+          "content-image",
+          "illustration"
+        ]
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none",
+      "scroll-linked"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "mirror/public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 2700,
+      "columns": 8
+    },
+    "tablet": {
+      "heightPx": 3336,
+      "columns": 8,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 2532,
+      "columns": 8,
+      "hiddenShare": 0
+    },
+    "changes": [],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": [
+    "content-image",
+    "illustration"
+  ]
+}

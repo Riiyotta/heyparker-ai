@@ -8,6 +8,6 @@
   ],
   "evidence": {
     "level": "measured",
-    "sampleRoute": "/support/terms-of-service"
+    "sampleRoute": "/"
   }
 }

@@ -32,12 +32,23 @@
       }
     },
     {
-      "type": "hero.container",
+      "type": "legal.header",
       "content": {
         "heading": "Terms of Service",
         "body": [
           "Effective Date:",
-          "Aug 11, 2026",
+          "Aug 11, 2026"
+        ]
+      },
+      "motion": {
+        "pattern": "none",
+        "reducedMotionFallback": "disable-animation"
+      }
+    },
+    {
+      "type": "legal.body",
+      "content": {
+        "body": [
           "These Terms of Service (\"Terms\") govern your access to and use of Parker AI (\"Parker\" or the \"Service\"), provided by Real Simple Labs, Inc. (\"Real Simple Labs,\" \"we,\" \"our,\" or \"us\"). By using Parker, you agree to these Terms. If you do not agree, do not use the Service.",
           "You must be at least 18 years old and have the legal capacity to enter into binding contracts to use Parker. By using the Service, you represent and warrant that you meet these requirements. If you are using Parker on behalf of an organization, you represent that you have the authority to bind that organization to these Terms.",
           "Parker is an AI-powered software platform that provides tools, insights, and automation to help businesses and individuals create, manage, and optimize marketing, advertising, and related business activities.",
@@ -65,7 +76,9 @@
           "Aggregated, anonymized data derived from your use of the Service will not be deleted and may be retained indefinitely.",
           "You agree not to:",
           "Use Parker for unlawful, fraudulent, infringing, or harmful purposes",
-          "Upload or generate content that violates any third-party rights including intellectual property, privacy, or publicity rights"
+          "Upload or generate content that violates any third-party rights including intellectual property, privacy, or publicity rights",
+          "Attempt to reverse engineer, decompile, disassemble, or otherwise derive source code from Parker's software, models, or systems",
+          "Interfere with, disrupt, or impose an unreasonable burden on the Service or its infrastructure"
         ],
         "items": [
           {
@@ -148,7 +161,7 @@
       }
     },
     {
-      "type": "support.framer-ktez73-container",
+      "type": "shell.footer",
       "content": {
         "heading": "Join our newsletter.",
         "body": [

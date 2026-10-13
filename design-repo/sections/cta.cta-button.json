@@ -19,6 +19,17 @@
       "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
     }
   },
+  "source": {
+    "id": "CTA Button",
+    "tag": "div",
+    "lines": "snapshots/index.html:2427-2460",
+    "anchor": "framer-1t824r9",
+    "nameSource": "data-attr"
+  },
+  "semantic": {
+    "id": "cta.cta-button",
+    "category": "CTA"
+  },
   "purpose": "Converts: prompts a single clear next action. Actions: \"Hire Parker Today Hire Parker \".",
   "purposeIsInferred": true,
   "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
@@ -28,7 +39,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/index.html:2427-2458"
+      "snapshots/index.html:2427-2460"
     ]
   },
   "content": {
@@ -58,7 +69,7 @@
     "reducedMotionFallback": "disable-animation",
     "reducedMotionEvidence": {
       "basis": "measured-script",
-      "script": "public/index.html",
+      "script": "mirror/public/index.html",
       "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
     }
   },

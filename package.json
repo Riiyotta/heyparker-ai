@@ -1,17 +1,30 @@
 {
-  "name": "heyparker-ai",
-  "version": "0.1.0",
+  "name": "heyparker-ai-clone",
   "private": true,
-  "kind": "mirror-only",
-  "description": "Mirror-only package: an offline copy of the site plus its IA and design repo. There is no clone source code; public/ is already the built site.",
+  "type": "module",
+  "description": "React clone converted from the captured pages (lib/clone.mjs), plus the offline mirror (mirror/), IA, design repo and IR.",
   "scripts": {
-    "dev": "python3 _serve.py",
-    "build": "node -e \"console.log('mirror-only package: nothing to build, public/ is already the built site')\"",
-    "serve": "python3 _serve.py",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "python3 mirror/_serve.py",
     "ia:validate": "node validate.mjs",
     "ia:build": "node build.mjs",
     "verify": "python3 design-repo/extraction/verify_all.py",
     "ir:validate": "python3 ir/validate_ir.py",
-    "drift": "python3 design-repo/extraction/prove_drift.py"
+    "drift": "python3 design-repo/extraction/prove_drift.py",
+    "preview": "vite preview",
+    "mirror": "python3 mirror/_serve.py",
+    "qa:capture": "node qa/parity/capture.mjs",
+    "qa:compare": "python3 qa/parity/compare.py",
+    "qa:diffdom": "node qa/parity/diffdom.mjs"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.7.0",
+    "playwright": "1.63.0",
+    "vite": "^5.4.21"
   }
 }

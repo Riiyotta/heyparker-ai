@@ -19,6 +19,17 @@
       "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
     }
   },
+  "source": {
+    "id": "Testimonials Section",
+    "tag": "div",
+    "lines": "snapshots/index.html:1541-2307",
+    "anchor": "id=\"testimonial\"",
+    "nameSource": "data-attr"
+  },
+  "semantic": {
+    "id": "proof.testimonials-section",
+    "category": "PROOF"
+  },
   "purpose": "Builds trust with customers, quotes or logos. Headline \"Don't take our\".",
   "purposeIsInferred": true,
   "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
@@ -28,7 +39,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/index.html:1541-2307"
+      "snapshots/index.html:1541-2307"
     ]
   },
   "content": {
@@ -70,7 +81,7 @@
     "reducedMotionFallback": "disable-animation",
     "reducedMotionEvidence": {
       "basis": "measured-script",
-      "script": "public/index.html",
+      "script": "mirror/public/index.html",
       "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
     }
   },

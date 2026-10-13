@@ -19,7 +19,7 @@
     },
     "scroll-linked": {
       "description": "Sticky or scroll-pinned behaviour tied to scroll position.",
-      "observedSections": 5
+      "observedSections": 7
     },
     "canvas-animation": {
       "description": "A <canvas>-rendered animation (Rive, Lottie or WebGL).",
@@ -35,7 +35,7 @@
     "reducedMotionFallback"
   ],
   "budget": {
-    "maxAnimatedSectionsPerPage": 7,
+    "maxAnimatedSectionsPerPage": 9,
     "basis": "most animated measured page"
   },
   "reducedMotionEvidence": {

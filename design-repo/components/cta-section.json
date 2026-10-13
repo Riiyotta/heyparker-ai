@@ -2,9 +2,13 @@
   "id": "cta-section",
   "name": "CTA Section",
   "occurrences": 1,
-  "composedOf": [],
+  "composedOf": [
+    "heading",
+    "image",
+    "paragraph"
+  ],
   "evidence": {
     "level": "measured",
-    "sampleRoute": null
+    "sampleRoute": "/"
   }
 }

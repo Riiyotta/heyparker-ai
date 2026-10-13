@@ -1,11 +1,11 @@
 {
   "name": "Parker",
   "slug": "heyparker-ai",
-  "source": "https://heyparker.ai/",
-  "scrapedAt": "2026-10-07T19:26:48Z",
+  "source": "https://heyparker.ai",
+  "scrapedAt": "2026-10-13T05:39:24Z",
   "builder": {
     "name": "website-builder",
-    "commit": "2c6194d-dirty"
+    "commit": "284bd1b"
   },
   "routes": 4,
   "unmodelledRoutes": [],

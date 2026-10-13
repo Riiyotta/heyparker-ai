@@ -1,0 +1,13 @@
+// explainer.notification-section (EXPLAINER): converted from the captured markup of 1 instance(s) on 1 route(s).
+// Each distinct markup is one variant; the page passes its key as `v`.
+const variants = {
+  // /
+  "af154ab1": () => (
+    <div data-ds-section="explainer.notification-section" className="framer-yy6nup" data-framer-name="Notification Section" id="notification-section"><div className="framer-p19abz" data-framer-name="Sticky"><div className="framer-82ylnw-container" data-code-component-plugin-id="84d4c1"><div className="ssr-variant hidden-9hacgm hidden-2f4n2s"><div style={{ "width": "100%", "height": "100%", "position": "relative", "overflow": "hidden", "backgroundColor": "transparent", "aspectRatio": "16 / 9" }}><img src={"/_ext/framerusercontent.com/images/TXNcWPPYzgntODQUJz8umgNvY0k__66e47bf6.png"} alt="Sequence" style={{ "width": "100%", "height": "100%", "objectFit": "cover", "objectPosition": "center bottom", "display": "block", "willChange": "contents" }} width="1920" height="1080" draggable="false" /></div></div></div><div className="framer-1h6lv5c" data-framer-name="Content"><div className="framer-ldtdje" data-framer-name="Container"><div className="framer-mlblat-container" data-code-component-plugin-id="84d4c1" style={{ "willChange": "transform", "opacity": "0", "transform": "none" }}><div className="ssr-variant hidden-2f4n2s"><style dangerouslySetInnerHTML={{ __html: "\n                @keyframes blink {\n                    0%, 49% { opacity: 1; }\n                    50%, 100% { opacity: 0; }\n                }\n            " }} /><h2 style={{ "maxWidth": "100%", "fontFamily": "\"Source Serif Pro Regular\", \"Source Serif Pro Regular Placeholder\", serif", "fontSize": "calc(var(--framer-root-font-size, 1rem) * 4)", "fontStyle": "normal", "fontWeight": "400", "letterSpacing": "-0.04em", "lineHeight": "1em", "textAlign": "center", "display": "block", "minWidth": "1px", "minHeight": "1px", "whiteSpace": "pre-wrap", "color": "rgb(255, 255, 255)", "marginTop": "15vh", "marginBottom": "0vh", "opacity": "1", "transition": "opacity 0.2s ease-out" }} aria-live="polite">{"Parker works in the background and comes to you with ideas"}<span style={{ "animation": "blink 1s step-end infinite", "willChange": "opacity" }}>{"_"}</span></h2></div></div></div></div></div><div className="framer-17e2wap" data-framer-name="Dummy" id="notification-trigger-1"></div><div className="framer-aortr7" data-framer-name="Dummy" id="notification-trigger-2"></div></div>
+  ),
+};
+
+export default function ExplainerNotificationSection({ v }) {
+  const V = variants[v];
+  return V ? <V /> : null;
+}

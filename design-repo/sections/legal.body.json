@@ -1,0 +1,106 @@
+{
+  "id": "legal.body",
+  "category": "LEGAL",
+  "label": "Body",
+  "tag": "div",
+  "identity": {
+    "source": {
+      "name": "Body",
+      "nameSource": "structure",
+      "tag": "div",
+      "classes": [
+        "framer-px4aua"
+      ],
+      "anchor": "framer-px4aua"
+    },
+    "semantic": {
+      "id": "legal.body",
+      "category": "LEGAL",
+      "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
+    }
+  },
+  "source": {
+    "id": "Legal body",
+    "tag": "div",
+    "lines": "snapshots/support/data-deletion-request/index.html:551-650",
+    "anchor": "framer-px4aua",
+    "nameSource": "structure"
+  },
+  "semantic": {
+    "id": "legal.body",
+    "category": "LEGAL"
+  },
+  "purpose": "The clauses of a legal or policy document: numbered headings with paragraphs, lists and tables. 24 items (\"1. Introduction\", \"2. Information We Collect\", \"2.1 Account Information\", …).",
+  "purposeIsInferred": true,
+  "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
+  "nameSource": "structure",
+  "evidence": {
+    "level": "measured",
+    "instances": 3,
+    "routes": 3,
+    "measuredFrom": [
+      "snapshots/support/data-deletion-request/index.html:551-650",
+      "snapshots/support/privacy-policy/index.html:551-1327",
+      "snapshots/support/terms-of-service/index.html:551-936"
+    ]
+  },
+  "content": {
+    "additionalProperties": false,
+    "fields": {
+      "body": {
+        "type": "string[]",
+        "required": true,
+        "maxItems": 30,
+        "maxWords": 74
+      },
+      "items": {
+        "type": "item[]",
+        "required": true,
+        "maxItems": 24,
+        "titleMaxWords": 6,
+        "bodyMaxWords": 0
+      }
+    }
+  },
+  "constraints": {
+    "onePerPage": true
+  },
+  "motion": {
+    "allowedPatterns": [
+      "none"
+    ],
+    "reducedMotionFallback": "disable-animation",
+    "reducedMotionEvidence": {
+      "basis": "measured-script",
+      "script": "mirror/public/index.html",
+      "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
+    }
+  },
+  "responsive": {
+    "measuredAt": {
+      "desktop": "1440px",
+      "tablet": "834px",
+      "mobile": "390px"
+    },
+    "breakpoints": "tokens/00-foundation/breakpoint.json",
+    "desktop": {
+      "heightPx": 14139,
+      "columns": 1
+    },
+    "tablet": {
+      "heightPx": 13938,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "mobile": {
+      "heightPx": 19814,
+      "columns": 1,
+      "hiddenShare": 0
+    },
+    "changes": [
+      "grows taller on mobile (content stacks)"
+    ],
+    "changesBasis": "no @media rule targets this section's class/id name in the mirrored stylesheets"
+  },
+  "assetRoles": []
+}

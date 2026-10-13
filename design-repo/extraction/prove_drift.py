@@ -126,14 +126,17 @@ def run(r, full=False):
 
 def main():
     tmp = tempfile.mkdtemp(prefix="drift-")
+    # the cited snapshot folder (src/ for a mirror-only package, snapshots/ under a React clone) is named in the ledger
+    try: snap = (jload(os.path.join(REPO, "extraction/measured-values.json")).get("sourceProject", {}).get("snapshotFolder") or "src/").rstrip("/")
+    except Exception: snap = "src"
     try:
         def fresh():
             pkg = tempfile.mkdtemp(dir=tmp)
             shutil.copytree(REPO, os.path.join(pkg, "design-repo"), ignore=shutil.ignore_patterns("__pycache__"))
-            if os.path.isdir(os.path.join(PKG, "src")): os.symlink(os.path.join(PKG, "src"), os.path.join(pkg, "src"))
+            if os.path.isdir(os.path.join(PKG, snap)): os.symlink(os.path.join(PKG, snap), os.path.join(pkg, snap))
             return os.path.join(pkg, "design-repo")
         ok = fail = skip = 0
-        has_src = os.path.isdir(os.path.join(PKG, "src"))
+        has_src = os.path.isdir(os.path.join(PKG, snap))
         code, out = run(fresh(), full=True)
         if code == 0: ok += 1; print("  ok    control: unmodified copy is admitted")
         else: fail += 1; print("  FAIL  control: unmodified copy was rejected:\n" + out)

@@ -19,6 +19,17 @@
       "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
     }
   },
+  "source": {
+    "id": "CTA Section",
+    "tag": "div",
+    "lines": "snapshots/index.html:2308-2426",
+    "anchor": "id=\"cta\"",
+    "nameSource": "data-attr"
+  },
+  "semantic": {
+    "id": "cta.cta-section",
+    "category": "CTA"
+  },
   "purpose": "Converts: prompts a single clear next action. Headline \"Ready to make\".",
   "purposeIsInferred": true,
   "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
@@ -28,7 +39,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/index.html:2308-2426"
+      "snapshots/index.html:2308-2426"
     ]
   },
   "content": {
@@ -70,7 +81,7 @@
     "reducedMotionFallback": "disable-animation",
     "reducedMotionEvidence": {
       "basis": "measured-script",
-      "script": "public/index.html",
+      "script": "mirror/public/index.html",
       "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
     }
   },

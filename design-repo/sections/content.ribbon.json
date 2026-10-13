@@ -19,6 +19,17 @@
       "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
     }
   },
+  "source": {
+    "id": "Ribbon",
+    "tag": "div",
+    "lines": "snapshots/index.html:1148-1199",
+    "anchor": "framer-v2ymw8",
+    "nameSource": "data-attr"
+  },
+  "semantic": {
+    "id": "content.ribbon",
+    "category": "CONTENT"
+  },
   "purpose": "Carries the substantive content of the page. 4 items (\"Built by people who actually make ads\", \"Built by people who actually make ads\", \"Built by people who actually make ads\", …).",
   "purposeIsInferred": true,
   "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
@@ -28,7 +39,7 @@
     "instances": 1,
     "routes": 1,
     "measuredFrom": [
-      "src/index.html:1148-1199"
+      "snapshots/index.html:1148-1199"
     ]
   },
   "content": {
@@ -53,7 +64,7 @@
     "reducedMotionFallback": "disable-animation",
     "reducedMotionEvidence": {
       "basis": "measured-script",
-      "script": "public/index.html",
+      "script": "mirror/public/index.html",
       "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
     }
   },

@@ -19,6 +19,17 @@
       "basis": "keyword heuristic on the source name, tag and measured content; review before production use"
     }
   },
+  "source": {
+    "id": "Navbar",
+    "tag": "div",
+    "lines": "snapshots/index.html:444-554",
+    "anchor": "framer-1bkz34a-container",
+    "nameSource": "data-attr"
+  },
+  "semantic": {
+    "id": "shell.navbar",
+    "category": "SHELL"
+  },
   "purpose": "Site header: brand mark and primary navigation or call to action, carried across pages. Actions: \"Hire Parker Today Hire Parker \".",
   "purposeIsInferred": true,
   "purposeBasis": "heuristic: category description plus the measured headline, item titles and call-to-action labels; replace with an authored purpose before production use",
@@ -28,10 +39,10 @@
     "instances": 4,
     "routes": 4,
     "measuredFrom": [
-      "src/index.html:444-553",
-      "src/support/data-deletion-request/index.html:444-533",
-      "src/support/privacy-policy/index.html:444-533",
-      "src/support/terms-of-service/index.html:444-533"
+      "snapshots/index.html:444-554",
+      "snapshots/support/data-deletion-request/index.html:444-534",
+      "snapshots/support/privacy-policy/index.html:444-534",
+      "snapshots/support/terms-of-service/index.html:444-534"
     ]
   },
   "content": {
@@ -71,7 +82,7 @@
     "reducedMotionFallback": "disable-animation",
     "reducedMotionEvidence": {
       "basis": "measured-script",
-      "script": "public/index.html",
+      "script": "mirror/public/index.html",
       "effect": "the section's script has a prefers-reduced-motion branch (matchMedia) that stops or skips its animation"
     }
   },

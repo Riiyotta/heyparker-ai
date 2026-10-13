@@ -11,28 +11,40 @@
       "basis": "most common left offset of section content at 1440px"
     },
     "layout.sectionPaddingTop": {
-      "$value": "{radius.120}",
+      "$value": "{space.80}",
       "basis": "most common padding-top of a section"
     },
     "layout.sectionPaddingBottom": {
-      "$value": "{radius.120}",
+      "$value": "{space.280}",
       "basis": "most common padding-bottom of a section"
     },
     "layout.gridGap": {
       "$value": "{space.40}",
       "basis": "most common column-gap of a grid/flex container inside a section"
     },
+    "layout.sectionPaddingTop.commerce": {
+      "$value": "{radius.120}",
+      "basis": "most common padding-top of a COMMERCE section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingBottom.commerce": {
+      "$value": "{radius.120}",
+      "basis": "most common padding-bottom of a COMMERCE section (differs from the sitewide mode)"
+    },
     "layout.gridGap.commerce": {
       "$value": "{space.80}",
       "basis": "most common column-gap of a COMMERCE section (differs from the sitewide mode)"
     },
     "layout.gridGap.content": {
-      "$value": "{space.20}",
+      "$value": "{space.200}",
       "basis": "most common column-gap of a CONTENT section (differs from the sitewide mode)"
     },
     "layout.sectionPaddingTop.cta": {
       "$value": "{space.20}",
       "basis": "most common padding-top of a CTA section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingBottom.cta": {
+      "$value": "{radius.120}",
+      "basis": "most common padding-bottom of a CTA section (differs from the sitewide mode)"
     },
     "layout.gridGap.cta": {
       "$value": "{radius.120}",
@@ -43,8 +55,16 @@
       "basis": "most common column-gap of a EXPLAINER section (differs from the sitewide mode)"
     },
     "layout.gridGap.hero": {
-      "$value": "{space.60}",
+      "$value": "{space.200}",
       "basis": "most common column-gap of a HERO section (differs from the sitewide mode)"
+    },
+    "layout.gridGap.legal": {
+      "$value": "{space.15}",
+      "basis": "most common column-gap of a LEGAL section (differs from the sitewide mode)"
+    },
+    "layout.sectionPaddingTop.proof": {
+      "$value": "{radius.120}",
+      "basis": "most common padding-top of a PROOF section (differs from the sitewide mode)"
     },
     "layout.sectionPaddingBottom.proof": {
       "$value": "320px",
@@ -53,10 +73,6 @@
     "layout.gridGap.proof": {
       "$value": "{space.80}",
       "basis": "most common column-gap of a PROOF section (differs from the sitewide mode)"
-    },
-    "layout.gridGap.support": {
-      "$value": "{space.160}",
-      "basis": "most common column-gap of a SUPPORT section (differs from the sitewide mode)"
     }
   }
 }

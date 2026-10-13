@@ -1,0 +1,21 @@
+// legal.header (LEGAL): converted from the captured markup of 3 instance(s) on 3 route(s).
+// Each distinct markup is one variant; the page passes its key as `v`.
+const variants = {
+  // /support/terms-of-service
+  "0596a51e": () => (
+    <div data-ds-section="legal.header" className="framer-nclyt9" data-framer-name="Heading"><div className="framer-mx2lxl" data-framer-name="Title" data-framer-component-type="RichTextContainer" style={{ "transform": "none" }}><h1 className="framer-text framer-styles-preset-16oy3r5" data-styles-preset="JXO_RSsLi" dir="auto" style={{ "--framer-text-alignment": "center" }}>{"Terms of Service"}</h1></div><div className="framer-1czca1t" data-framer-name="Date"><div className="framer-1h4se13" data-framer-name="Title" data-framer-component-type="RichTextContainer" style={{ "transform": "none" }}><p className="framer-text framer-styles-preset-t6gx8m" data-styles-preset="kzajvLK2L" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--token-5cde9905-9718-44a1-970b-28b65f3c6f1a, rgb(0, 0, 0))" }}>{"Effective Date:"}</p></div><div className="framer-834k4i" data-framer-name="Date" data-framer-component-type="RichTextContainer" style={{ "transform": "none" }}><p className="framer-text framer-styles-preset-t6gx8m" data-styles-preset="kzajvLK2L" dir="auto" style={{ "--framer-text-alignment": "center", "--framer-text-color": "rgba(0, 0, 0, 0.7)" }}><time dateTime="2026-08-11T00:00:00.000Z">{"Aug 11, 2026"}</time></p></div></div></div>
+  ),
+  // /support/privacy-policy
+  "a0c90ce6": () => (
+    <div data-ds-section="legal.header" className="framer-nclyt9" data-framer-name="Heading"><div className="framer-mx2lxl" data-framer-name="Title" data-framer-component-type="RichTextContainer" style={{ "transform": "none" }}><h1 className="framer-text framer-styles-preset-16oy3r5" data-styles-preset="JXO_RSsLi" dir="auto" style={{ "--framer-text-alignment": "center" }}>{"Privacy Policy"}</h1></div><div className="framer-1czca1t" data-framer-name="Date"><div className="framer-1h4se13" data-framer-name="Title" data-framer-component-type="RichTextContainer" style={{ "transform": "none" }}><p className="framer-text framer-styles-preset-t6gx8m" data-styles-preset="kzajvLK2L" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--token-5cde9905-9718-44a1-970b-28b65f3c6f1a, rgb(0, 0, 0))" }}>{"Last Updated:"}</p></div><div className="framer-834k4i" data-framer-name="Date" data-framer-component-type="RichTextContainer" style={{ "transform": "none" }}><p className="framer-text framer-styles-preset-t6gx8m" data-styles-preset="kzajvLK2L" dir="auto" style={{ "--framer-text-alignment": "center", "--framer-text-color": "rgba(0, 0, 0, 0.7)" }}><time dateTime="2026-08-11T00:00:00.000Z">{"Aug 11, 2026"}</time></p></div></div></div>
+  ),
+  // /support/data-deletion-request
+  "3c30772e": () => (
+    <div data-ds-section="legal.header" className="framer-nclyt9" data-framer-name="Heading"><div className="framer-mx2lxl" data-framer-name="Title" data-framer-component-type="RichTextContainer" style={{ "transform": "none" }}><h1 className="framer-text framer-styles-preset-16oy3r5" data-styles-preset="JXO_RSsLi" dir="auto" style={{ "--framer-text-alignment": "center" }}>{"Data Deletion Request"}</h1></div><div className="framer-1czca1t" data-framer-name="Date"><div className="framer-1h4se13" data-framer-name="Title" data-framer-component-type="RichTextContainer" style={{ "transform": "none" }}><p className="framer-text framer-styles-preset-t6gx8m" data-styles-preset="kzajvLK2L" dir="auto" style={{ "--framer-text-alignment": "left", "--framer-text-color": "var(--token-5cde9905-9718-44a1-970b-28b65f3c6f1a, rgb(0, 0, 0))" }}>{"Last Updated:"}</p></div><div className="framer-834k4i" data-framer-name="Date" data-framer-component-type="RichTextContainer" style={{ "transform": "none" }}><p className="framer-text framer-styles-preset-t6gx8m" data-styles-preset="kzajvLK2L" dir="auto" style={{ "--framer-text-alignment": "center", "--framer-text-color": "rgba(0, 0, 0, 0.7)" }}><time dateTime="2026-08-04T00:00:00.000Z">{"Aug 4, 2026"}</time></p></div></div></div>
+  ),
+};
+
+export default function LegalHeader({ v }) {
+  const V = variants[v];
+  return V ? <V /> : null;
+}
