@@ -65,6 +65,7 @@ const out = { profile, viewport: VP, route, step: STEP, settleMs: SETTLE, total:
   timeDriven: init.timeDriven,
   elements: Object.keys(events).map((i) => ({ path: init.paths[i], baseline: Object.fromEntries(Object.entries(init.baseline[i]).filter(([, v]) => v !== undefined)), events: events[i] })) };
 const dir = "qa/motion/raw"; fs.mkdirSync(dir, { recursive: true });
-const file = path.join(dir, `${profile}${route === "/" ? "-home" : route.replace(/\//g, "_")}.json`);
+const slug = route === "/" ? "home" : route.replace(/^\/|\/$/g, "").replace(/\//g, "_");
+const file = path.join(dir, `${profile}-${slug}.json`);
 fs.writeFileSync(file, JSON.stringify(out));
 console.log("  wrote", file, (fs.statSync(file).size / 1024).toFixed(0) + " KB");

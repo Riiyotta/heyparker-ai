@@ -2,835 +2,28 @@
   "kind": "react-clone",
   "comparison": "live-original-vs-clone",
   "live": "https://heyparker.ai",
-  "capturedAt": "2026-10-13T06:23:42.007Z",
+  "capturedAt": "2026-10-13T06:30:10.012Z",
   "settleMs": 1400,
   "method": "Both sites loaded at the same viewport and scrolled to the same offsets (one frame per viewport height, original's page height). Frames compared at 360px wide; a pixel matches when every channel is within 24/255. Route score = mean frame score x min/max page height. Section score = mean of the frames whose viewport centre falls inside the original section.",
   "gate": 0.9,
-  "average": 0.7953,
-  "routesBelowGate": [
-    "mobile /"
-  ],
+  "average": 0.9457,
+  "routesBelowGate": [],
   "rows": [
-    {
-      "viewport": "desktop",
-      "route": "/",
-      "liveHeight": 26458,
-      "cloneHeight": 26458,
-      "heightRatio": 1.0,
-      "frames": 30,
-      "meanFrameScore": 0.9389,
-      "score": 0.9389,
-      "belowGateSections": [
-        "Content @2259",
-        "Bounding Box @2839",
-        "Ticker @2839",
-        "Sticky @2259",
-        "Step - 1 @7554",
-        "Folder @7682",
-        "Container @7802",
-        "Testimonials Section @23110",
-        "Wrap @23446",
-        "Ticker @23446",
-        "Ticker @23776"
-      ],
-      "sections": [
-        {
-          "name": "Navbar",
-          "top": 16,
-          "height": 86,
-          "frames": 1,
-          "score": 0.9995
-        },
-        {
-          "name": "Desktop",
-          "top": 16,
-          "height": 86,
-          "frames": 1,
-          "score": 0.9995
-        },
-        {
-          "name": "Nav Wrapper",
-          "top": 16,
-          "height": 86,
-          "frames": 1,
-          "score": 0.9995
-        },
-        {
-          "name": "Hero Text",
-          "top": 0,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9995
-        },
-        {
-          "name": "Main",
-          "top": 0,
-          "height": 25648,
-          "frames": 28,
-          "score": 0.9396
-        },
-        {
-          "name": "Hero Section",
-          "top": 0,
-          "height": 4959,
-          "frames": 6,
-          "score": 0.9401
-        },
-        {
-          "name": "Sticky",
-          "top": 0,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9995
-        },
-        {
-          "name": "Dummy",
-          "top": 909,
-          "height": 1350,
-          "frames": 2,
-          "score": 0.9417
-        },
-        {
-          "name": "Problem Section",
-          "top": 2259,
-          "height": 2700,
-          "frames": 3,
-          "score": 0.9193
-        },
-        {
-          "name": "Content",
-          "top": 2259,
-          "height": 900,
-          "frames": 1,
-          "score": 0.8586
-        },
-        {
-          "name": "Container",
-          "top": 2379,
-          "height": 620,
-          "frames": 1,
-          "score": 0.9402
-        },
-        {
-          "name": "Text",
-          "top": 2379,
-          "height": 204,
-          "frames": 1,
-          "score": 0.9402
-        },
-        {
-          "name": "Title",
-          "top": 2379,
-          "height": 204,
-          "frames": 1,
-          "score": 0.9402
-        },
-        {
-          "name": "Bounding Box",
-          "top": 2839,
-          "height": 160,
-          "frames": 1,
-          "score": 0.8586
-        },
-        {
-          "name": "Ticker",
-          "top": 2839,
-          "height": 160,
-          "frames": 1,
-          "score": 0.8586
-        },
-        {
-          "name": "Sticky",
-          "top": 2259,
-          "height": 900,
-          "frames": 1,
-          "score": 0.8586
-        },
-        {
-          "name": "Dummy",
-          "top": 3159,
-          "height": 1800,
-          "frames": 2,
-          "score": 0.9496
-        },
-        {
-          "name": "How it Works Section",
-          "top": 4959,
-          "height": 5295,
-          "frames": 5,
-          "score": 0.9277
-        },
-        {
-          "name": "Base",
-          "top": 4959,
-          "height": 5295,
-          "frames": 5,
-          "score": 0.9277
-        },
-        {
-          "name": "Container",
-          "top": 4959,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9537
-        },
-        {
-          "name": "Dummy",
-          "top": 5859,
-          "height": 1575,
-          "frames": 1,
-          "score": 0.9157
-        },
-        {
-          "name": "How it works - Steps",
-          "top": 7434,
-          "height": 2820,
-          "frames": 3,
-          "score": 0.9231
-        },
-        {
-          "name": "Sticky Container",
-          "top": 7554,
-          "height": 2700,
-          "frames": 3,
-          "score": 0.9231
-        },
-        {
-          "name": "Step - 1",
-          "top": 7554,
-          "height": 900,
-          "frames": 1,
-          "score": 0.8794
-        },
-        {
-          "name": "Folder",
-          "top": 7682,
-          "height": 772,
-          "frames": 1,
-          "score": 0.8794
-        },
-        {
-          "name": "Container",
-          "top": 7802,
-          "height": 405,
-          "frames": 1,
-          "score": 0.8794
-        },
-        {
-          "name": "Step - 2",
-          "top": 8454,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9526
-        },
-        {
-          "name": "Folder",
-          "top": 8582,
-          "height": 772,
-          "frames": 1,
-          "score": 0.9526
-        },
-        {
-          "name": "Container",
-          "top": 8702,
-          "height": 405,
-          "frames": 1,
-          "score": 0.9526
-        },
-        {
-          "name": "Step - 3",
-          "top": 9354,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9373
-        },
-        {
-          "name": "Folder",
-          "top": 9482,
-          "height": 772,
-          "frames": 1,
-          "score": 0.9373
-        },
-        {
-          "name": "Container",
-          "top": 9602,
-          "height": 405,
-          "frames": 1,
-          "score": 0.9373
-        },
-        {
-          "name": "Notification Section",
-          "top": 10254,
-          "height": 3600,
-          "frames": 4,
-          "score": 0.9617
-        },
-        {
-          "name": "Sticky",
-          "top": 10254,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9711
-        },
-        {
-          "name": "Content",
-          "top": 10254,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9711
-        },
-        {
-          "name": "Container",
-          "top": 10374,
-          "height": 327,
-          "frames": 1,
-          "score": 0.9711
-        },
-        {
-          "name": "Dummy",
-          "top": 11154,
-          "height": 1620,
-          "frames": 2,
-          "score": 0.9586
-        },
-        {
-          "name": "Dummy",
-          "top": 12774,
-          "height": 1080,
-          "frames": 1,
-          "score": 0.9585
-        },
-        {
-          "name": "Maze Section",
-          "top": 13854,
-          "height": 7200,
-          "frames": 8,
-          "score": 0.9498
-        },
-        {
-          "name": "Content",
-          "top": 13854,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9423
-        },
-        {
-          "name": "Container",
-          "top": 13987,
-          "height": 634,
-          "frames": 1,
-          "score": 0.9423
-        },
-        {
-          "name": "Old way",
-          "top": 14147,
-          "height": 474,
-          "frames": 1,
-          "score": 0.9423
-        },
-        {
-          "name": "Image Wrapper",
-          "top": 14256,
-          "height": 355,
-          "frames": 1,
-          "score": 0.9423
-        },
-        {
-          "name": "Dummy",
-          "top": 14754,
-          "height": 225,
-          "frames": 1,
-          "score": 0.9448
-        },
-        {
-          "name": "Dummy",
-          "top": 14979,
-          "height": 450,
-          "frames": 1,
-          "score": 0.9448
-        },
-        {
-          "name": "Dummy",
-          "top": 15429,
-          "height": 225,
-          "frames": 1,
-          "score": 0.9494
-        },
-        {
-          "name": "Dummy",
-          "top": 15654,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9494
-        },
-        {
-          "name": "Brain Section",
-          "top": 16554,
-          "height": 4500,
-          "frames": 5,
-          "score": 0.9524
-        },
-        {
-          "name": "Sticky Content",
-          "top": 16554,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9596
-        },
-        {
-          "name": "Container",
-          "top": 16674,
-          "height": 780,
-          "frames": 1,
-          "score": 0.9596
-        },
-        {
-          "name": "Red",
-          "top": 17074,
-          "height": 1440,
-          "frames": 2,
-          "score": 0.9538
-        },
-        {
-          "name": "Text",
-          "top": 16674,
-          "height": 136,
-          "frames": 1,
-          "score": 0.9596
-        },
-        {
-          "name": "Title",
-          "top": 16674,
-          "height": 136,
-          "frames": 1,
-          "score": 0.9596
-        },
-        {
-          "name": "Content",
-          "top": 16890,
-          "height": 564,
-          "frames": 1,
-          "score": 0.9596
-        },
-        {
-          "name": "01 - Desktop",
-          "top": 16890,
-          "height": 564,
-          "frames": 1,
-          "score": 0.9596
-        },
-        {
-          "name": "Content",
-          "top": 16890,
-          "height": 564,
-          "frames": 1,
-          "score": 0.9596
-        },
-        {
-          "name": "Tag Container",
-          "top": 16890,
-          "height": 564,
-          "frames": 1,
-          "score": 0.9596
-        },
-        {
-          "name": "Image",
-          "top": 16890,
-          "height": 564,
-          "frames": 1,
-          "score": 0.9596
-        },
-        {
-          "name": "Dummy",
-          "top": 17454,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9596
-        },
-        {
-          "name": "Dummy",
-          "top": 18354,
-          "height": 900,
-          "frames": 1,
-          "score": 0.948
-        },
-        {
-          "name": "Dummy",
-          "top": 19254,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9475
-        },
-        {
-          "name": "Dummy",
-          "top": 20154,
-          "height": 900,
-          "frames": 1,
-          "score": 0.9473
-        },
-        {
-          "name": "Ribbon",
-          "top": 21054,
-          "height": 80,
-          "frames": 1,
-          "score": 0.9418
-        },
-        {
-          "name": "Pricing Section",
-          "top": 21134,
-          "height": 1976,
-          "frames": 3,
-          "score": 0.9582
-        },
-        {
-          "name": "Container",
-          "top": 21254,
-          "height": 1736,
-          "frames": 2,
-          "score": 0.9664
-        },
-        {
-          "name": "Text",
-          "top": 21254,
-          "height": 136,
-          "frames": 1,
-          "score": 0.9418
-        },
-        {
-          "name": "Title",
-          "top": 21254,
-          "height": 136,
-          "frames": 1,
-          "score": 0.9418
-        },
-        {
-          "name": "Content",
-          "top": 21470,
-          "height": 1520,
-          "frames": 2,
-          "score": 0.9664
-        },
-        {
-          "name": "Top",
-          "top": 21470,
-          "height": 1148,
-          "frames": 1,
-          "score": 0.9633
-        },
-        {
-          "name": "Book call",
-          "top": 22738,
-          "height": 253,
-          "frames": 1,
-          "score": 0.9694
-        },
-        {
-          "name": "Testimonials Section",
-          "top": 23110,
-          "height": 1296,
-          "frames": 1,
-          "score": 0.7507
-        },
-        {
-          "name": "Container",
-          "top": 23230,
-          "height": 136,
-          "frames": 1,
-          "score": 0.9694
-        },
-        {
-          "name": "Text",
-          "top": 23230,
-          "height": 136,
-          "frames": 1,
-          "score": 0.9694
-        },
-        {
-          "name": "Title",
-          "top": 23230,
-          "height": 136,
-          "frames": 1,
-          "score": 0.9694
-        },
-        {
-          "name": "Wrap",
-          "top": 23446,
-          "height": 640,
-          "frames": 1,
-          "score": 0.7507
-        },
-        {
-          "name": "Ticker",
-          "top": 23446,
-          "height": 310,
-          "frames": 1,
-          "score": 0.7507
-        },
-        {
-          "name": "Ticker",
-          "top": 23776,
-          "height": 310,
-          "frames": 1,
-          "score": 0.7507
-        },
-        {
-          "name": "CTA Section",
-          "top": 24406,
-          "height": 990,
-          "frames": 1,
-          "score": 0.9585
-        },
-        {
-          "name": "Container",
-          "top": 24426,
-          "height": 970,
-          "frames": 1,
-          "score": 0.9585
-        },
-        {
-          "name": "Text",
-          "top": 24426,
-          "height": 172,
-          "frames": 1,
-          "score": 0.9585
-        }
-      ],
-      "frameScores": [
-        {
-          "i": 0,
-          "y": 0,
-          "score": 0.9995
-        },
-        {
-          "i": 1,
-          "y": 900,
-          "score": 0.9431
-        },
-        {
-          "i": 2,
-          "y": 1800,
-          "score": 0.9402
-        },
-        {
-          "i": 3,
-          "y": 2700,
-          "score": 0.8586
-        },
-        {
-          "i": 4,
-          "y": 3600,
-          "score": 0.9477
-        },
-        {
-          "i": 5,
-          "y": 4500,
-          "score": 0.9515
-        },
-        {
-          "i": 6,
-          "y": 5400,
-          "score": 0.9537
-        },
-        {
-          "i": 7,
-          "y": 6300,
-          "score": 0.9157
-        },
-        {
-          "i": 8,
-          "y": 7200,
-          "score": 0.8794
-        },
-        {
-          "i": 9,
-          "y": 8100,
-          "score": 0.9526
-        },
-        {
-          "i": 10,
-          "y": 9000,
-          "score": 0.9373
-        },
-        {
-          "i": 11,
-          "y": 9900,
-          "score": 0.9711
-        },
-        {
-          "i": 12,
-          "y": 10800,
-          "score": 0.9587
-        },
-        {
-          "i": 13,
-          "y": 11700,
-          "score": 0.9585
-        },
-        {
-          "i": 14,
-          "y": 12600,
-          "score": 0.9585
-        },
-        {
-          "i": 15,
-          "y": 13500,
-          "score": 0.9423
-        },
-        {
-          "i": 16,
-          "y": 14400,
-          "score": 0.9448
-        },
-        {
-          "i": 17,
-          "y": 15300,
-          "score": 0.9494
-        },
-        {
-          "i": 18,
-          "y": 16200,
-          "score": 0.9596
-        },
-        {
-          "i": 19,
-          "y": 17100,
-          "score": 0.9596
-        },
-        {
-          "i": 20,
-          "y": 18000,
-          "score": 0.948
-        },
-        {
-          "i": 21,
-          "y": 18900,
-          "score": 0.9475
-        },
-        {
-          "i": 22,
-          "y": 19800,
-          "score": 0.9473
-        },
-        {
-          "i": 23,
-          "y": 20700,
-          "score": 0.9418
-        },
-        {
-          "i": 24,
-          "y": 21600,
-          "score": 0.9633
-        },
-        {
-          "i": 25,
-          "y": 22500,
-          "score": 0.9694
-        },
-        {
-          "i": 26,
-          "y": 23400,
-          "score": 0.7507
-        },
-        {
-          "i": 27,
-          "y": 24300,
-          "score": 0.9585
-        },
-        {
-          "i": 28,
-          "y": 25200,
-          "score": 0.9592
-        },
-        {
-          "i": 29,
-          "y": 26100,
-          "score": 0.8986
-        }
-      ]
-    },
     {
       "viewport": "mobile",
       "route": "/",
       "liveHeight": 24767,
-      "cloneHeight": 25526,
-      "heightRatio": 0.9703,
+      "cloneHeight": 24767,
+      "heightRatio": 1.0,
       "frames": 30,
-      "meanFrameScore": 0.6717,
-      "score": 0.6517,
+      "meanFrameScore": 0.9457,
+      "score": 0.9457,
       "belowGateSections": [
-        "Navbar @0",
-        "Tablet/ Mobile @0",
-        "Nav Wrapper @16",
-        "Logo Wrapper @26",
-        "Hero Text @0",
-        "Main @0",
-        "Hero Section @0",
-        "Sticky @0",
-        "Dummy @852",
         "Problem Section @2118",
         "Content @2118",
-        "Container @2198",
-        "Text @2198",
-        "Title @2198",
-        "Line @2189",
-        "Line @2256",
-        "Line @2312",
-        "Body @2414",
-        "Line @2444",
-        "Bounding box @2475",
         "Bounding Box @2762",
         "Ticker @2762",
-        "Sticky @2118",
-        "Dummy @2962",
-        "How it Works Section @4650",
-        "Base @4650",
-        "Dummy @5494",
-        "How it works - Steps @6971",
-        "Sticky Container @7091",
-        "Step - 1 @7091",
-        "Title @7091",
-        "Folder @7168",
-        "Container @7208",
-        "TikTok. Reddit. Competitors. Reviews. Your ad performance. All watched. All organized. All in one place. @7445",
-        "Video Container @7208",
-        "Step - 2 @7935",
-        "Title @7935",
-        "Folder @8012",
-        "Container @8052",
-        "TikTok. Reddit. Competitors. Reviews. Your ad performance. All watched. All organized. All in one place. @8289",
-        "Video Container @8052",
-        "Step - 3 @8779",
-        "Title @8779",
-        "Folder @8856",
-        "Container @8896",
-        "TikTok. Reddit. Competitors. Reviews. Your ad performance. All watched. All organized. All in one place. @9133",
-        "Video Container @8896",
-        "Notification Section @9623",
-        "Dummy @10467",
-        "Dummy @11480",
-        "Maze Section @12493",
-        "Content @12493",
-        "Container @12681",
-        "State 01 - Mobile @12681",
-        "Container @12681",
-        "Old way - Mobile @12801",
-        "On @12811",
-        "Image Wrapper @12935",
-        "Dummy @13337",
-        "Dummy @13548",
-        "Dummy @13970",
-        "Dummy @14181",
-        "Brain Section @15025",
-        "Sticky Content @15025",
-        "Container @15145",
-        "Red @15545",
-        "Text @15145",
-        "Title @15145",
-        "Line @15138",
-        "Line @15203",
-        "01 @15302",
-        "Bounding Box @15302",
-        "Content @15335"
+        "Sticky @2118"
       ],
       "sections": [
         {
@@ -838,712 +31,712 @@
           "top": 0,
           "height": 90,
           "frames": 1,
-          "score": 0.8094
+          "score": 0.9996
         },
         {
           "name": "Tablet/ Mobile",
           "top": 0,
           "height": 90,
           "frames": 1,
-          "score": 0.8094
+          "score": 0.9996
         },
         {
           "name": "Nav Wrapper",
           "top": 16,
           "height": 74,
           "frames": 1,
-          "score": 0.8094
+          "score": 0.9996
         },
         {
           "name": "Logo Wrapper",
           "top": 26,
           "height": 54,
           "frames": 1,
-          "score": 0.8094
+          "score": 0.9996
         },
         {
           "name": "Hero Text",
           "top": 0,
           "height": 844,
           "frames": 1,
-          "score": 0.8094
+          "score": 0.9996
         },
         {
           "name": "Main",
           "top": 0,
           "height": 23948,
           "frames": 28,
-          "score": 0.6739
+          "score": 0.9467
         },
         {
           "name": "Hero Section",
           "top": 0,
           "height": 4650,
           "frames": 6,
-          "score": 0.6926
+          "score": 0.9305
         },
         {
           "name": "Sticky",
           "top": 0,
           "height": 844,
           "frames": 1,
-          "score": 0.8094
+          "score": 0.9996
         },
         {
           "name": "Dummy",
           "top": 852,
           "height": 1266,
           "frames": 2,
-          "score": 0.7888
+          "score": 0.9541
         },
         {
           "name": "Problem Section",
           "top": 2118,
           "height": 2532,
           "frames": 3,
-          "score": 0.5896
+          "score": 0.8917
         },
         {
           "name": "Content",
           "top": 2118,
           "height": 844,
           "frames": 1,
-          "score": 0.3896
+          "score": 0.7873
         },
         {
           "name": "Container",
           "top": 2198,
           "height": 644,
           "frames": 1,
-          "score": 0.7506
+          "score": 0.9297
         },
         {
           "name": "Text",
           "top": 2198,
           "height": 393,
           "frames": 1,
-          "score": 0.7506
+          "score": 0.9297
         },
         {
           "name": "Title",
           "top": 2198,
           "height": 175,
           "frames": 1,
-          "score": 0.7506
+          "score": 0.9297
         },
         {
           "name": "Line",
           "top": 2189,
           "height": 78,
           "frames": 1,
-          "score": 0.7506
+          "score": 0.9297
         },
         {
           "name": "Line",
           "top": 2256,
           "height": 59,
           "frames": 1,
-          "score": 0.7506
+          "score": 0.9297
         },
         {
           "name": "Line",
           "top": 2312,
           "height": 65,
           "frames": 1,
-          "score": 0.7506
+          "score": 0.9297
         },
         {
           "name": "Body",
           "top": 2414,
           "height": 178,
           "frames": 1,
-          "score": 0.7506
+          "score": 0.9297
         },
         {
           "name": "Line",
           "top": 2444,
           "height": 96,
           "frames": 1,
-          "score": 0.7506
+          "score": 0.9297
         },
         {
           "name": "Bounding box",
           "top": 2475,
           "height": 65,
           "frames": 1,
-          "score": 0.7506
+          "score": 0.9297
         },
         {
           "name": "Bounding Box",
           "top": 2762,
           "height": 80,
           "frames": 1,
-          "score": 0.3896
+          "score": 0.7873
         },
         {
           "name": "Ticker",
           "top": 2762,
           "height": 80,
           "frames": 1,
-          "score": 0.3896
+          "score": 0.7873
         },
         {
           "name": "Sticky",
           "top": 2118,
           "height": 844,
           "frames": 1,
-          "score": 0.3896
+          "score": 0.7873
         },
         {
           "name": "Dummy",
           "top": 2962,
           "height": 1688,
           "frames": 2,
-          "score": 0.6896
+          "score": 0.944
         },
         {
           "name": "How it Works Section",
           "top": 4650,
           "height": 4973,
           "frames": 5,
-          "score": 0.7718
+          "score": 0.965
         },
         {
           "name": "Base",
           "top": 4650,
           "height": 4973,
           "frames": 5,
-          "score": 0.7718
+          "score": 0.965
         },
         {
           "name": "Container",
           "top": 4650,
           "height": 844,
           "frames": 1,
-          "score": 0.9074
+          "score": 1.0
         },
         {
           "name": "Text",
           "top": 5012,
           "height": 120,
           "frames": 1,
-          "score": 0.9135
+          "score": 0.996
         },
         {
           "name": "State 01 - Mobile",
           "top": 5012,
           "height": 120,
           "frames": 1,
-          "score": 0.9135
+          "score": 0.996
         },
         {
           "name": "Container",
           "top": 5012,
           "height": 120,
           "frames": 1,
-          "score": 0.9135
+          "score": 0.996
         },
         {
           "name": "Dummy",
           "top": 5494,
           "height": 1477,
           "frames": 1,
-          "score": 0.8109
+          "score": 0.9486
         },
         {
           "name": "How it works - Steps",
           "top": 6971,
           "height": 2652,
           "frames": 3,
-          "score": 0.7136
+          "score": 0.9588
         },
         {
           "name": "Sticky Container",
           "top": 7091,
           "height": 2532,
           "frames": 3,
-          "score": 0.7136
+          "score": 0.9588
         },
         {
           "name": "Step - 1",
           "top": 7091,
           "height": 844,
           "frames": 1,
-          "score": 0.7194
+          "score": 0.9937
         },
         {
           "name": "Title",
           "top": 7091,
           "height": 77,
           "frames": 1,
-          "score": 0.7194
+          "score": 0.9937
         },
         {
           "name": "Folder",
           "top": 7168,
           "height": 767,
           "frames": 1,
-          "score": 0.7194
+          "score": 0.9937
         },
         {
           "name": "Container",
           "top": 7208,
           "height": 687,
           "frames": 1,
-          "score": 0.7194
+          "score": 0.9937
         },
         {
           "name": "TikTok. Reddit. Competitors. Reviews. Your ad performance. All watched. All organized. All in one place.",
           "top": 7445,
           "height": 238,
           "frames": 1,
-          "score": 0.7194
+          "score": 0.9937
         },
         {
           "name": "Video Container",
           "top": 7208,
           "height": 197,
           "frames": 1,
-          "score": 0.7194
+          "score": 0.9937
         },
         {
           "name": "Step - 2",
           "top": 7935,
           "height": 844,
           "frames": 1,
-          "score": 0.7053
+          "score": 0.919
         },
         {
           "name": "Title",
           "top": 7935,
           "height": 77,
           "frames": 1,
-          "score": 0.7053
+          "score": 0.919
         },
         {
           "name": "Folder",
           "top": 8012,
           "height": 767,
           "frames": 1,
-          "score": 0.7053
+          "score": 0.919
         },
         {
           "name": "Container",
           "top": 8052,
           "height": 687,
           "frames": 1,
-          "score": 0.7053
+          "score": 0.919
         },
         {
           "name": "TikTok. Reddit. Competitors. Reviews. Your ad performance. All watched. All organized. All in one place.",
           "top": 8289,
           "height": 202,
           "frames": 1,
-          "score": 0.7053
+          "score": 0.919
         },
         {
           "name": "Video Container",
           "top": 8052,
           "height": 197,
           "frames": 1,
-          "score": 0.7053
+          "score": 0.919
         },
         {
           "name": "Step - 3",
           "top": 8779,
           "height": 844,
           "frames": 1,
-          "score": 0.716
+          "score": 0.9638
         },
         {
           "name": "Title",
           "top": 8779,
           "height": 77,
           "frames": 1,
-          "score": 0.716
+          "score": 0.9638
         },
         {
           "name": "Folder",
           "top": 8856,
           "height": 767,
           "frames": 1,
-          "score": 0.716
+          "score": 0.9638
         },
         {
           "name": "Container",
           "top": 8896,
           "height": 687,
           "frames": 1,
-          "score": 0.716
+          "score": 0.9638
         },
         {
           "name": "TikTok. Reddit. Competitors. Reviews. Your ad performance. All watched. All organized. All in one place.",
           "top": 9133,
           "height": 211,
           "frames": 1,
-          "score": 0.716
+          "score": 0.9638
         },
         {
           "name": "Video Container",
           "top": 8896,
           "height": 197,
           "frames": 1,
-          "score": 0.716
+          "score": 0.9638
         },
         {
           "name": "Notification Section",
           "top": 9623,
           "height": 2870,
           "frames": 4,
-          "score": 0.6773
+          "score": 1.0
         },
         {
           "name": "Sticky",
           "top": 9623,
           "height": 844,
           "frames": 1,
-          "score": 0.9299
+          "score": 1.0
         },
         {
           "name": "Content",
           "top": 9623,
           "height": 844,
           "frames": 1,
-          "score": 0.9299
+          "score": 1.0
         },
         {
           "name": "Container",
           "top": 9703,
           "height": 223,
           "frames": 1,
-          "score": 0.9299
+          "score": 1.0
         },
         {
           "name": "Dummy",
           "top": 10467,
           "height": 1013,
           "frames": 2,
-          "score": 0.7636
+          "score": 0.9999
         },
         {
           "name": "Dummy",
           "top": 11480,
           "height": 1013,
           "frames": 1,
-          "score": 0.252
+          "score": 1.0
         },
         {
           "name": "Maze Section",
           "top": 12493,
           "height": 6752,
           "frames": 8,
-          "score": 0.5893
+          "score": 0.972
         },
         {
           "name": "Content",
           "top": 12493,
           "height": 844,
           "frames": 1,
-          "score": 0.8408
+          "score": 0.9985
         },
         {
           "name": "Container",
           "top": 12681,
           "height": 627,
           "frames": 1,
-          "score": 0.8408
+          "score": 0.9985
         },
         {
           "name": "State 01 - Mobile",
           "top": 12681,
           "height": 100,
           "frames": 1,
-          "score": 0.8408
+          "score": 0.9985
         },
         {
           "name": "Container",
           "top": 12681,
           "height": 100,
           "frames": 1,
-          "score": 0.8408
+          "score": 0.9985
         },
         {
           "name": "Old way - Mobile",
           "top": 12801,
           "height": 507,
           "frames": 1,
-          "score": 0.8408
+          "score": 0.9985
         },
         {
           "name": "On",
           "top": 12811,
           "height": 59,
           "frames": 1,
-          "score": 0.8408
+          "score": 0.9985
         },
         {
           "name": "Image Wrapper",
           "top": 12935,
           "height": 364,
           "frames": 1,
-          "score": 0.8408
+          "score": 0.9985
         },
         {
           "name": "Dummy",
           "top": 13337,
           "height": 211,
           "frames": 1,
-          "score": 0.8408
+          "score": 0.9985
         },
         {
           "name": "Dummy",
           "top": 13548,
           "height": 422,
           "frames": 1,
-          "score": 0.7637
+          "score": 0.9803
         },
         {
           "name": "Dummy",
           "top": 13970,
           "height": 211,
           "frames": 1,
-          "score": 0.7637
+          "score": 0.9803
         },
         {
           "name": "Dummy",
           "top": 14181,
           "height": 844,
           "frames": 1,
-          "score": 0.0998
+          "score": 0.9652
         },
         {
           "name": "Brain Section",
           "top": 15025,
           "height": 4220,
           "frames": 5,
-          "score": 0.602
+          "score": 0.9664
         },
         {
           "name": "Sticky Content",
           "top": 15025,
           "height": 844,
           "frames": 1,
-          "score": 0.8765
+          "score": 0.9991
         },
         {
           "name": "Container",
           "top": 15145,
           "height": 724,
           "frames": 1,
-          "score": 0.8765
+          "score": 0.9991
         },
         {
           "name": "Red",
           "top": 15545,
           "height": 1440,
           "frames": 2,
-          "score": 0.6865
+          "score": 0.9782
         },
         {
           "name": "Text",
           "top": 15145,
           "height": 238,
           "frames": 1,
-          "score": 0.0998
+          "score": 0.9652
         },
         {
           "name": "Title",
           "top": 15145,
           "height": 117,
           "frames": 1,
-          "score": 0.0998
+          "score": 0.9652
         },
         {
           "name": "Line",
           "top": 15138,
           "height": 72,
           "frames": 1,
-          "score": 0.0998
+          "score": 0.9652
         },
         {
           "name": "Line",
           "top": 15203,
           "height": 59,
           "frames": 1,
-          "score": 0.8765
+          "score": 0.9991
         },
         {
           "name": "01",
           "top": 15302,
           "height": 82,
           "frames": 1,
-          "score": 0.8765
+          "score": 0.9991
         },
         {
           "name": "Bounding Box",
           "top": 15302,
           "height": 82,
           "frames": 1,
-          "score": 0.8765
+          "score": 0.9991
         },
         {
           "name": "Content",
           "top": 15335,
           "height": 534,
           "frames": 1,
-          "score": 0.8765
+          "score": 0.9991
         }
       ],
       "frameScores": [
         {
           "i": 0,
           "y": 0,
-          "score": 0.8094
+          "score": 0.9996
         },
         {
           "i": 1,
           "y": 844,
-          "score": 0.8269
+          "score": 0.9784
         },
         {
           "i": 2,
           "y": 1688,
-          "score": 0.7506
+          "score": 0.9297
         },
         {
           "i": 3,
           "y": 2532,
-          "score": 0.3896
+          "score": 0.7873
         },
         {
           "i": 4,
           "y": 3376,
-          "score": 0.4658
+          "score": 0.8919
         },
         {
           "i": 5,
           "y": 4220,
-          "score": 0.9135
+          "score": 0.996
         },
         {
           "i": 6,
           "y": 5064,
-          "score": 0.9074
+          "score": 1.0
         },
         {
           "i": 7,
           "y": 5908,
-          "score": 0.8109
+          "score": 0.9486
         },
         {
           "i": 8,
           "y": 6752,
-          "score": 0.7194
+          "score": 0.9937
         },
         {
           "i": 9,
           "y": 7596,
-          "score": 0.7053
+          "score": 0.919
         },
         {
           "i": 10,
           "y": 8440,
-          "score": 0.716
+          "score": 0.9638
         },
         {
           "i": 11,
           "y": 9284,
-          "score": 0.9299
+          "score": 1.0
         },
         {
           "i": 12,
           "y": 10128,
-          "score": 0.7994
+          "score": 1.0
         },
         {
           "i": 13,
           "y": 10972,
-          "score": 0.7278
+          "score": 0.9998
         },
         {
           "i": 14,
           "y": 11816,
-          "score": 0.252
+          "score": 1.0
         },
         {
           "i": 15,
           "y": 12660,
-          "score": 0.8408
+          "score": 0.9985
         },
         {
           "i": 16,
           "y": 13504,
-          "score": 0.7637
+          "score": 0.9803
         },
         {
           "i": 17,
           "y": 14348,
-          "score": 0.0998
+          "score": 0.9652
         },
         {
           "i": 18,
           "y": 15192,
-          "score": 0.8765
+          "score": 0.9991
         },
         {
           "i": 19,
           "y": 16036,
-          "score": 0.4964
+          "score": 0.9572
         },
         {
           "i": 20,
           "y": 16880,
-          "score": 0.4405
+          "score": 0.9681
         },
         {
           "i": 21,
           "y": 17724,
-          "score": 0.3814
+          "score": 0.9604
         },
         {
           "i": 22,
           "y": 18568,
-          "score": 0.8151
+          "score": 0.9474
         },
         {
           "i": 23,
           "y": 19412,
-          "score": 0.8679
+          "score": 1.0
         },
         {
           "i": 24,
           "y": 20256,
-          "score": 0.8021
+          "score": 1.0
         },
         {
           "i": 25,
           "y": 21100,
-          "score": 0.7867
+          "score": 1.0
         },
         {
           "i": 26,
           "y": 21944,
-          "score": 0.4403
+          "score": 0.3278
         },
         {
           "i": 27,
           "y": 22788,
-          "score": 0.5331
+          "score": 0.9952
         },
         {
           "i": 28,
           "y": 23632,
-          "score": 0.6171
+          "score": 0.9621
         },
         {
           "i": 29,
           "y": 24476,
-          "score": 0.6662
+          "score": 0.9014
         }
       ]
     }
