@@ -1,4 +1,5 @@
 {
+  "status": "PARTIAL \u2014 this file holds one run only (home, mobile). Full all-route desktop+mobile scoring is pending; regenerate with: node qa/parity/capture.mjs && python3 qa/parity/compare.py",
   "kind": "react-clone",
   "comparison": "live-original-vs-clone",
   "live": "https://heyparker.ai",
